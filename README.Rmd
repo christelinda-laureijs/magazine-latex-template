@@ -1,7 +1,5 @@
 ---
-title: "README"
-author: "Christelinda Laureijs"
-date: "`r Sys.Date()`"
+title: "About the Project"
 output:
   github_document:
     html_preview: false
@@ -11,4 +9,4 @@ output:
 
 # README
 
-This repository contains \LaTeX code for a magazine-style layout.
+This repository contains LaTeX code for a magazine-style layout.
