@@ -2,7 +2,11 @@
 title: "README"
 author: "Christelinda Laureijs"
 date: "`r Sys.Date()`"
-output: html_document
+output:
+  github_document:
+    html_preview: false
+    toc: true
+    toc_depth: 2
 ---
 
 # README
