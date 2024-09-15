@@ -1,15 +1,10 @@
 % Suppress page numbers on page 1
 \pagenumbering{gobble}
 
-% Package to add space between paragraphs
+% Add space between paragraphs
 \usepackage[skip=20pt plus1pt, indent=0pt]{parskip}
 
-% The package ebgaramond uses the Octavio Pardo version, which does not have contextual alternates
-% I downloaded the George Duffner version
-% This has the contextual alternates and many more features
-% I placed the fonts in a folder called font/
-% Then, I used this code to manually set the main font
-% +calt ensures that the Q.long is used
+% Use George Duffner version of EBGaramond with contextual alternates (+calt ensures Q.long)
 \setmainfont{EBGaramond}[
   Path=../Templates/EBGaramond-0.016/otf/,
   Extension=.otf,
@@ -48,9 +43,9 @@
       {7ex \@plus.2ex}%
       {\newpage\vspace*{-0.2in}\normalfont\BIG\SS@sectfont}}
 \renewcommand\subsection{\@startsection{subsection}{2}{\z@}%
-      {-3.5ex\@plus -1ex \@minus -.2ex}%
-      {3.5ex \@plus .2ex}%
-      {\normalfont\LARGE\itshape\SS@subsectfont}}
+      {-2.5ex\@plus -1ex \@minus -.2ex}%
+      {2.5ex \@plus .2ex}%
+      {\normalfont\Large\itshape\SS@subsectfont}}
 \makeatother
 
 \usepackage{titling}
@@ -83,7 +78,7 @@
 %\raggedbottom
 
 \usepackage{multicol}
-\setlength{\columnsep}{60pt}
+\setlength{\columnsep}{30pt}
 
 % Break long URLs in bibliography
 %https://tex.stackexchange.com/questions/115690/urls-in-bibliography-latex-not-breaking-line-as-expected
@@ -94,3 +89,8 @@
 %usepackage{breakurl}
 %\usepackage[breaklinks]{hyperref}
 
+\usepackage{lettrine}
+%\renewcommand{\LettrineFontHook}[4]{lines=3,findent=0.42em,nindent=0em,lraise=0.05}
+
+\newcommand{\Q}{\bigskip\bfseries\lettrine[lines=2,findent=0.42em,nindent=0em,lraise=.15]{Q}}
+\newcommand{\A}{\bigskip\bfseries\lettrine[lines=2,findent=0.42em,nindent=0em,lraise=0.05,depth=0]{A}}
