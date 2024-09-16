@@ -1,0 +1,38 @@
+# Editor Instructions
+
+This document is designed to help you get up and running with getting magazine articles ready for production.
+
+
+## What is \LaTeX?
+
+\begin{quote}
+If you just want to get to the instructions, they're below this section!
+\end{quote}
+
+If you've never heard of \LaTeX before, it's a free and open source program used to create beautifully typeset documents. It's often used to create high-quality publications such as books, theses, and newsletters.
+
+Unlike Microsoft Word, \LaTeX uses plain text, and it is code-based. Instead of selecting text and clicking on a button to make it *bold* or _italicized_, you write commands like \\textit{} for italics. At first it may seem like more work, but there are several strong advantages for using \LaTeX.
+
+## Top benefits of \LaTeX
+
+### Beautiful typography
+
+\LaTeX automatically handles a lot of typesetting details including:
+
+\begin{itemize}
+
+\item Kerning - the spacing between letters
+\item Ligatures - letter combinations like fi and ff, which often crash into each other
+\item Text justification - without creating white rivers of blank spots
+\item and other minute details...
+
+It may seem like these are details that only typography nerds will notice, but it does have an overall effect on the appearance of the document.
+
+### Uses Plaintext
+
+Word documents often crash when they get too large or have too many images. Since \LaTeX\ uses plaintext files (.txt) and sources images externally, your document stays small and portable. Plaintext files can also be open on any operating system, and you aren't locked into a specific version or program. You can open decades-old .txt files and they still work.
+
+### Handles large, complex documents well
+
+\LaTeX makes it easy for you to manage large documents like a thesis or book because it allows for easy cross-referencing of figures, footnotes, quotes, and citations. To add a list of figures, just type \\listoffigures!
+

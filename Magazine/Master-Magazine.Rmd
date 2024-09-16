@@ -25,7 +25,7 @@ Magazine
 
 ```
 
-```{r child=here::here('README.Rmd')}
+```{r child='Editor-instructions.Rmd'}
 
 ```
 
