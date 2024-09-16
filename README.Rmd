@@ -7,6 +7,11 @@ output:
     toc_depth: 2
 ---
 
-# README
+# Instructions
 
-This repository contains LaTeX code for a magazine-style layout.
+This repository contains LaTeX code to create a magazine-style layout with custom environments for Question-and-Answer articles, author names, a preamble, and inline-quotes.
+
+## How to use
+
+Download, clone, or fork the project directory, and then open the *magazine-latex-template.Rproj* file. 
+

@@ -1,0 +1,31 @@
+---
+output:
+  pdf_document:
+    toc: false
+    latex_engine: xelatex
+    fig_caption: true
+    includes:
+      in_header: "../Templates/Magazine-preamble.tex"
+fontsize: 12pt
+geometry:
+- margin = 0.55in
+- bindingoffset = 0mm # Set to 8 mm for printing
+linestretch: 1
+classoption: twoside
+indent: true
+editor_options:
+  chunk_output_type: inline
+always_allow_html: true
+---
+
+Magazine
+
+
+```{r child='Example-article.Rmd'}
+
+```
+
+```{r child=here::here('README.Rmd')}
+
+```
+

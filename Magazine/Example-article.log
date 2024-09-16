@@ -1,9 +1,9 @@
-This is XeTeX, Version 3.141592653-2.6-0.999996 (TeX Live 2024) (preloaded format=xelatex 2024.9.15)  16 SEP 2024 19:33
+This is XeTeX, Version 3.141592653-2.6-0.999996 (TeX Live 2024) (preloaded format=xelatex 2024.9.15)  16 SEP 2024 19:45
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**Article-test.tex
-(./Article-test.tex
+**Example-article.tex
+(./Example-article.tex
 LaTeX2e <2024-06-01> patch level 2
 L3 programming layer <2024-08-30>
 (c:/Users/cslau/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/base/article.cls
@@ -676,8 +676,8 @@ File: bkm-dvipdfm.def 2023-12-10 v1.31 bookmark driver for dvipdfm (HO)
 \BKM@id=\count330
 )) (c:/Users/cslau/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/xurl/xurl.sty
 Package: xurl 2022/01/09 v 0.10 modify URL breaks
-) (./Article-test.aux)
-\openout1 = `Article-test.aux'.
+) (./Example-article.aux)
+\openout1 = `Example-article.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 215.
 LaTeX Font Info:    ... okay on input line 215.
@@ -1634,7 +1634,7 @@ See the caption package documentation for explanation.
 
 File: ../Images/Alice-article-background-B.png Graphic file (type bmp)
 <../Images/Alice-article-background-B.png>
-[2] (./Article-test.aux)
+[2] (./Example-article.aux)
  ***********
 LaTeX2e <2024-06-01> patch level 2
 L3 programming layer <2024-08-30>
@@ -1646,11 +1646,11 @@ L3 programming layer <2024-08-30>
 ### bottom level 
 Here is how much of TeX's memory you used:
  21221 strings out of 476191
- 401414 string characters out of 5784197
- 987398 words of memory out of 5000000
+ 401450 string characters out of 5784197
+ 987407 words of memory out of 5000000
  43434 multiletter control sequences out of 15000+600000
  565479 words of font info for 105 fonts, out of 8000000 for 9000
  36 hyphenation exceptions out of 8191
- 90i,9n,126p,1018b,596s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 90i,9n,126p,1021b,596s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on Article-test.pdf (2 pages).
+Output written on Example-article.pdf (2 pages).
