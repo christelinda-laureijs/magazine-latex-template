@@ -1,7 +1,7 @@
 % Suppress page numbers on page 1
 \pagenumbering{gobble}
 
-\usepackage[skip=20pt plus1pt, indent=0pt]{parskip}
+\usepackage[skip=15pt plus1pt, indent=0pt]{parskip}
 
 % Use George Duffner version of EBGaramond with contextual alternates (+calt ensures Q.long)
 \setmainfont{EBGaramond}[
@@ -72,16 +72,32 @@
 
 \usepackage{lettrine}
 \renewcommand{\LettrineFontHook}{\fontspec{CormorantGaramond-Light.ttf}}
-\newcommand{\Q}{\bigskip\bfseries\lettrine[lines=2,findent=0.42em,nindent=0em,lraise=.15]{Q}}
-\newcommand{\A}{\bigskip\bfseries\lettrine[lines=2,findent=0.42em,nindent=0em,lraise=0.05,depth=0]{A}}
+\newcommand{\Q}{\lettrine[lines=2,findent=0.42em,nindent=0em,lraise=.15]{Q}}
+\newcommand{\A}{\lettrine[lines=2,findent=0.42em,nindent=0em,lraise=0.05,depth=0]{A}}
+
+\definecolor{quotegray}{RGB}{107, 107, 107}
 
 
-% \renewenvironment{quote}{\list{}{\leftmargin0pt}{\endlist}
 \renewenvironment{quote}{%
   \list{}{%
     \leftmargin0.2cm   % this is the adjusting screw
     \rightmargin\leftmargin
   }
-  \item\relax
+  \item\relax\color{quotegray}\itshape
 }
 {\endlist}
+
+%https://tex.stackexchange.com/questions/24132/overline-outside-of-math-mode
+\makeatletter
+\newcommand*{\textoverline}[1]{$\overline{\hbox{\textbf{#1}}}\m@th$}
+\makeatother
+
+\newenvironment{preamble}
+{\itshape}
+{}
+
+
+\newenvironment{references}
+{\scriptsize\setlength{\parskip}{0.5ex plus 0.05ex minus 0.05ex}}
+{}
+%\newenvironment{\author}[]{\begin{begin_def}{end_def}
