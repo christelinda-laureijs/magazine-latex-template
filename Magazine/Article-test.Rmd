@@ -75,7 +75,11 @@ Alice opened the door and found that it led into a small passage, not much large
 
 There seemed to be no use in waiting by the little door, so she went back to the table, half hoping she might find another key on it, or at any rate a book of rules for shutting people up like telescopes: this time she found a little bottle on it, (“which certainly was not here before,” said Alice,) and round the neck of the bottle was a paper label, with the words “DRINK ME,” beautifully printed on it in large letters.
 
-\textoverline{Lewis Carroll}
+
+\begin{author-name}
+Lewis Carroll
+\end{author-name}
+
 
 \begin{references}
 1.GSK Home. GSK. Accessed October 20, 2023. https://www.gsk.com/en-gb/home/
