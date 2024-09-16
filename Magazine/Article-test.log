@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999996 (TeX Live 2024) (preloaded format=xelatex 2024.9.15)  15 SEP 2024 20:20
+This is XeTeX, Version 3.141592653-2.6-0.999996 (TeX Live 2024) (preloaded format=xelatex 2024.9.15)  15 SEP 2024 21:57
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -297,7 +297,7 @@ Package fontspec Info:
 (fontspec)             <->s*[1]"[../Templates/EBGaramond-0.016/otf/EBGaramond12-Italic.otf]/OT:script=latn;language=dflt;+calt;+smcp;mapping=tex-text;"
 
 LaTeX Font Info:    Font shape `TU/EBGaramond(0)/m/n' will be
-(Font)              scaled to size 12.0pt on input line 61.
+(Font)              scaled to size 12.0pt on input line 60.
 
 Package fontspec Info: 
 (fontspec)             EBGaramond12-Regular scale = 0.9999968986285735.
@@ -337,18 +337,12 @@ Package fontspec Info:
 (fontspec)             <->s*[1.024995708481947]"[../Templates/EBGaramond-0.016/otf/EBGaramond12-Italic.otf]/OT:script=latn;language=dflt;+calt;+smcp;"
 
 LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `normal'
-(Font)                  OT1/lmr/m/n --> TU/EBGaramond(1)/m/n on input line 61.
+(Font)                  OT1/lmr/m/n --> TU/EBGaramond(1)/m/n on input line 60.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
-(Font)                  OT1/lmr/m/it --> TU/EBGaramond(1)/m/it on input line 61.
+(Font)                  OT1/lmr/m/it --> TU/EBGaramond(1)/m/it on input line 60.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
-(Font)                  OT1/lmr/bx/n --> TU/EBGaramond(1)/b/n on input line 61.
-(c:/Users/cslau/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/tocbibind/tocbibind.sty
-Package: tocbibind 2010/10/13 v1.5k extra ToC listings
-Package tocbibind Info: The document has section divisions on input line 50.
-
-Package tocbibind Note: Using section or other style headings.
-
-) (c:/Users/cslau/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/sectsty/sectsty.sty
+(Font)                  OT1/lmr/bx/n --> TU/EBGaramond(1)/b/n on input line 60.
+(c:/Users/cslau/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/sectsty/sectsty.sty
 Package: sectsty 2002/02/25 v2.0.2 Commands to change all sectional heading styles
 
 LaTeX Warning: Command \underbar  has changed.
@@ -614,34 +608,34 @@ Package: xurl 2022/01/09 v 0.10 modify URL breaks
 ) (./Article-test.aux)
 \openout1 = `Article-test.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 157.
-LaTeX Font Info:    ... okay on input line 157.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 157.
-LaTeX Font Info:    ... okay on input line 157.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 157.
-LaTeX Font Info:    ... okay on input line 157.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 157.
-LaTeX Font Info:    ... okay on input line 157.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 157.
-LaTeX Font Info:    ... okay on input line 157.
-LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 157.
-LaTeX Font Info:    ... okay on input line 157.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 157.
-LaTeX Font Info:    ... okay on input line 157.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 157.
-LaTeX Font Info:    ... okay on input line 157.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 157.
-LaTeX Font Info:    ... okay on input line 157.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 157.
-LaTeX Font Info:    ... okay on input line 157.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 148.
+LaTeX Font Info:    ... okay on input line 148.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 148.
+LaTeX Font Info:    ... okay on input line 148.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 148.
+LaTeX Font Info:    ... okay on input line 148.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 148.
+LaTeX Font Info:    ... okay on input line 148.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 148.
+LaTeX Font Info:    ... okay on input line 148.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 148.
+LaTeX Font Info:    ... okay on input line 148.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 148.
+LaTeX Font Info:    ... okay on input line 148.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 148.
+LaTeX Font Info:    ... okay on input line 148.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 148.
+LaTeX Font Info:    ... okay on input line 148.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 148.
+LaTeX Font Info:    ... okay on input line 148.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
-(Font)                  OT1/lmss/m/n --> TU/lmss/m/n on input line 157.
+(Font)                  OT1/lmss/m/n --> TU/lmss/m/n on input line 148.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  OT1/lmss/bx/n --> TU/lmss/b/n on input line 157.
+(Font)                  OT1/lmss/bx/n --> TU/lmss/b/n on input line 148.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
-(Font)                  OT1/lmtt/m/n --> TU/lmtt/m/n on input line 157.
+(Font)                  OT1/lmtt/m/n --> TU/lmtt/m/n on input line 148.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  OT1/lmtt/m/n --> TU/lmtt/b/n on input line 157.
+(Font)                  OT1/lmtt/m/n --> TU/lmtt/b/n on input line 148.
 
 Package fontspec Info: 
 (fontspec)             latinmodern-math scale = 0.9512734803940369.
@@ -669,7 +663,7 @@ Package fontspec Info:
 (fontspec)             <->s*[0.9512734803940369]"[latinmodern-math.otf]/OT:script=math;language=dflt;"
 
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(0)/m/n' will be
-(Font)              scaled to size 11.41534pt on input line 157.
+(Font)              scaled to size 11.41534pt on input line 148.
 
 Package fontspec Info: 
 (fontspec)             latinmodern-math scale = 0.9512734803940369.
@@ -705,15 +699,15 @@ Package fontspec Info:
 (fontspec)             <->s*[0.9512734803940369]"[latinmodern-math.otf]/OT:script=math;language=dflt;"
 
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(1)/m/n' will be
-(Font)              scaled to size 11.41534pt on input line 157.
+(Font)              scaled to size 11.41534pt on input line 148.
 LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
-(Font)              `operators' in the math version `normal' on input line 157.
+(Font)              `operators' in the math version `normal' on input line 148.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
-(Font)                  OT1/lmr/m/n --> TU/latinmodern-math.otf(1)/m/n on input line 157.
+(Font)                  OT1/lmr/m/n --> TU/latinmodern-math.otf(1)/m/n on input line 148.
 LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
-(Font)              `operators' in the math version `bold' on input line 157.
+(Font)              `operators' in the math version `bold' on input line 148.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
-(Font)                  OT1/lmr/bx/n --> TU/latinmodern-math.otf(1)/b/n on input line 157.
+(Font)                  OT1/lmr/bx/n --> TU/latinmodern-math.otf(1)/b/n on input line 148.
 
 Package fontspec Info: 
 (fontspec)             latinmodern-math scale = 0.9512734803940369.
@@ -779,13 +773,13 @@ Package fontspec Info:
 (fontspec)             <->s*[0.9513686077420763]"[latinmodern-math.otf]/OT:script=math;language=dflt;"
 
 LaTeX Font Info:    Encoding `OMS' has changed to `TU' for symbol font
-(Font)              `symbols' in the math version `normal' on input line 157.
+(Font)              `symbols' in the math version `normal' on input line 148.
 LaTeX Font Info:    Overwriting symbol font `symbols' in version `normal'
-(Font)                  OMS/lmsy/m/n --> TU/latinmodern-math.otf(2)/m/n on input line 157.
+(Font)                  OMS/lmsy/m/n --> TU/latinmodern-math.otf(2)/m/n on input line 148.
 LaTeX Font Info:    Encoding `OMS' has changed to `TU' for symbol font
-(Font)              `symbols' in the math version `bold' on input line 157.
+(Font)              `symbols' in the math version `bold' on input line 148.
 LaTeX Font Info:    Overwriting symbol font `symbols' in version `bold'
-(Font)                  OMS/lmsy/b/n --> TU/latinmodern-math.otf(2)/b/n on input line 157.
+(Font)                  OMS/lmsy/b/n --> TU/latinmodern-math.otf(2)/b/n on input line 148.
 
 Package fontspec Info: 
 (fontspec)             latinmodern-math scale = 0.9512734803940369.
@@ -845,13 +839,13 @@ Package fontspec Info:
 (fontspec)             <->s*[0.9511783530459975]"[latinmodern-math.otf]/OT:script=math;language=dflt;"
 
 LaTeX Font Info:    Encoding `OMX' has changed to `TU' for symbol font
-(Font)              `largesymbols' in the math version `normal' on input line 157.
+(Font)              `largesymbols' in the math version `normal' on input line 148.
 LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `normal'
-(Font)                  OMX/lmex/m/n --> TU/latinmodern-math.otf(3)/m/n on input line 157.
+(Font)                  OMX/lmex/m/n --> TU/latinmodern-math.otf(3)/m/n on input line 148.
 LaTeX Font Info:    Encoding `OMX' has changed to `TU' for symbol font
-(Font)              `largesymbols' in the math version `bold' on input line 157.
+(Font)              `largesymbols' in the math version `bold' on input line 148.
 LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `bold'
-(Font)                  OMX/lmex/m/n --> TU/latinmodern-math.otf(3)/b/n on input line 157.
+(Font)                  OMX/lmex/m/n --> TU/latinmodern-math.otf(3)/b/n on input line 148.
 *geometry* driver: auto-detecting
 *geometry* detected driver: xetex
 *geometry* verbose mode - [ preamble ] result:
@@ -889,76 +883,140 @@ LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `bold'
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: hyperref package is loaded.
 Package caption Info: End \AtBeginDocument code.
-Package hyperref Info: Link coloring OFF on input line 157.
+Package hyperref Info: Link coloring OFF on input line 148.
 LaTeX Font Info:    Font shape `TU/EBGaramond(0)/m/n' will be
-(Font)              scaled to size 36.0pt on input line 159.
-LaTeX Font Info:    Font shape `TU/EBGaramond(0)/m/n' will be
-(Font)              scaled to size 17.28pt on input line 161.
-LaTeX Font Info:    Font shape `TU/EBGaramond(0)/m/it' will be
-(Font)              scaled to size 17.28pt on input line 161.
+(Font)              scaled to size 48.0pt on input line 151.
 LaTeX Font Info:    Font shape `TU/EBGaramond(0)/m/sc' will be
-(Font)              scaled to size 12.0pt on input line 165.
-LaTeX Font Info:    Font shape `TU/EBGaramond(0)/m/n' will be
-(Font)              scaled to size 34.436pt on input line 165.
-LaTeX Font Info:    Font shape `TU/EBGaramond(0)/m/n' will be
-(Font)              scaled to size 49.61945pt on input line 165.
+(Font)              scaled to size 12.0pt on input line 155.
+
+Package fontspec Info: 
+(fontspec)             CormorantGaramond-Light scale = 1.062171403723762.
+
+
+Package fontspec Info: 
+(fontspec)             CormorantGaramond-Light scale = 1.062171403723762.
+
+
+Package fontspec Info: 
+(fontspec)             CormorantGaramond-Light scale = 1.062171403723762.
+
+
+Package fontspec Info: 
+(fontspec)             Font family 'CormorantGaramond-Light.ttf(0)' created
+(fontspec)             for font 'CormorantGaramond-Light.ttf' with options
+(fontspec)             [Scale=MatchLowercase].
+(fontspec)              
+(fontspec)              This font family consists of the following NFSS
+(fontspec)             series/shapes:
+(fontspec)              
+(fontspec)             - 'normal' (m/n) with NFSS spec.:
+(fontspec)             <->s*[1.062171403723762]"[CormorantGaramond-Light.ttf]/OT:script=latn;language=dflt;"
+(fontspec)             - 'small caps'  (m/sc) with NFSS spec.:
+(fontspec)             <->s*[1.062171403723762]"[CormorantGaramond-Light.ttf]/OT:script=latn;language=dflt;+smcp;"
+
+LaTeX Font Info:    Font shape `TU/CormorantGaramond-Light.ttf(0)/m/n' will be
+(Font)              scaled to size 12.74597pt on input line 155.
+LaTeX Font Info:    Font shape `TU/CormorantGaramond-Light.ttf(0)/m/n' will be
+(Font)              scaled to size 36.57669pt on input line 155.
+
+Package fontspec Info: 
+(fontspec)             CormorantGaramond-Light scale = 1.062171403723762.
+
+LaTeX Font Info:    Font shape `TU/CormorantGaramond-Light.ttf(0)/m/n' will be
+(Font)              scaled to size 52.49414pt on input line 155.
 Package lettrine.sty Info: Targeted height = 34.436pt
 (lettrine.sty)             (for loversize=0, accent excluded),
-(lettrine.sty)             Lettrine height = 32.4015pt (W);
-(lettrine.sty)             reported on input line 165.
+(lettrine.sty)             Lettrine height = 33.49126pt (A);
+(lettrine.sty)             reported on input line 155.
+LaTeX Font Info:    Font shape `TU/EBGaramond(0)/m/n' will be
+(Font)              scaled to size 17.28pt on input line 159.
+LaTeX Font Info:    Font shape `TU/EBGaramond(0)/m/it' will be
+(Font)              scaled to size 17.28pt on input line 159.
+[1
 
-Underfull \hbox (badness 6173) in paragraph at lines 165--169
-[][]\TU/EBGaramond(0)/m/sc/12 ith[] \TU/EBGaramond(0)/m/n/12 a drop cap, the
- []
-
-
-Underfull \hbox (badness 6542) in paragraph at lines 165--169
-\TU/EBGaramond(0)/m/n/12 initial sits within the
- []
-
+]
 
 LaTeX Font Warning: Font shape `TU/EBGaramond(0)/b/n' undefined
-(Font)              using `TU/EBGaramond(0)/m/n' instead on input line 170.
+(Font)              using `TU/EBGaramond(0)/m/n' instead on input line 184.
 
 
 LaTeX Font Warning: Font shape `TU/EBGaramond(0)/b/sc' undefined
-(Font)              using `TU/EBGaramond(0)/b/n' instead on input line 170.
+(Font)              using `TU/EBGaramond(0)/b/n' instead on input line 184.
 
 LaTeX Font Info:    Font shape `TU/EBGaramond(0)/b/n' will be
-(Font)              scaled to size 12.0pt on input line 170.
-LaTeX Font Info:    Font shape `TU/EBGaramond(0)/b/n' will be
-(Font)              scaled to size 19.36pt on input line 170.
-LaTeX Font Info:    Font shape `TU/EBGaramond(0)/b/n' will be
-(Font)              scaled to size 27.89616pt on input line 170.
+(Font)              scaled to size 12.0pt on input line 184.
+
+Package fontspec Info: 
+(fontspec)             CormorantGaramond-Light scale = 1.062171403723762.
+
+
+LaTeX Font Warning: Font shape `TU/CormorantGaramond-Light.ttf(0)/b/n' undefined
+(Font)              using `TU/CormorantGaramond-Light.ttf(0)/m/n' instead on input line 184.
+
+LaTeX Font Info:    Font shape `TU/CormorantGaramond-Light.ttf(0)/b/n' will be
+(Font)              scaled to size 20.56349pt on input line 184.
+
+Package fontspec Info: 
+(fontspec)             CormorantGaramond-Light scale = 1.062171403723762.
+
+LaTeX Font Info:    Font shape `TU/CormorantGaramond-Light.ttf(0)/b/n' will be
+(Font)              scaled to size 12.74597pt on input line 184.
+LaTeX Font Info:    Font shape `TU/CormorantGaramond-Light.ttf(0)/b/n' will be
+(Font)              scaled to size 29.51233pt on input line 184.
 LaTeX Font Info:    Font shape `TU/EBGaramond(0)/b/sc' will be
-(Font)              scaled to size 12.0pt on input line 170.
+(Font)              scaled to size 12.0pt on input line 184.
 Package lettrine.sty Info: Targeted height = 19.36pt
 (lettrine.sty)             (for loversize=0, accent excluded),
-(lettrine.sty)             Lettrine height = 18.46725pt (Q);
-(lettrine.sty)             reported on input line 170.
+(lettrine.sty)             Lettrine height = 18.76984pt (Q);
+(lettrine.sty)             reported on input line 184.
+
+Package fontspec Info: 
+(fontspec)             CormorantGaramond-Light scale = 1.062171403723762.
+
+
+Package fontspec Info: 
+(fontspec)             CormorantGaramond-Light scale = 1.062171403723762.
+
 Package lettrine.sty Info: Targeted height = 19.36pt
 (lettrine.sty)             (for loversize=0, accent excluded),
-(lettrine.sty)             Lettrine height = 19.13676pt (A);
-(lettrine.sty)             reported on input line 172.
+(lettrine.sty)             Lettrine height = 18.82887pt (A);
+(lettrine.sty)             reported on input line 186.
 
-Underfull \hbox (badness 5288) in paragraph at lines 172--173
-\TU/EBGaramond(0)/b/sc/12 own mind (as well as she
- []
+Package fontspec Info: 
+(fontspec)             CormorantGaramond-Light scale = 1.062171403723762.
 
-[1
 
-] [2]
-Underfull \hbox (badness 10000) in paragraph at lines 203--204
+Package fontspec Info: 
+(fontspec)             CormorantGaramond-Light scale = 1.062171403723762.
+
+Package lettrine.sty Info: Targeted height = 19.36pt
+(lettrine.sty)             (for loversize=0, accent excluded),
+(lettrine.sty)             Lettrine height = 18.76984pt (Q);
+(lettrine.sty)             reported on input line 188.
+
+Package fontspec Info: 
+(fontspec)             CormorantGaramond-Light scale = 1.062171403723762.
+
+
+Package fontspec Info: 
+(fontspec)             CormorantGaramond-Light scale = 1.062171403723762.
+
+Package lettrine.sty Info: Targeted height = 19.36pt
+(lettrine.sty)             (for loversize=0, accent excluded),
+(lettrine.sty)             Lettrine height = 18.82887pt (A);
+(lettrine.sty)             reported on input line 190.
+[2]
+Underfull \hbox (badness 10000) in paragraph at lines 198--199
 []\TU/EBGaramond(0)/b/sc/12 However, this bottle was not
  []
 
 
-Underfull \hbox (badness 5105) in paragraph at lines 203--204
+Underfull \hbox (badness 5105) in paragraph at lines 198--199
 \TU/EBGaramond(0)/b/sc/12 of mixed flavour of cherry-tart,
  []
 
 
-Package caption Warning: Unused \captionsetup[table] on input line 111.
+Package caption Warning: Unused \captionsetup[table] on input line 99.
 See the caption package documentation for explanation.
 
 
@@ -971,14 +1029,18 @@ L3 programming layer <2024-08-30>
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
- ) 
+ )
+(\end occurred inside a group at level 1)
+
+### semi simple group (level 1) entered at line 151 (\begingroup)
+### bottom level 
 Here is how much of TeX's memory you used:
- 19115 strings out of 476191
- 355833 string characters out of 5784197
- 909262 words of memory out of 5000000
- 41463 multiletter control sequences out of 15000+600000
- 559683 words of font info for 59 fonts, out of 8000000 for 9000
+ 19037 strings out of 476191
+ 354845 string characters out of 5784197
+ 905128 words of memory out of 5000000
+ 41384 multiletter control sequences out of 15000+600000
+ 559715 words of font info for 63 fonts, out of 8000000 for 9000
  36 hyphenation exceptions out of 8191
- 90i,5n,126p,1018b,600s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 90i,5n,128p,1018b,615s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
 Output written on Article-test.pdf (3 pages).

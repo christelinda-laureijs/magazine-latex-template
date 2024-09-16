@@ -1,7 +1,6 @@
 % Suppress page numbers on page 1
 \pagenumbering{gobble}
 
-% Add space between paragraphs
 \usepackage[skip=20pt plus1pt, indent=0pt]{parskip}
 
 % Use George Duffner version of EBGaramond with contextual alternates (+calt ensures Q.long)
@@ -17,31 +16,20 @@
 % Prevent floats from going 'backward'
 %\usepackage{flafter}
 
-% The first version of the thesis had unattractive blank spots with one word (widows and orphans)
-% I applied high penalties to widows and orphans
 \clubpenalty = 10000
 \widowpenalty = 10000
 \displaywidowpenalty = 10000
 
-
-% Define a new style that allows for a bigger size than \HUGE
-\newcommand{\BIG}{\fontsize{36}{43}\selectfont}
-
-% Use tocbibind to include the list of figures in the TOC.
-\usepackage[nottoc]{tocbibind}
+\newcommand{\BIG}{\fontsize{48}{48}\selectfont}
 
 % Package to style the section headers
-\usepackage{sectsty}
-
-% Style the section headers to have some space before and after and use a larger font size
 % https://tex.stackexchange.com/questions/381256/how-to-adjust-the-title-spacing-using-sectsty-package
-
-% was originally       {\newpage\vspace*{0.25in}\normalfont\Huge\bfseries\SS@sectfont}}
+\usepackage{sectsty}
 \makeatletter
 \renewcommand\section{\@startsection {section}{1}{\z@}%
       {-7ex \@plus -1ex \@minus -.2ex}%
-      {7ex \@plus.2ex}%
-      {\newpage\vspace*{-0.2in}\normalfont\BIG\SS@sectfont}}
+      {12ex \@plus.2ex}%
+      {\newpage\vspace*{-0.5in}\begin{center}\normalfont\BIG\SS@sectfont}}
 \renewcommand\subsection{\@startsection{subsection}{2}{\z@}%
       {-2.5ex\@plus -1ex \@minus -.2ex}%
       {2.5ex \@plus .2ex}%
@@ -56,7 +44,7 @@
 \usepackage{enumitem}
 \setlist{topsep = -5pt,itemsep = -1ex, partopsep = -1ex, parsep = 1ex}
 
-% Allows me to insert ornaments
+% Insert ornaments
 \usepackage{adforn}
 
 % Adjust spacing between table caption and table content
@@ -68,14 +56,7 @@
 
 \usepackage{tabto}
 \TabPositions{5em}
-% Adjust spacing between code chunk and text
-%\setlength{\OuterFrameSep}{14pt}
-%\makeatletter
-%\preto{\@verbatim}{\topsep=0pt \partopsep=-10pt }
-%\makeatother
 
-%https://tex.stackexchange.com/questions/36423/random-unwanted-space-between-paragraphs
-%\raggedbottom
 
 \usepackage{multicol}
 \setlength{\columnsep}{30pt}
@@ -90,7 +71,17 @@
 %\usepackage[breaklinks]{hyperref}
 
 \usepackage{lettrine}
-%\renewcommand{\LettrineFontHook}[4]{lines=3,findent=0.42em,nindent=0em,lraise=0.05}
-
+\renewcommand{\LettrineFontHook}{\fontspec{CormorantGaramond-Light.ttf}}
 \newcommand{\Q}{\bigskip\bfseries\lettrine[lines=2,findent=0.42em,nindent=0em,lraise=.15]{Q}}
 \newcommand{\A}{\bigskip\bfseries\lettrine[lines=2,findent=0.42em,nindent=0em,lraise=0.05,depth=0]{A}}
+
+
+% \renewenvironment{quote}{\list{}{\leftmargin0pt}{\endlist}
+\renewenvironment{quote}{%
+  \list{}{%
+    \leftmargin0.2cm   % this is the adjusting screw
+    \rightmargin\leftmargin
+  }
+  \item\relax
+}
+{\endlist}
