@@ -1,6 +1,8 @@
 % Suppress page numbers on page 1
 \pagenumbering{gobble}
 
+\usepackage{setspace}
+
 \usepackage[skip=15pt plus1pt, indent=0pt]{parskip}
 
 % Use George Duffner version of EBGaramond with contextual alternates (+calt ensures Q.long)
@@ -11,6 +13,19 @@
   ItalicFont=*12-Italic,
   RawFeature=+calt,
 ]
+
+\newfontfamily\cormorant{CormorantGaramond}[
+  Path=../Templates/Cormorant-Garamond/,
+  Extension=.ttf,
+  UprightFont=*-Light,
+  ItalicFont=*-Italic,
+  BoldFont=*-Bold,
+]
+
+
+%https://www.reddit.com/r/LaTeX/comments/unu1ty/what_does_this_warning_message_mean/
+\DeclareMicrotypeAlias{EBGaramond}{TU-empty}
+
 
 %https://tex.stackexchange.com/questions/162584/preventing-floats-of-being-before-section
 % Prevent floats from going 'backward'
@@ -71,42 +86,41 @@
 %\usepackage[breaklinks]{hyperref}
 
 \usepackage{lettrine}
-\renewcommand{\LettrineFontHook}{\fontspec{CormorantGaramond-Light.ttf}}
+\renewcommand{\LettrineFontHook}{\cormorant}
 \newcommand{\Q}{\lettrine[lines=2,findent=0.42em,nindent=0em,lraise=.15]{Q}}
 \newcommand{\A}{\lettrine[lines=2,findent=0.42em,nindent=0em,lraise=0.05,depth=0]{A}}
 
 \definecolor{quotegray}{RGB}{107, 107, 107}
-
+\definecolor{preamble-gray}{RGB}{54, 54, 54}
 
 \renewenvironment{quote}{%
   \list{}{%
     \leftmargin0.2cm   % this is the adjusting screw
     \rightmargin\leftmargin
   }
-  \item\relax\color{quotegray}\itshape
+  \item\relax\color{preamble-gray}\itshape
 }
 {\endlist}
 
 %https://tex.stackexchange.com/questions/24132/overline-outside-of-math-mode
 \makeatletter
-\newcommand*{\textoverline}[1]{$\overline{\hbox{\textbf{#1}}}\m@th$}
+\newcommand*{\textoverline}[1]{$\overline{\hbox{\textbf{\cormorant{#1}}}}\m@th$}
 \makeatother
 
 \newenvironment{preamble}
-{\itshape}
+{\itshape\color{preamble-gray}}
 {}
 
 \newenvironment{magazine-subtitle}
-{\begin{center}\BIG\itshape\fontspec{CormorantGaramond-Light.ttf}}
+{\begin{center}\BIG\itshape\cormorant}
 {\end{center}}
 
 \newenvironment{references}
-{\scriptsize\setlength{\parskip}{0.5ex plus 0.05ex minus 0.05ex}}
-{}
+{\begin{singlespace}\scriptsize\setlength}
+{\end{singlespace}}
 
 
-% TODo: Find way to define font stored in local repository
-% TODO: Set author to cormoant to enable boldness
+
 % TODO find way to have line underline full column
 % TODO Find way to have references use different spacing
 % TODO: Find out how to have a full-bleed picture behind section 
