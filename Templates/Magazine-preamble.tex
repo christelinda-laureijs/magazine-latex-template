@@ -124,19 +124,30 @@
 {\end{singlespace}}
 
 % 
-% \usepackage{eso-pic}
-% \usepackage{graphicx}
+\usepackage{eso-pic}
+\usepackage{graphicx}
 % 
-% \newcommand\BackgroundPicture{%
-%   \put(0,0){%
-%    \parbox[b][\paperheight]{\paperwidth}{%
-%      \vfill
-%      \centering
-%      \includegraphics[width=\paperwidth,height=\paperheight,%
-%                       keepaspectratio]{../Images/Alice-article-background.png}%
-%      \vfill
-%     }
-%   }
-% }
+\newcommand\BackgroundPictureAliceA{%
+  \put(0,0){%
+   \parbox[b][\paperheight]{\paperwidth}{%
+     \vfill
+     \centering
+     \includegraphics[width=\paperwidth,height=\paperheight,%
+                      keepaspectratio]{../Images/Alice-article-background-A.png}%
+     \vfill
+    }
+  }
+}
 
+\newcommand\BackgroundPictureAliceB{%
+  \put(0,0){%
+   \parbox[b][\paperheight]{\paperwidth}{%
+     \vfill
+     \centering
+     \includegraphics[width=\paperwidth,height=\paperheight,%
+                      keepaspectratio]{../Images/Alice-article-background-B.png}%
+     \vfill
+    }
+  }
+}
 % TODO: Find out how to have a full-bleed picture behind section 
