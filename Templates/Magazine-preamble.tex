@@ -22,11 +22,6 @@
   BoldFont=*-Bold,
 ]
 
-
-%https://www.reddit.com/r/LaTeX/comments/unu1ty/what_does_this_warning_message_mean/
-\DeclareMicrotypeAlias{EBGaramond}{TU-empty}
-
-
 %https://tex.stackexchange.com/questions/162584/preventing-floats-of-being-before-section
 % Prevent floats from going 'backward'
 %\usepackage{flafter}
@@ -85,8 +80,12 @@
 %usepackage{breakurl}
 %\usepackage[breaklinks]{hyperref}
 
+
+% Enable drop caps
 \usepackage{lettrine}
 \renewcommand{\LettrineFontHook}{\cormorant}
+
+% Custom Q & A style drop caps
 \newcommand{\Q}{\lettrine[lines=2,findent=0.42em,nindent=0em,lraise=.15]{Q}}
 \newcommand{\A}{\lettrine[lines=2,findent=0.42em,nindent=0em,lraise=0.05,depth=0]{A}}
 
@@ -95,7 +94,7 @@
 
 \renewenvironment{quote}{%
   \list{}{%
-    \leftmargin0.2cm   % this is the adjusting screw
+    \leftmargin0.2cm
     \rightmargin\leftmargin
   }
   \item\relax\color{preamble-gray}\itshape
@@ -124,7 +123,20 @@
 {\begin{singlespace}\scriptsize\setlength}
 {\end{singlespace}}
 
-
-
+% 
+% \usepackage{eso-pic}
+% \usepackage{graphicx}
+% 
+% \newcommand\BackgroundPicture{%
+%   \put(0,0){%
+%    \parbox[b][\paperheight]{\paperwidth}{%
+%      \vfill
+%      \centering
+%      \includegraphics[width=\paperwidth,height=\paperheight,%
+%                       keepaspectratio]{../Images/Alice-article-background.png}%
+%      \vfill
+%     }
+%   }
+% }
 
 % TODO: Find out how to have a full-bleed picture behind section 

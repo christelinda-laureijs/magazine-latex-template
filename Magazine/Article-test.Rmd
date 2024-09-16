@@ -30,7 +30,7 @@ knitr::opts_chunk$set(echo = TRUE)
 
 This excerpt from \emph{Alice's Adventures in Wonderland} demonstrates the features of a \LaTeX-based magazine template. It can be created by pasting plaintext files into R and knitting it to a PDF.
 
-The preamble includes custom environments and commands for Q \& A style articles, a simple block quote, references, author names and a preamble (such as this one).
+The preamble includes custom environments for Q \& A style articles, a simple block quote, references, author names and a preamble (such as this one).
 
 \end{preamble}
 
