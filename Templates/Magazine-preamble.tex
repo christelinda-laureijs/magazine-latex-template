@@ -5,7 +5,7 @@
 
 % Use George Duffner version of EBGaramond with contextual alternates (+calt ensures Q.long)
 \setmainfont{EBGaramond}[
-  Path=../Templates/EBGaramond-0.016/otf/,
+  Path=../Templates/EB-Garamond/otf/,
   Extension=.otf,
   UprightFont=*12-Regular,
   ItalicFont=*12-Italic,
@@ -96,8 +96,17 @@
 {\itshape}
 {}
 
+\newenvironment{magazine-subtitle}
+{\begin{center}\BIG\itshape\fontspec{CormorantGaramond-Light.ttf}}
+{\end{center}}
 
 \newenvironment{references}
 {\scriptsize\setlength{\parskip}{0.5ex plus 0.05ex minus 0.05ex}}
 {}
-%\newenvironment{\author}[]{\begin{begin_def}{end_def}
+
+
+% TODo: Find way to define font stored in local repository
+% TODO: Set author to cormoant to enable boldness
+% TODO find way to have line underline full column
+% TODO Find way to have references use different spacing
+% TODO: Find out how to have a full-bleed picture behind section 

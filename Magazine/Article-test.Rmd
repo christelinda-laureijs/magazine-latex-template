@@ -24,6 +24,10 @@ knitr::opts_chunk$set(echo = TRUE)
 
 # \LaTeX\ Magazine Template
 
+\begin{magazine-subtitle}
+\LaTeX\ Magazine Template
+\end{magazine-subtitle}
+
 \begin{multicols}{3}
 
 \begin{preamble}
