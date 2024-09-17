@@ -1,38 +1,112 @@
+---
+output:
+  pdf_document:
+    toc: false
+    latex_engine: xelatex
+    fig_caption: true
+    includes:
+      in_header: "../Templates/Magazine-preamble.tex"
+fontsize: 12pt
+geometry:
+- margin = 0.55in
+- bindingoffset = 0mm # Set to 8 mm for printing
+linestretch: 1
+classoption: twoside
+indent: true
+---
+
+
 # Editor Instructions
 
-This document is designed to help you get up and running with getting magazine articles ready for production.
+This document is designed to help you get up and running with getting magazine articles ready for production. If you just want to get to the instructions, they're below this intro section!
 
 
 ## What is \LaTeX?
 
-\begin{quote}
-If you just want to get to the instructions, they're below this section!
-\end{quote}
-
-If you've never heard of \LaTeX before, it's a free and open source program used to create beautifully typeset documents. It's often used to create high-quality publications such as books, theses, and newsletters.
-
-Unlike Microsoft Word, \LaTeX uses plain text, and it is code-based. Instead of selecting text and clicking on a button to make it *bold* or _italicized_, you write commands like \\textit{} for italics. At first it may seem like more work, but there are several strong advantages for using \LaTeX.
-
-## Top benefits of \LaTeX
+\LaTeX\ is a free program used to create beautifully typeset documents like books, theses, and newsletters. It is very different than Microsoft Word. Instead of selecting text and clicking on a button to make it \textbf{bold} or \textit{italicized}, you write code like \\textit{} for italics. It seems like more work than necessary, but there are several strong advantages for using \LaTeX.
 
 ### Beautiful typography
 
-\LaTeX automatically handles a lot of typesetting details including:
+\LaTeX\ automatically handles a lot of typesetting details including:
 
 \begin{itemize}
 
-\item Kerning - the spacing between letters
-\item Ligatures - letter combinations like fi and ff, which often crash into each other
-\item Text justification - without creating white rivers of blank spots
-\item and other minute details...
+\item Kerning - aesthetically pleasing spacing between letters based on their shapes
+\item Ligatures - new characters for letter combinations like fi and ff, which often crash into each other in Word documents.
+\item Text justification without creating white rivers of blank spots
+\item Consistent styles for section headers, citations, figure captions and numbering, etc.
+\item and more!
 
-It may seem like these are details that only typography nerds will notice, but it does have an overall effect on the appearance of the document.
+\end{itemize}
+
+Really, only typography nerds will notice or care about these details. But professional-quality typesetting does have an overall effect on the appearance of the document.
+
+Insert comparison image here for justification and ligatures
+
+
+### No manual formatting
+
+You don't need to manually adjust spacing, figure numbers, or page numbers.
 
 ### Uses Plaintext
 
-Word documents often crash when they get too large or have too many images. Since \LaTeX\ uses plaintext files (.txt) and sources images externally, your document stays small and portable. Plaintext files can also be open on any operating system, and you aren't locked into a specific version or program. You can open decades-old .txt files and they still work.
+Word documents often crash when they get too large or have too many images. Since \LaTeX\ uses plaintext files (.txt) and sources images externally, your document stays small and portable. Plaintext files can open on any operating system, and they aren't locked into a specific version or program. You can open decades-old .txt files and they still work. You can easily link your writing to version control software like Git.
 
 ### Handles large, complex documents well
 
 \LaTeX makes it easy for you to manage large documents like a thesis or book because it allows for easy cross-referencing of figures, footnotes, quotes, and citations. To add a list of figures, just type \\listoffigures!
 
+Inserting a new page or image into a lengthy document (typically a harrowing process in Word) is not  difficult in \LaTeX\ and you have a lot of control over the layout of your sections. It's easy to move things around, and \LaTeX\ will automatically re-number all your figures and footnotes.
+
+### Mathematics
+
+One of the best features of \LaTeX\ is its mathematical typesetting. This includes auto-aligned equations and the ability to add specialized mathematical notation.
+
+\[
+\int_a^bu\frac{d^2v}{dx^2}\,dx
+=\left.u\frac{dv}{dx}\right|_a^b
+-\int_a^b\frac{du}{dx}\frac{dv}{dx}\,dx.
+\]
+
+## Instructions
+
+### Author names
+
+To insert an author name, type in
+
+\begin{verbatim}
+\begin{author-name}
+Lewis Carroll
+\end{author-name}
+\end{verbatim}
+
+to get:
+
+\begin{author-name}
+
+Lewis Carroll
+
+\end{author-name}
+
+The line will automatically stretch to fill the current text container. Place the author environment somewhere before \\end{multicols} to have it only take up one column.
+
+### Preamble
+
+Some articles require some explanatory text or a disclaimer before the main content. Use the preamble environment for this.
+
+\begin{verbatim}
+\begin{preamble}
+
+Insert disclaimer text here, an intro, etc...
+
+\end{preamble}
+\end{verbatim}
+
+
+### Section Titles
+
+In most cases, \\section{Article title} should be fine. If you have a dark background image, you may want to change the text color. Use the following code:
+
+\begin{verbatim}
+\section{\color{white} Alice in Wonderland}
+\end{verbatim}

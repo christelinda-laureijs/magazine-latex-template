@@ -22,6 +22,7 @@
   BoldFont=*-Bold,
 ]
 
+
 %https://tex.stackexchange.com/questions/162584/preventing-floats-of-being-before-section
 % Prevent floats from going 'backward'
 %\usepackage{flafter}
@@ -44,6 +45,10 @@
       {-2.5ex\@plus -1ex \@minus -.2ex}%
       {2.5ex \@plus .2ex}%
       {\normalfont\Large\itshape\SS@subsectfont}}
+\renewcommand\subsubsection{\@startsection{subsubsection}{3}{\z@}%
+      {-2.5ex\@plus -1ex \@minus -.2ex}%
+      {2.5ex \@plus .2ex}%
+      {\cormorant\large\bfseries\SS@subsectfont}}
 \makeatother
 
 \usepackage{titling}

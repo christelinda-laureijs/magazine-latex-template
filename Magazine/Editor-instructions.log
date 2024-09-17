@@ -1,9 +1,9 @@
-This is XeTeX, Version 3.141592653-2.6-0.999996 (TeX Live 2024) (preloaded format=xelatex 2024.9.15)  16 SEP 2024 20:40
+This is XeTeX, Version 3.141592653-2.6-0.999996 (TeX Live 2024) (preloaded format=xelatex 2024.9.15)  16 SEP 2024 21:42
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**Master-Magazine.tex
-(./Master-Magazine.tex
+**Editor-instructions.tex
+(./Editor-instructions.tex
 LaTeX2e <2024-06-01> patch level 2
 L3 programming layer <2024-08-30>
 (c:/Users/cslau/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/base/article.cls
@@ -676,37 +676,37 @@ File: bkm-dvipdfm.def 2023-12-10 v1.31 bookmark driver for dvipdfm (HO)
 \BKM@id=\count330
 )) (c:/Users/cslau/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/xurl/xurl.sty
 Package: xurl 2022/01/09 v 0.10 modify URL breaks
-) (./Master-Magazine.aux)
-\openout1 = `Master-Magazine.aux'.
+) (./Editor-instructions.aux)
+\openout1 = `Editor-instructions.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 217.
-LaTeX Font Info:    ... okay on input line 217.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 217.
-LaTeX Font Info:    ... okay on input line 217.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 217.
-LaTeX Font Info:    ... okay on input line 217.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 217.
-LaTeX Font Info:    ... okay on input line 217.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 217.
-LaTeX Font Info:    ... okay on input line 217.
-LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 217.
-LaTeX Font Info:    ... okay on input line 217.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 217.
-LaTeX Font Info:    ... okay on input line 217.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 217.
-LaTeX Font Info:    ... okay on input line 217.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 217.
-LaTeX Font Info:    ... okay on input line 217.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 217.
-LaTeX Font Info:    ... okay on input line 217.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 220.
+LaTeX Font Info:    ... okay on input line 220.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 220.
+LaTeX Font Info:    ... okay on input line 220.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 220.
+LaTeX Font Info:    ... okay on input line 220.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 220.
+LaTeX Font Info:    ... okay on input line 220.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 220.
+LaTeX Font Info:    ... okay on input line 220.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 220.
+LaTeX Font Info:    ... okay on input line 220.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 220.
+LaTeX Font Info:    ... okay on input line 220.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 220.
+LaTeX Font Info:    ... okay on input line 220.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 220.
+LaTeX Font Info:    ... okay on input line 220.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 220.
+LaTeX Font Info:    ... okay on input line 220.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
-(Font)                  OT1/lmss/m/n --> TU/lmss/m/n on input line 217.
+(Font)                  OT1/lmss/m/n --> TU/lmss/m/n on input line 220.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  OT1/lmss/bx/n --> TU/lmss/b/n on input line 217.
+(Font)                  OT1/lmss/bx/n --> TU/lmss/b/n on input line 220.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
-(Font)                  OT1/lmtt/m/n --> TU/lmtt/m/n on input line 217.
+(Font)                  OT1/lmtt/m/n --> TU/lmtt/m/n on input line 220.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  OT1/lmtt/m/n --> TU/lmtt/b/n on input line 217.
+(Font)                  OT1/lmtt/m/n --> TU/lmtt/b/n on input line 220.
 
 Package fontspec Info: 
 (fontspec)             latinmodern-math scale = 0.9512734803940369.
@@ -734,7 +734,7 @@ Package fontspec Info:
 (fontspec)             <->s*[0.9512734803940369]"[latinmodern-math.otf]/OT:script=math;language=dflt;"
 
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(0)/m/n' will be
-(Font)              scaled to size 11.41534pt on input line 217.
+(Font)              scaled to size 11.41534pt on input line 220.
 
 Package fontspec Info: 
 (fontspec)             latinmodern-math scale = 0.9512734803940369.
@@ -770,15 +770,15 @@ Package fontspec Info:
 (fontspec)             <->s*[0.9512734803940369]"[latinmodern-math.otf]/OT:script=math;language=dflt;"
 
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(1)/m/n' will be
-(Font)              scaled to size 11.41534pt on input line 217.
+(Font)              scaled to size 11.41534pt on input line 220.
 LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
-(Font)              `operators' in the math version `normal' on input line 217.
+(Font)              `operators' in the math version `normal' on input line 220.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
-(Font)                  OT1/lmr/m/n --> TU/latinmodern-math.otf(1)/m/n on input line 217.
+(Font)                  OT1/lmr/m/n --> TU/latinmodern-math.otf(1)/m/n on input line 220.
 LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
-(Font)              `operators' in the math version `bold' on input line 217.
+(Font)              `operators' in the math version `bold' on input line 220.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
-(Font)                  OT1/lmr/bx/n --> TU/latinmodern-math.otf(1)/b/n on input line 217.
+(Font)                  OT1/lmr/bx/n --> TU/latinmodern-math.otf(1)/b/n on input line 220.
 
 Package fontspec Info: 
 (fontspec)             latinmodern-math scale = 0.9512734803940369.
@@ -844,13 +844,13 @@ Package fontspec Info:
 (fontspec)             <->s*[0.9513686077420763]"[latinmodern-math.otf]/OT:script=math;language=dflt;"
 
 LaTeX Font Info:    Encoding `OMS' has changed to `TU' for symbol font
-(Font)              `symbols' in the math version `normal' on input line 217.
+(Font)              `symbols' in the math version `normal' on input line 220.
 LaTeX Font Info:    Overwriting symbol font `symbols' in version `normal'
-(Font)                  OMS/lmsy/m/n --> TU/latinmodern-math.otf(2)/m/n on input line 217.
+(Font)                  OMS/lmsy/m/n --> TU/latinmodern-math.otf(2)/m/n on input line 220.
 LaTeX Font Info:    Encoding `OMS' has changed to `TU' for symbol font
-(Font)              `symbols' in the math version `bold' on input line 217.
+(Font)              `symbols' in the math version `bold' on input line 220.
 LaTeX Font Info:    Overwriting symbol font `symbols' in version `bold'
-(Font)                  OMS/lmsy/b/n --> TU/latinmodern-math.otf(2)/b/n on input line 217.
+(Font)                  OMS/lmsy/b/n --> TU/latinmodern-math.otf(2)/b/n on input line 220.
 
 Package fontspec Info: 
 (fontspec)             latinmodern-math scale = 0.9512734803940369.
@@ -910,19 +910,19 @@ Package fontspec Info:
 (fontspec)             <->s*[0.9511783530459975]"[latinmodern-math.otf]/OT:script=math;language=dflt;"
 
 LaTeX Font Info:    Encoding `OMX' has changed to `TU' for symbol font
-(Font)              `largesymbols' in the math version `normal' on input line 217.
+(Font)              `largesymbols' in the math version `normal' on input line 220.
 LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `normal'
-(Font)                  OMX/lmex/m/n --> TU/latinmodern-math.otf(3)/m/n on input line 217.
+(Font)                  OMX/lmex/m/n --> TU/latinmodern-math.otf(3)/m/n on input line 220.
 LaTeX Font Info:    Encoding `OMX' has changed to `TU' for symbol font
-(Font)              `largesymbols' in the math version `bold' on input line 217.
+(Font)              `largesymbols' in the math version `bold' on input line 220.
 LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `bold'
-(Font)                  OMX/lmex/m/n --> TU/latinmodern-math.otf(3)/b/n on input line 217.
-LaTeX Info: Redefining \microtypecontext on input line 217.
-Package microtype Info: Applying patch `item' on input line 217.
-Package microtype Info: Applying patch `toc' on input line 217.
-Package microtype Info: Applying patch `eqnum' on input line 217.
-Package microtype Info: Applying patch `footnote' on input line 217.
-Package microtype Info: Applying patch `verbatim' on input line 217.
+(Font)                  OMX/lmex/m/n --> TU/latinmodern-math.otf(3)/b/n on input line 220.
+LaTeX Info: Redefining \microtypecontext on input line 220.
+Package microtype Info: Applying patch `item' on input line 220.
+Package microtype Info: Applying patch `toc' on input line 220.
+Package microtype Info: Applying patch `eqnum' on input line 220.
+Package microtype Info: Applying patch `footnote' on input line 220.
+Package microtype Info: Applying patch `verbatim' on input line 220.
 Package microtype Info: Character protrusion enabled (level 2).
 Package microtype Info: Using protrusion set `basicmath'.
 Package microtype Info: No adjustment of tracking.
@@ -1256,1015 +1256,241 @@ Package microtype Info: Character `₡' is missing
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: hyperref package is loaded.
 Package caption Info: End \AtBeginDocument code.
-Package hyperref Info: Link coloring OFF on input line 217.
+Package hyperref Info: Link coloring OFF on input line 220.
 LaTeX Font Info:    Font shape `TU/EBGaramond(0)/m/n' will be
-(Font)              scaled to size 24.88pt on input line 219.
+(Font)              scaled to size 48.0pt on input line 223.
+LaTeX Font Info:    Font shape `TU/EBGaramond(0)/m/n' will be
+(Font)              scaled to size 17.28pt on input line 229.
+LaTeX Font Info:    Font shape `TU/EBGaramond(0)/m/it' will be
+(Font)              scaled to size 17.28pt on input line 229.
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(1)/m/n' will be
-(Font)              scaled to size 23.66782pt on input line 219.
+(Font)              scaled to size 16.43808pt on input line 229.
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(1)/m/n' will be
-(Font)              scaled to size 19.72952pt on input line 219.
-LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(1)/m/n' will be
-(Font)              scaled to size 16.43808pt on input line 219.
-LaTeX Font Info:    Trying to load font information for OML+lmm on input line 219.
+(Font)              scaled to size 9.51279pt on input line 229.
+LaTeX Font Info:    Trying to load font information for OML+lmm on input line 229.
 (c:/Users/cslau/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/lm/omllmm.fd
 File: omllmm.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(2)/m/n' will be
-(Font)              scaled to size 23.67009pt on input line 219.
+(Font)              scaled to size 16.43967pt on input line 229.
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(2)/m/n' will be
-(Font)              scaled to size 19.73141pt on input line 219.
+(Font)              scaled to size 11.41644pt on input line 229.
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(2)/m/n' will be
-(Font)              scaled to size 16.43967pt on input line 219.
+(Font)              scaled to size 9.5137pt on input line 229.
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/m/n' will be
-(Font)              scaled to size 23.66515pt on input line 219.
+(Font)              scaled to size 16.43625pt on input line 229.
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/m/n' will be
-(Font)              scaled to size 19.7273pt on input line 219.
+(Font)              scaled to size 11.41406pt on input line 229.
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/m/n' will be
-(Font)              scaled to size 16.43625pt on input line 219.
-LaTeX Font Info:    Trying to load font information for U+msa on input line 219.
+(Font)              scaled to size 9.51172pt on input line 229.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 229.
 (c:/Users/cslau/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 ) (c:/Users/cslau/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/microtype/mt-msa.cfg
 File: mt-msa.cfg 2006/02/04 v1.1 microtype config. file: AMS symbols (a) (RS)
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 219.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 229.
 (c:/Users/cslau/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 ) (c:/Users/cslau/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/microtype/mt-msb.cfg
 File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
 )
-LaTeX Font Info:    Font shape `TU/EBGaramond(0)/m/n' will be
-(Font)              scaled to size 20.74pt on input line 219.
-LaTeX Font Info:    Font shape `TU/EBGaramond(0)/m/n' will be
-(Font)              scaled to size 14.4pt on input line 219.
+LaTeX Font Info:    Font shape `TU/EBGaramond(0)/m/it' will be
+(Font)              scaled to size 12.0pt on input line 229.
+Package microtype Info: Character `156' is missing
+(microtype)             in font `\TU/EBGaramond(0)/m/it/12'.
+(microtype)             Ignoring protrusion settings for this character.
+
+Package microtype Warning: Unknown slot number of character
+(microtype)                `/zero.tosf'
+(microtype)                in font encoding `TU' in protrusion list
+(microtype)                `EBGaramond-it-TU'.
+
 
 Package microtype Warning: Unknown slot number of character
 (microtype)                `/one.tosf'
 (microtype)                in font encoding `TU' in protrusion list
-(microtype)                `EBGaramond-TU'.
+(microtype)                `EBGaramond-it-TU'.
 
 
 Package microtype Warning: Unknown slot number of character
 (microtype)                `/two.tosf'
 (microtype)                in font encoding `TU' in protrusion list
-(microtype)                `EBGaramond-TU'.
+(microtype)                `EBGaramond-it-TU'.
 
 
 Package microtype Warning: Unknown slot number of character
 (microtype)                `/three.tosf'
 (microtype)                in font encoding `TU' in protrusion list
-(microtype)                `EBGaramond-TU'.
+(microtype)                `EBGaramond-it-TU'.
 
 
 Package microtype Warning: Unknown slot number of character
 (microtype)                `/four.tosf'
 (microtype)                in font encoding `TU' in protrusion list
-(microtype)                `EBGaramond-TU'.
+(microtype)                `EBGaramond-it-TU'.
 
 
 Package microtype Warning: Unknown slot number of character
 (microtype)                `/five.tosf'
 (microtype)                in font encoding `TU' in protrusion list
-(microtype)                `EBGaramond-TU'.
+(microtype)                `EBGaramond-it-TU'.
 
 
 Package microtype Warning: Unknown slot number of character
 (microtype)                `/six.tosf'
 (microtype)                in font encoding `TU' in protrusion list
-(microtype)                `EBGaramond-TU'.
+(microtype)                `EBGaramond-it-TU'.
 
 
 Package microtype Warning: Unknown slot number of character
 (microtype)                `/seven.tosf'
 (microtype)                in font encoding `TU' in protrusion list
-(microtype)                `EBGaramond-TU'.
+(microtype)                `EBGaramond-it-TU'.
 
 
 Package microtype Warning: Unknown slot number of character
 (microtype)                `/eight.tosf'
 (microtype)                in font encoding `TU' in protrusion list
-(microtype)                `EBGaramond-TU'.
+(microtype)                `EBGaramond-it-TU'.
 
 
 Package microtype Warning: Unknown slot number of character
 (microtype)                `/nine.tosf'
 (microtype)                in font encoding `TU' in protrusion list
-(microtype)                `EBGaramond-TU'.
+(microtype)                `EBGaramond-it-TU'.
 
 
 Package microtype Warning: Unknown slot number of character
 (microtype)                `/one.lf'
 (microtype)                in font encoding `TU' in protrusion list
-(microtype)                `EBGaramond-TU'.
+(microtype)                `EBGaramond-it-TU'.
 
 
 Package microtype Warning: Unknown slot number of character
 (microtype)                `/two.lf'
 (microtype)                in font encoding `TU' in protrusion list
-(microtype)                `EBGaramond-TU'.
+(microtype)                `EBGaramond-it-TU'.
+
+
+Package microtype Warning: Unknown slot number of character
+(microtype)                `/three.lf'
+(microtype)                in font encoding `TU' in protrusion list
+(microtype)                `EBGaramond-it-TU'.
 
 
 Package microtype Warning: Unknown slot number of character
 (microtype)                `/four.lf'
 (microtype)                in font encoding `TU' in protrusion list
-(microtype)                `EBGaramond-TU'.
+(microtype)                `EBGaramond-it-TU'.
+
+
+Package microtype Warning: Unknown slot number of character
+(microtype)                `/five.lf'
+(microtype)                in font encoding `TU' in protrusion list
+(microtype)                `EBGaramond-it-TU'.
+
+
+Package microtype Warning: Unknown slot number of character
+(microtype)                `/six.lf'
+(microtype)                in font encoding `TU' in protrusion list
+(microtype)                `EBGaramond-it-TU'.
 
 
 Package microtype Warning: Unknown slot number of character
 (microtype)                `/seven.lf'
 (microtype)                in font encoding `TU' in protrusion list
-(microtype)                `EBGaramond-TU'.
+(microtype)                `EBGaramond-it-TU'.
+
+
+Package microtype Warning: Unknown slot number of character
+(microtype)                `/eight.lf'
+(microtype)                in font encoding `TU' in protrusion list
+(microtype)                `EBGaramond-it-TU'.
+
+
+Package microtype Warning: Unknown slot number of character
+(microtype)                `/nine.lf'
+(microtype)                in font encoding `TU' in protrusion list
+(microtype)                `EBGaramond-it-TU'.
 
 
 Package microtype Warning: Unknown slot number of character
 (microtype)                `/one.osf'
 (microtype)                in font encoding `TU' in protrusion list
-(microtype)                `EBGaramond-TU'.
+(microtype)                `EBGaramond-it-TU'.
 
 
 Package microtype Warning: Unknown slot number of character
 (microtype)                `/two.osf'
 (microtype)                in font encoding `TU' in protrusion list
-(microtype)                `EBGaramond-TU'.
+(microtype)                `EBGaramond-it-TU'.
+
+
+Package microtype Warning: Unknown slot number of character
+(microtype)                `/three.osf'
+(microtype)                in font encoding `TU' in protrusion list
+(microtype)                `EBGaramond-it-TU'.
 
 
 Package microtype Warning: Unknown slot number of character
 (microtype)                `/four.osf'
 (microtype)                in font encoding `TU' in protrusion list
-(microtype)                `EBGaramond-TU'.
+(microtype)                `EBGaramond-it-TU'.
 
 
 Package microtype Warning: Unknown slot number of character
 (microtype)                `/seven.osf'
 (microtype)                in font encoding `TU' in protrusion list
-(microtype)                `EBGaramond-TU'.
+(microtype)                `EBGaramond-it-TU'.
 
+Package microtype Info: Character `℃' is missing
+(microtype)             in font `\TU/EBGaramond(0)/m/it/12'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `ƒ' is missing
+(microtype)             in font `\TU/EBGaramond(0)/m/it/12'.
+(microtype)             Ignoring protrusion settings for this character.
 Package microtype Info: Character `₡' is missing
-(microtype)             in font `\TU/EBGaramond(0)/m/n/14.4'.
+(microtype)             in font `\TU/EBGaramond(0)/m/it/12'.
 (microtype)             Ignoring protrusion settings for this character.
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(1)/m/n' will be
-(Font)              scaled to size 13.6984pt on input line 219.
+(Font)              scaled to size 7.99072pt on input line 231.
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(1)/m/n' will be
-(Font)              scaled to size 9.51279pt on input line 219.
-LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(1)/m/n' will be
-(Font)              scaled to size 6.65895pt on input line 219.
+(Font)              scaled to size 5.70767pt on input line 231.
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(2)/m/n' will be
-(Font)              scaled to size 13.69972pt on input line 219.
+(Font)              scaled to size 7.9915pt on input line 231.
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(2)/m/n' will be
-(Font)              scaled to size 9.5137pt on input line 219.
-LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(2)/m/n' will be
-(Font)              scaled to size 6.65959pt on input line 219.
+(Font)              scaled to size 5.70822pt on input line 231.
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/m/n' will be
-(Font)              scaled to size 13.69687pt on input line 219.
+(Font)              scaled to size 7.98984pt on input line 231.
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/m/n' will be
-(Font)              scaled to size 9.51172pt on input line 219.
-LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/m/n' will be
-(Font)              scaled to size 6.6582pt on input line 219.
+(Font)              scaled to size 5.70703pt on input line 231.
 LaTeX Font Info:    Font shape `TU/EBGaramond(0)/m/n' will be
-(Font)              scaled to size 17.28pt on input line 223.
-LaTeX Font Info:    Font shape `TU/EBGaramond(0)/m/n' will be
-(Font)              scaled to size 10.0pt on input line 240.
+(Font)              scaled to size 8.4pt on input line 231.
 
-Package microtype Warning: Unknown slot number of character
-(microtype)                `/one.tosf'
-(microtype)                in font encoding `TU' in protrusion list
-(microtype)                `EBGaramond-TU'.
+LaTeX Font Warning: Font shape `TU/EBGaramond(0)/b/n' undefined
+(Font)              using `TU/EBGaramond(0)/m/n' instead on input line 234.
 
-
-Package microtype Warning: Unknown slot number of character
-(microtype)                `/two.tosf'
-(microtype)                in font encoding `TU' in protrusion list
-(microtype)                `EBGaramond-TU'.
-
-
-Package microtype Warning: Unknown slot number of character
-(microtype)                `/three.tosf'
-(microtype)                in font encoding `TU' in protrusion list
-(microtype)                `EBGaramond-TU'.
-
-
-Package microtype Warning: Unknown slot number of character
-(microtype)                `/four.tosf'
-(microtype)                in font encoding `TU' in protrusion list
-(microtype)                `EBGaramond-TU'.
-
-
-Package microtype Warning: Unknown slot number of character
-(microtype)                `/five.tosf'
-(microtype)                in font encoding `TU' in protrusion list
-(microtype)                `EBGaramond-TU'.
-
-
-Package microtype Warning: Unknown slot number of character
-(microtype)                `/six.tosf'
-(microtype)                in font encoding `TU' in protrusion list
-(microtype)                `EBGaramond-TU'.
-
-
-Package microtype Warning: Unknown slot number of character
-(microtype)                `/seven.tosf'
-(microtype)                in font encoding `TU' in protrusion list
-(microtype)                `EBGaramond-TU'.
-
-
-Package microtype Warning: Unknown slot number of character
-(microtype)                `/eight.tosf'
-(microtype)                in font encoding `TU' in protrusion list
-(microtype)                `EBGaramond-TU'.
-
-
-Package microtype Warning: Unknown slot number of character
-(microtype)                `/nine.tosf'
-(microtype)                in font encoding `TU' in protrusion list
-(microtype)                `EBGaramond-TU'.
-
-
-Package microtype Warning: Unknown slot number of character
-(microtype)                `/one.lf'
-(microtype)                in font encoding `TU' in protrusion list
-(microtype)                `EBGaramond-TU'.
-
-
-Package microtype Warning: Unknown slot number of character
-(microtype)                `/two.lf'
-(microtype)                in font encoding `TU' in protrusion list
-(microtype)                `EBGaramond-TU'.
-
-
-Package microtype Warning: Unknown slot number of character
-(microtype)                `/four.lf'
-(microtype)                in font encoding `TU' in protrusion list
-(microtype)                `EBGaramond-TU'.
-
-
-Package microtype Warning: Unknown slot number of character
-(microtype)                `/seven.lf'
-(microtype)                in font encoding `TU' in protrusion list
-(microtype)                `EBGaramond-TU'.
-
-
-Package microtype Warning: Unknown slot number of character
-(microtype)                `/one.osf'
-(microtype)                in font encoding `TU' in protrusion list
-(microtype)                `EBGaramond-TU'.
-
-
-Package microtype Warning: Unknown slot number of character
-(microtype)                `/two.osf'
-(microtype)                in font encoding `TU' in protrusion list
-(microtype)                `EBGaramond-TU'.
-
-
-Package microtype Warning: Unknown slot number of character
-(microtype)                `/four.osf'
-(microtype)                in font encoding `TU' in protrusion list
-(microtype)                `EBGaramond-TU'.
-
-
-Package microtype Warning: Unknown slot number of character
-(microtype)                `/seven.osf'
-(microtype)                in font encoding `TU' in protrusion list
-(microtype)                `EBGaramond-TU'.
-
-Package microtype Info: Character `₡' is missing
-(microtype)             in font `\TU/EBGaramond(0)/m/n/10'.
-(microtype)             Ignoring protrusion settings for this character.
+LaTeX Font Info:    Font shape `TU/CormorantGaramond(0)/m/n' will be
+(Font)              scaled to size 12.74597pt on input line 238.
+LaTeX Font Info:    Font shape `TU/CormorantGaramond(0)/m/n' will be
+(Font)              scaled to size 15.29515pt on input line 238.
+LaTeX Font Info:    Font shape `TU/CormorantGaramond(0)/b/n' will be
+(Font)              scaled to size 15.29515pt on input line 238.
 
 
 [1
 
 ]
-LaTeX Font Info:    Font shape `TU/EBGaramond(0)/m/n' will be
-(Font)              scaled to size 48.0pt on input line 247.
-LaTeX Font Info:    Calculating math sizes for size <48> on input line 247.
-LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(1)/m/n' will be
-(Font)              scaled to size 45.66138pt on input line 247.
-LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(1)/m/n' will be
-(Font)              scaled to size 31.96281pt on input line 247.
-LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(1)/m/n' will be
-(Font)              scaled to size 22.83069pt on input line 247.
-LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(2)/m/n' will be
-(Font)              scaled to size 45.66577pt on input line 247.
-LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(2)/m/n' will be
-(Font)              scaled to size 31.9659pt on input line 247.
-LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(2)/m/n' will be
-(Font)              scaled to size 22.83289pt on input line 247.
-LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/m/n' will be
-(Font)              scaled to size 45.65625pt on input line 247.
-LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/m/n' will be
-(Font)              scaled to size 31.95923pt on input line 247.
-LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/m/n' will be
-(Font)              scaled to size 22.82813pt on input line 247.
-LaTeX Font Info:    Font shape `TU/EBGaramond(0)/m/n' will be
-(Font)              scaled to size 33.59985pt on input line 247.
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\@ifnextchar' on input line 247.
-
-LaTeX Font Info:    Font shape `TU/EBGaramond(0)/m/it' will be
-(Font)              scaled to size 14.4pt on input line 251.
-Package microtype Info: Character `156' is missing
-(microtype)             in font `\TU/EBGaramond(0)/m/it/14.4'.
-(microtype)             Ignoring protrusion settings for this character.
-
-Package microtype Warning: Unknown slot number of character
-(microtype)                `/zero.tosf'
-(microtype)                in font encoding `TU' in protrusion list
-(microtype)                `EBGaramond-it-TU'.
-
-
-Package microtype Warning: Unknown slot number of character
-(microtype)                `/one.tosf'
-(microtype)                in font encoding `TU' in protrusion list
-(microtype)                `EBGaramond-it-TU'.
-
-
-Package microtype Warning: Unknown slot number of character
-(microtype)                `/two.tosf'
-(microtype)                in font encoding `TU' in protrusion list
-(microtype)                `EBGaramond-it-TU'.
-
-
-Package microtype Warning: Unknown slot number of character
-(microtype)                `/three.tosf'
-(microtype)                in font encoding `TU' in protrusion list
-(microtype)                `EBGaramond-it-TU'.
-
-
-Package microtype Warning: Unknown slot number of character
-(microtype)                `/four.tosf'
-(microtype)                in font encoding `TU' in protrusion list
-(microtype)                `EBGaramond-it-TU'.
-
-
-Package microtype Warning: Unknown slot number of character
-(microtype)                `/five.tosf'
-(microtype)                in font encoding `TU' in protrusion list
-(microtype)                `EBGaramond-it-TU'.
-
-
-Package microtype Warning: Unknown slot number of character
-(microtype)                `/six.tosf'
-(microtype)                in font encoding `TU' in protrusion list
-(microtype)                `EBGaramond-it-TU'.
-
-
-Package microtype Warning: Unknown slot number of character
-(microtype)                `/seven.tosf'
-(microtype)                in font encoding `TU' in protrusion list
-(microtype)                `EBGaramond-it-TU'.
-
-
-Package microtype Warning: Unknown slot number of character
-(microtype)                `/eight.tosf'
-(microtype)                in font encoding `TU' in protrusion list
-(microtype)                `EBGaramond-it-TU'.
-
-
-Package microtype Warning: Unknown slot number of character
-(microtype)                `/nine.tosf'
-(microtype)                in font encoding `TU' in protrusion list
-(microtype)                `EBGaramond-it-TU'.
-
-
-Package microtype Warning: Unknown slot number of character
-(microtype)                `/one.lf'
-(microtype)                in font encoding `TU' in protrusion list
-(microtype)                `EBGaramond-it-TU'.
-
-
-Package microtype Warning: Unknown slot number of character
-(microtype)                `/two.lf'
-(microtype)                in font encoding `TU' in protrusion list
-(microtype)                `EBGaramond-it-TU'.
-
-
-Package microtype Warning: Unknown slot number of character
-(microtype)                `/three.lf'
-(microtype)                in font encoding `TU' in protrusion list
-(microtype)                `EBGaramond-it-TU'.
-
-
-Package microtype Warning: Unknown slot number of character
-(microtype)                `/four.lf'
-(microtype)                in font encoding `TU' in protrusion list
-(microtype)                `EBGaramond-it-TU'.
-
-
-Package microtype Warning: Unknown slot number of character
-(microtype)                `/five.lf'
-(microtype)                in font encoding `TU' in protrusion list
-(microtype)                `EBGaramond-it-TU'.
-
-
-Package microtype Warning: Unknown slot number of character
-(microtype)                `/six.lf'
-(microtype)                in font encoding `TU' in protrusion list
-(microtype)                `EBGaramond-it-TU'.
-
-
-Package microtype Warning: Unknown slot number of character
-(microtype)                `/seven.lf'
-(microtype)                in font encoding `TU' in protrusion list
-(microtype)                `EBGaramond-it-TU'.
-
-
-Package microtype Warning: Unknown slot number of character
-(microtype)                `/eight.lf'
-(microtype)                in font encoding `TU' in protrusion list
-(microtype)                `EBGaramond-it-TU'.
-
-
-Package microtype Warning: Unknown slot number of character
-(microtype)                `/nine.lf'
-(microtype)                in font encoding `TU' in protrusion list
-(microtype)                `EBGaramond-it-TU'.
-
-
-Package microtype Warning: Unknown slot number of character
-(microtype)                `/one.osf'
-(microtype)                in font encoding `TU' in protrusion list
-(microtype)                `EBGaramond-it-TU'.
-
-
-Package microtype Warning: Unknown slot number of character
-(microtype)                `/two.osf'
-(microtype)                in font encoding `TU' in protrusion list
-(microtype)                `EBGaramond-it-TU'.
-
-
-Package microtype Warning: Unknown slot number of character
-(microtype)                `/three.osf'
-(microtype)                in font encoding `TU' in protrusion list
-(microtype)                `EBGaramond-it-TU'.
-
-
-Package microtype Warning: Unknown slot number of character
-(microtype)                `/four.osf'
-(microtype)                in font encoding `TU' in protrusion list
-(microtype)                `EBGaramond-it-TU'.
-
-
-Package microtype Warning: Unknown slot number of character
-(microtype)                `/seven.osf'
-(microtype)                in font encoding `TU' in protrusion list
-(microtype)                `EBGaramond-it-TU'.
-
-Package microtype Info: Character `℃' is missing
-(microtype)             in font `\TU/EBGaramond(0)/m/it/14.4'.
-(microtype)             Ignoring protrusion settings for this character.
-Package microtype Info: Character `ƒ' is missing
-(microtype)             in font `\TU/EBGaramond(0)/m/it/14.4'.
-(microtype)             Ignoring protrusion settings for this character.
-Package microtype Info: Character `₡' is missing
-(microtype)             in font `\TU/EBGaramond(0)/m/it/14.4'.
-(microtype)             Ignoring protrusion settings for this character.
-LaTeX Font Info:    Font shape `TU/EBGaramond(0)/m/it' will be
-(Font)              scaled to size 10.0pt on input line 255.
-Package microtype Info: Character `156' is missing
-(microtype)             in font `\TU/EBGaramond(0)/m/it/10'.
-(microtype)             Ignoring protrusion settings for this character.
-
-Package microtype Warning: Unknown slot number of character
-(microtype)                `/zero.tosf'
-(microtype)                in font encoding `TU' in protrusion list
-(microtype)                `EBGaramond-it-TU'.
-
-
-Package microtype Warning: Unknown slot number of character
-(microtype)                `/one.tosf'
-(microtype)                in font encoding `TU' in protrusion list
-(microtype)                `EBGaramond-it-TU'.
-
-
-Package microtype Warning: Unknown slot number of character
-(microtype)                `/two.tosf'
-(microtype)                in font encoding `TU' in protrusion list
-(microtype)                `EBGaramond-it-TU'.
-
-
-Package microtype Warning: Unknown slot number of character
-(microtype)                `/three.tosf'
-(microtype)                in font encoding `TU' in protrusion list
-(microtype)                `EBGaramond-it-TU'.
-
-
-Package microtype Warning: Unknown slot number of character
-(microtype)                `/four.tosf'
-(microtype)                in font encoding `TU' in protrusion list
-(microtype)                `EBGaramond-it-TU'.
-
-
-Package microtype Warning: Unknown slot number of character
-(microtype)                `/five.tosf'
-(microtype)                in font encoding `TU' in protrusion list
-(microtype)                `EBGaramond-it-TU'.
-
-
-Package microtype Warning: Unknown slot number of character
-(microtype)                `/six.tosf'
-(microtype)                in font encoding `TU' in protrusion list
-(microtype)                `EBGaramond-it-TU'.
-
-
-Package microtype Warning: Unknown slot number of character
-(microtype)                `/seven.tosf'
-(microtype)                in font encoding `TU' in protrusion list
-(microtype)                `EBGaramond-it-TU'.
-
-
-Package microtype Warning: Unknown slot number of character
-(microtype)                `/eight.tosf'
-(microtype)                in font encoding `TU' in protrusion list
-(microtype)                `EBGaramond-it-TU'.
-
-
-Package microtype Warning: Unknown slot number of character
-(microtype)                `/nine.tosf'
-(microtype)                in font encoding `TU' in protrusion list
-(microtype)                `EBGaramond-it-TU'.
-
-
-Package microtype Warning: Unknown slot number of character
-(microtype)                `/one.lf'
-(microtype)                in font encoding `TU' in protrusion list
-(microtype)                `EBGaramond-it-TU'.
-
-
-Package microtype Warning: Unknown slot number of character
-(microtype)                `/two.lf'
-(microtype)                in font encoding `TU' in protrusion list
-(microtype)                `EBGaramond-it-TU'.
-
-
-Package microtype Warning: Unknown slot number of character
-(microtype)                `/three.lf'
-(microtype)                in font encoding `TU' in protrusion list
-(microtype)                `EBGaramond-it-TU'.
-
-
-Package microtype Warning: Unknown slot number of character
-(microtype)                `/four.lf'
-(microtype)                in font encoding `TU' in protrusion list
-(microtype)                `EBGaramond-it-TU'.
-
-
-Package microtype Warning: Unknown slot number of character
-(microtype)                `/five.lf'
-(microtype)                in font encoding `TU' in protrusion list
-(microtype)                `EBGaramond-it-TU'.
-
-
-Package microtype Warning: Unknown slot number of character
-(microtype)                `/six.lf'
-(microtype)                in font encoding `TU' in protrusion list
-(microtype)                `EBGaramond-it-TU'.
-
-
-Package microtype Warning: Unknown slot number of character
-(microtype)                `/seven.lf'
-(microtype)                in font encoding `TU' in protrusion list
-(microtype)                `EBGaramond-it-TU'.
-
-
-Package microtype Warning: Unknown slot number of character
-(microtype)                `/eight.lf'
-(microtype)                in font encoding `TU' in protrusion list
-(microtype)                `EBGaramond-it-TU'.
-
-
-Package microtype Warning: Unknown slot number of character
-(microtype)                `/nine.lf'
-(microtype)                in font encoding `TU' in protrusion list
-(microtype)                `EBGaramond-it-TU'.
-
-
-Package microtype Warning: Unknown slot number of character
-(microtype)                `/one.osf'
-(microtype)                in font encoding `TU' in protrusion list
-(microtype)                `EBGaramond-it-TU'.
-
-
-Package microtype Warning: Unknown slot number of character
-(microtype)                `/two.osf'
-(microtype)                in font encoding `TU' in protrusion list
-(microtype)                `EBGaramond-it-TU'.
-
-
-Package microtype Warning: Unknown slot number of character
-(microtype)                `/three.osf'
-(microtype)                in font encoding `TU' in protrusion list
-(microtype)                `EBGaramond-it-TU'.
-
-
-Package microtype Warning: Unknown slot number of character
-(microtype)                `/four.osf'
-(microtype)                in font encoding `TU' in protrusion list
-(microtype)                `EBGaramond-it-TU'.
-
-
-Package microtype Warning: Unknown slot number of character
-(microtype)                `/seven.osf'
-(microtype)                in font encoding `TU' in protrusion list
-(microtype)                `EBGaramond-it-TU'.
-
-Package microtype Info: Character `℃' is missing
-(microtype)             in font `\TU/EBGaramond(0)/m/it/10'.
-(microtype)             Ignoring protrusion settings for this character.
-Package microtype Info: Character `ƒ' is missing
-(microtype)             in font `\TU/EBGaramond(0)/m/it/10'.
-(microtype)             Ignoring protrusion settings for this character.
-Package microtype Info: Character `₡' is missing
-(microtype)             in font `\TU/EBGaramond(0)/m/it/10'.
-(microtype)             Ignoring protrusion settings for this character.
-
-Underfull \hbox (badness 10000) in paragraph at lines 255--256
-[]\TU/EBGaramond(0)/m/it/14.4 This excerpt from \TU/EBGaramond(0)/m/n/14.4 Alice’s
- []
-
-LaTeX Font Info:    Font shape `TU/EBGaramond(0)/m/sc' will be
-(Font)              scaled to size 14.4pt on input line 262.
-
-Package microtype Warning: Unknown slot number of character
-(microtype)                `/one.tosf'
-(microtype)                in font encoding `TU' in protrusion list 
-(microtype)                `EBGaramond-TU'.
-
-
-Package microtype Warning: Unknown slot number of character
-(microtype)                `/two.tosf'
-(microtype)                in font encoding `TU' in protrusion list 
-(microtype)                `EBGaramond-TU'.
-
-
-Package microtype Warning: Unknown slot number of character
-(microtype)                `/three.tosf'
-(microtype)                in font encoding `TU' in protrusion list 
-(microtype)                `EBGaramond-TU'.
-
-
-Package microtype Warning: Unknown slot number of character
-(microtype)                `/four.tosf'
-(microtype)                in font encoding `TU' in protrusion list 
-(microtype)                `EBGaramond-TU'.
-
-
-Package microtype Warning: Unknown slot number of character
-(microtype)                `/five.tosf'
-(microtype)                in font encoding `TU' in protrusion list 
-(microtype)                `EBGaramond-TU'.
-
-
-Package microtype Warning: Unknown slot number of character
-(microtype)                `/six.tosf'
-(microtype)                in font encoding `TU' in protrusion list 
-(microtype)                `EBGaramond-TU'.
-
-
-Package microtype Warning: Unknown slot number of character
-(microtype)                `/seven.tosf'
-(microtype)                in font encoding `TU' in protrusion list 
-(microtype)                `EBGaramond-TU'.
-
-
-Package microtype Warning: Unknown slot number of character
-(microtype)                `/eight.tosf'
-(microtype)                in font encoding `TU' in protrusion list 
-(microtype)                `EBGaramond-TU'.
-
-
-Package microtype Warning: Unknown slot number of character
-(microtype)                `/nine.tosf'
-(microtype)                in font encoding `TU' in protrusion list 
-(microtype)                `EBGaramond-TU'.
-
-
-Package microtype Warning: Unknown slot number of character
-(microtype)                `/one.lf'
-(microtype)                in font encoding `TU' in protrusion list 
-(microtype)                `EBGaramond-TU'.
-
-
-Package microtype Warning: Unknown slot number of character
-(microtype)                `/two.lf'
-(microtype)                in font encoding `TU' in protrusion list 
-(microtype)                `EBGaramond-TU'.
-
-
-Package microtype Warning: Unknown slot number of character
-(microtype)                `/four.lf'
-(microtype)                in font encoding `TU' in protrusion list 
-(microtype)                `EBGaramond-TU'.
-
-
-Package microtype Warning: Unknown slot number of character
-(microtype)                `/seven.lf'
-(microtype)                in font encoding `TU' in protrusion list 
-(microtype)                `EBGaramond-TU'.
-
-
-Package microtype Warning: Unknown slot number of character
-(microtype)                `/one.osf'
-(microtype)                in font encoding `TU' in protrusion list 
-(microtype)                `EBGaramond-TU'.
-
-
-Package microtype Warning: Unknown slot number of character
-(microtype)                `/two.osf'
-(microtype)                in font encoding `TU' in protrusion list 
-(microtype)                `EBGaramond-TU'.
-
-
-Package microtype Warning: Unknown slot number of character
-(microtype)                `/four.osf'
-(microtype)                in font encoding `TU' in protrusion list 
-(microtype)                `EBGaramond-TU'.
-
-
-Package microtype Warning: Unknown slot number of character
-(microtype)                `/seven.osf'
-(microtype)                in font encoding `TU' in protrusion list 
-(microtype)                `EBGaramond-TU'.
-
-Package microtype Info: Character `₡' is missing
-(microtype)             in font `\TU/EBGaramond(0)/m/sc/14.4'.
-(microtype)             Ignoring protrusion settings for this character.
-LaTeX Font Info:    Font shape `TU/CormorantGaramond(0)/m/n' will be
-(Font)              scaled to size 15.29515pt on input line 262.
-LaTeX Font Info:    Font shape `TU/CormorantGaramond(0)/m/n' will be
-(Font)              scaled to size 45.16661pt on input line 262.
-LaTeX Font Info:    Font shape `TU/CormorantGaramond(0)/m/n' will be
-(Font)              scaled to size 64.82224pt on input line 262.
-Package lettrine.sty Info: Targeted height = 42.5232pt
-(lettrine.sty)             (for loversize=0, accent excluded),
-(lettrine.sty)             Lettrine height = 41.35658pt (A);
-(lettrine.sty)             reported on input line 262.
-
-Underfull \hbox (badness 7415) in paragraph at lines 264--265
-\TU/EBGaramond(0)/m/n/14.4 stupid), whether the plea-
- []
-
-LaTeX Font Info:    Font shape `TU/EBGaramond(0)/m/it' will be
-(Font)              scaled to size 17.28pt on input line 266.
-
-Underfull \hbox (badness 6559) in paragraph at lines 271--272
-\TU/EBGaramond(0)/m/n/14.4 about stopping herself be-
- []
-
-
-Underfull \hbox (badness 5970) in paragraph at lines 274--275
-\TU/EBGaramond(0)/m/n/14.4 that they were filled with
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 274--275
-\TU/EBGaramond(0)/m/n/14.4 somebody underneath, so
- []
-
-File: ../Images/Alice-article-background-A.png Graphic file (type bmp)
-<../Images/Alice-article-background-A.png>
-[2]
-Underfull \hbox (badness 5460) in paragraph at lines 285--286
-\TU/EBGaramond(0)/m/n/14.4 sort in her lessons in the
- []
-
-LaTeX Font Info:    Font shape `TU/CormorantGaramond(0)/m/n' will be
-(Font)              scaled to size 26.04765pt on input line 291.
-LaTeX Font Info:    Font shape `TU/CormorantGaramond(0)/m/n' will be
-(Font)              scaled to size 37.38309pt on input line 291.
-
-Underfull \hbox (badness 10000) in paragraph at lines 289--291
-\TU/EBGaramond(0)/m/n/14.4 to-night, I should think!”
- []
-
-Package lettrine.sty Info: Targeted height = 24.5232pt
-(lettrine.sty)             (for loversize=0, accent excluded),
-(lettrine.sty)             Lettrine height = 23.77565pt (Q);
-(lettrine.sty)             reported on input line 291.
-Package lettrine.sty Info: Targeted height = 24.5232pt
-(lettrine.sty)             (for loversize=0, accent excluded),
-(lettrine.sty)             Lettrine height = 23.85042pt (A);
-(lettrine.sty)             reported on input line 293.
-
-Underfull \hbox (badness 5939) in paragraph at lines 293--294
-\TU/EBGaramond(0)/m/n/14.4 another long passage, and
- []
-
-File: ../Images/Alice-article-background-B.png Graphic file (type bmp)
-<../Images/Alice-article-background-B.png>
-[3]
-Package lettrine.sty Info: Targeted height = 24.5232pt
-(lettrine.sty)             (for loversize=0, accent excluded),
-(lettrine.sty)             Lettrine height = 23.77565pt (Q);
-(lettrine.sty)             reported on input line 295.
-
-Underfull \hbox (badness 10000) in paragraph at lines 295--296
-\TU/EBGaramond(0)/m/n/14.4 round the hall, but
- []
-
-
-Underfull \hbox (badness 5802) in paragraph at lines 295--296
-\TU/EBGaramond(0)/m/n/14.4 they were all locked; and
- []
-
-Package lettrine.sty Info: Targeted height = 24.5232pt
-(lettrine.sty)             (for loversize=0, accent excluded),
-(lettrine.sty)             Lettrine height = 23.85042pt (A);
-(lettrine.sty)             reported on input line 297.
-
-Underfull \hbox (badness 10000) in paragraph at lines 297--298
-[][]\TU/EBGaramond(0)/m/sc/14.4 S[]\TU/EBGaramond(0)/m/n/14.4 uddenly she came
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 297--298
-\TU/EBGaramond(0)/m/n/14.4 upon a little three-
- []
-
 LaTeX Font Info:    Font shape `TU/CormorantGaramond(0)/b/n' will be
-(Font)              scaled to size 15.29515pt on input line 304.
-LaTeX Font Info:    Font shape `TU/EBGaramond(0)/m/n' will be
-(Font)              scaled to size 8.0pt on input line 309.
+(Font)              scaled to size 12.74597pt on input line 313.
 
-
-[4]
-LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(2)/m/n' will be
-(Font)              scaled to size 11.41644pt on input line 322.
-LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/m/n' will be
-(Font)              scaled to size 11.41406pt on input line 322.
-LaTeX Font Info:    Font shape `TU/EBGaramond(0)/m/it' will be
-(Font)              scaled to size 12.0pt on input line 322.
-Package microtype Info: Character `156' is missing
-(microtype)             in font `\TU/EBGaramond(0)/m/it/12'.
-(microtype)             Ignoring protrusion settings for this character.
-
-Package microtype Warning: Unknown slot number of character
-(microtype)                `/zero.tosf'
-(microtype)                in font encoding `TU' in protrusion list
-(microtype)                `EBGaramond-it-TU'.
-
-
-Package microtype Warning: Unknown slot number of character
-(microtype)                `/one.tosf'
-(microtype)                in font encoding `TU' in protrusion list
-(microtype)                `EBGaramond-it-TU'.
-
-
-Package microtype Warning: Unknown slot number of character
-(microtype)                `/two.tosf'
-(microtype)                in font encoding `TU' in protrusion list
-(microtype)                `EBGaramond-it-TU'.
-
-
-Package microtype Warning: Unknown slot number of character
-(microtype)                `/three.tosf'
-(microtype)                in font encoding `TU' in protrusion list
-(microtype)                `EBGaramond-it-TU'.
-
-
-Package microtype Warning: Unknown slot number of character
-(microtype)                `/four.tosf'
-(microtype)                in font encoding `TU' in protrusion list
-(microtype)                `EBGaramond-it-TU'.
-
-
-Package microtype Warning: Unknown slot number of character
-(microtype)                `/five.tosf'
-(microtype)                in font encoding `TU' in protrusion list
-(microtype)                `EBGaramond-it-TU'.
-
-
-Package microtype Warning: Unknown slot number of character
-(microtype)                `/six.tosf'
-(microtype)                in font encoding `TU' in protrusion list
-(microtype)                `EBGaramond-it-TU'.
-
-
-Package microtype Warning: Unknown slot number of character
-(microtype)                `/seven.tosf'
-(microtype)                in font encoding `TU' in protrusion list
-(microtype)                `EBGaramond-it-TU'.
-
-
-Package microtype Warning: Unknown slot number of character
-(microtype)                `/eight.tosf'
-(microtype)                in font encoding `TU' in protrusion list
-(microtype)                `EBGaramond-it-TU'.
-
-
-Package microtype Warning: Unknown slot number of character
-(microtype)                `/nine.tosf'
-(microtype)                in font encoding `TU' in protrusion list
-(microtype)                `EBGaramond-it-TU'.
-
-
-Package microtype Warning: Unknown slot number of character
-(microtype)                `/one.lf'
-(microtype)                in font encoding `TU' in protrusion list
-(microtype)                `EBGaramond-it-TU'.
-
-
-Package microtype Warning: Unknown slot number of character
-(microtype)                `/two.lf'
-(microtype)                in font encoding `TU' in protrusion list
-(microtype)                `EBGaramond-it-TU'.
-
-
-Package microtype Warning: Unknown slot number of character
-(microtype)                `/three.lf'
-(microtype)                in font encoding `TU' in protrusion list
-(microtype)                `EBGaramond-it-TU'.
-
-
-Package microtype Warning: Unknown slot number of character
-(microtype)                `/four.lf'
-(microtype)                in font encoding `TU' in protrusion list
-(microtype)                `EBGaramond-it-TU'.
-
-
-Package microtype Warning: Unknown slot number of character
-(microtype)                `/five.lf'
-(microtype)                in font encoding `TU' in protrusion list
-(microtype)                `EBGaramond-it-TU'.
-
-
-Package microtype Warning: Unknown slot number of character
-(microtype)                `/six.lf'
-(microtype)                in font encoding `TU' in protrusion list
-(microtype)                `EBGaramond-it-TU'.
-
-
-Package microtype Warning: Unknown slot number of character
-(microtype)                `/seven.lf'
-(microtype)                in font encoding `TU' in protrusion list
-(microtype)                `EBGaramond-it-TU'.
-
-
-Package microtype Warning: Unknown slot number of character
-(microtype)                `/eight.lf'
-(microtype)                in font encoding `TU' in protrusion list
-(microtype)                `EBGaramond-it-TU'.
-
-
-Package microtype Warning: Unknown slot number of character
-(microtype)                `/nine.lf'
-(microtype)                in font encoding `TU' in protrusion list
-(microtype)                `EBGaramond-it-TU'.
-
-
-Package microtype Warning: Unknown slot number of character
-(microtype)                `/one.osf'
-(microtype)                in font encoding `TU' in protrusion list
-(microtype)                `EBGaramond-it-TU'.
-
-
-Package microtype Warning: Unknown slot number of character
-(microtype)                `/two.osf'
-(microtype)                in font encoding `TU' in protrusion list
-(microtype)                `EBGaramond-it-TU'.
-
-
-Package microtype Warning: Unknown slot number of character
-(microtype)                `/three.osf'
-(microtype)                in font encoding `TU' in protrusion list
-(microtype)                `EBGaramond-it-TU'.
-
-
-Package microtype Warning: Unknown slot number of character
-(microtype)                `/four.osf'
-(microtype)                in font encoding `TU' in protrusion list
-(microtype)                `EBGaramond-it-TU'.
-
-
-Package microtype Warning: Unknown slot number of character
-(microtype)                `/seven.osf'
-(microtype)                in font encoding `TU' in protrusion list
-(microtype)                `EBGaramond-it-TU'.
-
-Package microtype Info: Character `℃' is missing
-(microtype)             in font `\TU/EBGaramond(0)/m/it/12'.
-(microtype)             Ignoring protrusion settings for this character.
-Package microtype Info: Character `ƒ' is missing
-(microtype)             in font `\TU/EBGaramond(0)/m/it/12'.
-(microtype)             Ignoring protrusion settings for this character.
-Package microtype Info: Character `₡' is missing
-(microtype)             in font `\TU/EBGaramond(0)/m/it/12'.
-(microtype)             Ignoring protrusion settings for this character.
-
-LaTeX Font Warning: Font shape `TU/EBGaramond(0)/b/n' undefined
-(Font)              using `TU/EBGaramond(0)/m/n' instead on input line 341.
-
-LaTeX Font Info:    Font shape `TU/EBGaramond(0)/b/n' will be
-(Font)              scaled to size 12.0pt on input line 358.
-
-Package caption Warning: Unused \captionsetup[table] on input line 110.
+Package caption Warning: Unused \captionsetup[table] on input line 115.
 See the caption package documentation for explanation.
 
 
 
-[5]
-
-[6] (./Master-Magazine.aux)
+[2] (./Editor-instructions.aux)
  ***********
 LaTeX2e <2024-06-01> patch level 2
 L3 programming layer <2024-08-30>
@@ -2273,18 +1499,17 @@ L3 programming layer <2024-08-30>
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
  )
-(\end occurred inside a group at level 2)
+(\end occurred inside a group at level 1)
 
-### semi simple group (level 2) entered at line 317 (\begingroup)
-### semi simple group (level 1) entered at line 247 (\begingroup)
+### semi simple group (level 1) entered at line 223 (\begingroup)
 ### bottom level 
 Here is how much of TeX's memory you used:
- 21323 strings out of 476191
- 404918 string characters out of 5784197
- 972893 words of memory out of 5000000
- 43519 multiletter control sequences out of 15000+600000
- 569369 words of font info for 134 fonts, out of 8000000 for 9000
+ 21193 strings out of 476191
+ 399543 string characters out of 5784197
+ 972853 words of memory out of 5000000
+ 43416 multiletter control sequences out of 15000+600000
+ 564487 words of font info for 95 fonts, out of 8000000 for 9000
  36 hyphenation exceptions out of 8191
- 90i,9n,126p,1021b,596s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 90i,6n,126p,1016b,387s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on Master-Magazine.pdf (6 pages).
+Output written on Editor-instructions.pdf (2 pages).

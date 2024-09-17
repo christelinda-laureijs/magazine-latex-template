@@ -1,4 +1,4 @@
-\section{\color{white} \LaTeX\ Magazine Template}
+\section{\color{white} Alice in Wonderland}
 
 \begin{multicols}{3}
 
