@@ -18,7 +18,10 @@ editor_options:
   chunk_output_type: inline
 always_allow_html: true
 ---
-
+```{r, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE,
+                      fig.align = "center")
+```
 
 \begin{centering}
 \begin{spacing}{1}
@@ -45,7 +48,6 @@ A template for creating magazine-style layouts with R and \LaTeX
 
 \end{spacing}
 \end{centering}
-
 
 
 ```{r child='Example-article.Rmd'}
