@@ -2,7 +2,6 @@
 \pagenumbering{gobble}
 
 \usepackage{setspace}
-
 \usepackage[skip=15pt plus1pt, indent=0pt]{parskip}
 
 % Use George Duffner version of EBGaramond with contextual alternates (+calt ensures Q.long)
@@ -14,6 +13,7 @@
   RawFeature=+calt,
 ]
 
+% Lighter version of Garamond for dropcaps
 \newfontfamily\cormorant{CormorantGaramond}[
   Path=../Templates/Cormorant-Garamond/,
   Extension=.ttf,
@@ -22,6 +22,7 @@
   BoldFont=*-Bold,
 ]
 
+% Used for examples in instructions document
 \newfontfamily\redacted{RedactedScript}[
   Path=../Templates/Redacted-Script/,
   Extension=.ttf,
@@ -59,6 +60,8 @@
       {\cormorant\large\bfseries\SS@subsectfont}}
 \makeatother
 
+
+% Center title
 \usepackage{titling}
 \pretitle{\linespread{1}\begin{center}\vspace{2cm}\Huge}
 
@@ -76,22 +79,12 @@
 
 % Enable tabbing to fixed level from start of line
 % https://tex.stackexchange.com/questions/263765/tabbing-from-the-beginning-of-a-line
-
 \usepackage{tabto}
 \TabPositions{5em}
 
 
 \usepackage{multicol}
 \setlength{\columnsep}{30pt}
-
-% Break long URLs in bibliography
-%https://tex.stackexchange.com/questions/115690/urls-in-bibliography-latex-not-breaking-line-as-expected
-% Did not work for Statistics Canada reference
-%\usepackage{url}
-%\def\UrlBreaks{\do\/\do-\do.}
-%\usepackage{hyperref}
-%usepackage{breakurl}
-%\usepackage[breaklinks]{hyperref}
 
 
 % Enable drop caps
@@ -105,6 +98,8 @@
 \definecolor{quotegray}{RGB}{107, 107, 107}
 \definecolor{preamble-gray}{RGB}{54, 54, 54}
 
+
+% Environment styling (e.g. quote, author name, preamble)
 \renewenvironment{quote}{%
   \list{}{%
     \leftmargin0.2cm
@@ -141,32 +136,34 @@
 {\end{singlespace}}
 
 
-
-% 
+ 
 \usepackage{eso-pic}
 \usepackage{graphicx}
-% 
-\newcommand\BackgroundPictureAliceA{%
+
+
+\newcommand{\InsertBackgroundPicture}[1]{\AddToShipoutPictureBG*{%
   \put(0,0){%
    \parbox[b][\paperheight]{\paperwidth}{%
      \vfill
      \centering
      \includegraphics[width=\paperwidth,height=\paperheight,%
-                      keepaspectratio]{../Images/Alice-article-background-A.png}%
+                      keepaspectratio]{#1}%
      \vfill
     }
   }
+}
 }
 
-\newcommand\BackgroundPictureAliceB{%
-  \put(0,0){%
-   \parbox[b][\paperheight]{\paperwidth}{%
-     \vfill
-     \centering
-     \includegraphics[width=\paperwidth,height=\paperheight,%
-                      keepaspectratio]{../Images/Alice-article-background-B.png}%
-     \vfill
-    }
-  }
-}
+
+
 % TODO: Make author consistent distance from line
+
+% Break long URLs in bibliography
+%https://tex.stackexchange.com/questions/115690/urls-in-bibliography-latex-not-breaking-line-as-expected
+% Did not work for Statistics Canada reference
+%\usepackage{url}
+%\def\UrlBreaks{\do\/\do-\do.}
+%\usepackage{hyperref}
+%usepackage{breakurl}
+%\usepackage[breaklinks]{hyperref}
+

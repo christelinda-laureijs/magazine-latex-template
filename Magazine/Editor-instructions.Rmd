@@ -115,34 +115,15 @@ Suscipit odio duis gravida habitant volutpat arcu. Auctor diam maximus in egesta
 
 This template uses full-bleed background images. They must be 8.5 in x 11 in, and they can be either .PDF or .PNG files (if .PNG, try to have at least 300 DPI).
 
-The command \\AddToShipoutPictureBG* from the *eso-pic* package allows you to add a background picture on a specific page.
+I've created a new command called \\InsertBackgroundPicture{}, which uses \\AddToShipoutPictureBG* from the *eso-pic* package. This allows you to place a full-size background picture to a specific page. The command accepts one argument, which is the filepath for the image. I'm using two dots at the beginning of the name (\textit{../}) to specify that LaTeX needs to move up one folder level (relative to this \textit{.Rmd} file) and then into the \textit{Images/} folder.
 
 \begin{verbatim}
-\AddToShipoutPictureBG*{\BackgroundPictureAliceA}
+\InsertBackgroundPicture{../Images/Alice-article-background-A.png}
 \end{verbatim}
-
-Names must be all letters, with no numbers, or special characters. The *\\BackgroundPictureAliceA comes from a command that should be added into the preamble. There will be a different command for each background image. Here is an example for the background of page 1 of Example-article.pdf.
-
-\begin{verbatim}
-\newcommand\BackgroundPictureAliceA{%
-  \put(0,0){%
-   \parbox[b][\paperheight]{\paperwidth}{%
-     \vfill
-     \centering
-     \includegraphics[width=\paperwidth,height=\paperheight,%
-                      keepaspectratio]{../Images/Alice-article-background-A.png}%
-     \vfill
-    }
-  }
-}
-\end{verbatim}
-
-
-
 
 ## What is \LaTeX?
 
-\LaTeX\ is a free program used to create beautifully typeset documents like books, theses, and newsletters. It is very different than Microsoft Word. Instead of selecting text and clicking on a button to make it \textbf{bold} or \textit{italicized}, you write code like \\textit{} for italics. It seems like more work than necessary, but there are several strong advantages for using \LaTeX.
+\LaTeX\ (pronounced lay-tech) is a free program used to create beautifully typeset documents like books, theses, and newsletters. It is very different than Microsoft Word. Instead of selecting text and clicking on a button to make it \textbf{bold} or \textit{italicized}, you write code like \\textit{} for italics. It seems like more work than necessary, but there are several strong advantages for using \LaTeX.
 
 ### Beautiful typography
 
@@ -161,7 +142,7 @@ Names must be all letters, with no numbers, or special characters. The *\\Backgr
 Really, only typography nerds will notice or care about these details. But professional-quality typesetting does have an overall effect on the appearance of the document.
 
 ```{r ligatures-comparison}
-#| fig.cap = "Ligatures are specialized characters that replace letter combinations like \\textit{fi}. Left: Word does not automatically include ligatures, so these letters clash. Left: In this Word example, notice the collision between the curve of the \\textit{f} and the dot in \\textit{i}. The word \\textit{office} also has slightly misaligned \\textit{f}'s. Right: \\LaTeX{} has full support for ligatures. These words showcase the \\textit{ffi} and \\textit{fi} ligatures. \\label{ligatures}",
+#| fig.cap = "Ligatures are specialized characters that replace letter combinations like \\textit{fi}. Left: Word does not automatically include ligatures, so these letters clash. In this Word example, notice the collision between the curve of the \\textit{f} and the dot in \\textit{i}. The word \\textit{office} also has slightly misaligned \\textit{f}'s. Right: \\LaTeX{} has full support for ligatures. These words showcase the \\textit{ffi} and \\textit{fi} ligatures. \\label{ligatures}",
 #| fig.scap = "Ligature comparison.",
 #| out.width = "70%",
 #| purl = FALSE
@@ -171,7 +152,7 @@ knitr::include_graphics(here::here("Images/Ligature-comparison.png"))
 
 
 ```{r drop-caps-comparison}
-#| fig.cap = "This figure highlights some key differences between typesetting in Word (left) and \\LaTeX{} (right). Notice how Word creates a misaligned drop-cap and awkward justification, with several gaps (highlighted in red). \\label{drop-caps}",
+#| fig.cap = "This figure highlights some key differences between typesetting in Word (left) and \\LaTeX{} (right). Notice how Word creates a misaligned drop-cap and awkward justification, with several gaps (highlighted in red). \\LaTeX{} produces neatly aligned text, and it even uses small caps to emphasize the first word. \\label{drop-caps}",
 #| fig.scap = "Ligature comparison.",
 #| out.width = "70%",
 #| purl = FALSE
