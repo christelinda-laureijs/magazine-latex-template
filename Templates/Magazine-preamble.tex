@@ -22,6 +22,14 @@
   BoldFont=*-Bold,
 ]
 
+\newfontfamily\redacted{RedactedScript}[
+  Path=../Templates/Redacted-Script/,
+  Extension=.ttf,
+  UprightFont=*-Regular,
+  ItalicFont=*-Light,
+  BoldFont=*-Bold,
+]
+
 
 %https://tex.stackexchange.com/questions/162584/preventing-floats-of-being-before-section
 % Prevent floats from going 'backward'
@@ -128,6 +136,12 @@
 {\begin{singlespace}\scriptsize\setlength}
 {\end{singlespace}}
 
+\newenvironment{redacted-text}
+{\begin{singlespace}\redacted}
+{\end{singlespace}}
+
+
+
 % 
 \usepackage{eso-pic}
 \usepackage{graphicx}
@@ -155,4 +169,4 @@
     }
   }
 }
-% TODO: Find out how to have a full-bleed picture behind section 
+% TODO: Make author consistent distance from line

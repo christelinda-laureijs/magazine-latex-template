@@ -18,7 +18,73 @@ indent: true
 
 # Editor Instructions
 
-This document is designed to help you get up and running with getting magazine articles ready for production. If you just want to get to the instructions, they're below this intro section!
+This document is designed to help you get up and running with getting magazine articles ready for production. If you're thinking, "What is \LaTeX\?", I have a short intro section at the end of this document!
+
+### Author names
+
+To insert an author name, type in the following code near the end of the article.
+
+\begin{verbatim}
+\begin{author-name}
+Lewis Carroll
+\end{author-name}
+\end{verbatim}
+
+The line will automatically stretch to fill the current text container. In the following example, I placed the author environment before \\end{multicols} to have it only take up one column.
+
+\begin{redacted-text}
+
+\begin{multicols}{3}
+
+Lorem ipsum odor amet, consectetuer adipiscing elit. Tristique ridiculus interdum faucibus tellus maecenas accumsan mauris vulputate. Aliquam sollicitudin eros phasellus gravida cursus tortor lacus pulvinar. Penatibus dictum magnis sollicitudin dictumst malesuada fermentum porttitor.
+
+Proin eu sem eget aliquet; semper suspendisse potenti ridiculus et. Aptent parturient aptent rhoncus malesuada condimentum. Nisi mus nostra congue varius pretium magnis; non dictum elit. Bibendum venenatis ac at magna mauris.
+
+Torquent taciti arcu ligula vehicula mus non dignissim fermentum. Sagittis mollis orci aenean molestie curae lacinia nostra ullamcorper. Suscipit odio duis gravida habitant volutpat arcu. Auctor diam maximus in egestas curae rhoncus. Efficitur lectus gravida dolor ut cursus vehicula quam parturient! Luctus eleifend lacinia; velit placerat metus arcu orci vulputate.
+
+Facilisis maximus dictumst arcu porttitor mus amet. Parturient potenti facilisis vestibulum varius metus praesent. Maximus massa sollicitudin vitae; et sed inceptos. Penatibus praesent volutpat sagittis semper hendrerit luctus finibus ante. Faucibus a magna nibh ut donec dis torquent. Massa non fermentum aliquam lobortis; conubia integer sit sollicitudin.
+
+Facilisi maximus cursus fames pellentesque eu potenti. Imperdiet morbi suscipit aliquam suscipit maecenas per eget ut finibus. Blandit lacinia felis senectus ullamcorper praesent mollis fringilla. Suspendisse nostra ipsum iaculis conubia magna leo eget blandit. Fermentum cubilia cubilia dis; vehicula mattis sollicitudin.
+
+Praesent vitae iaculis sodales sagittis sociosqu amet platea etiam. Non tellus sem neque, adipiscing nam inceptos ac? Dapibus nascetur cubilia vel nunc parturient convallis arcu ultricies. Massa tellus ridiculus mattis inceptos ad ex curabitur eleifend. Gravida euismod nostra ad habitant ullamcorper in dui.
+
+\begin{author-name}
+
+Lewis Carroll
+
+\end{author-name}
+
+
+\end{multicols}
+
+\end{redacted-text}
+
+
+### Preamble
+
+Some articles require some explanatory text or a disclaimer before the main content. Use the preamble environment for this.
+
+\begin{verbatim}
+\begin{preamble}
+
+Insert disclaimer text here, an intro, etc...
+
+\end{preamble}
+\end{verbatim}
+
+
+### Section Titles
+
+In most cases, \\section{Article title} should be fine. If you have a dark background image, you may want to change the text color. Use the following code at the top of the document:
+
+\begin{verbatim}
+\section{\color{white} Alice in Wonderland}
+\end{verbatim}
+
+### Images
+
+This template uses full-bleed background images. They must be 8.5 in x 11 in, and they can be either .PDF or .PNG files (if .PNG, try to have at least 300 DPI).
+
 
 
 ## What is \LaTeX?
@@ -68,45 +134,3 @@ One of the best features of \LaTeX\ is its mathematical typesetting. This includ
 -\int_a^b\frac{du}{dx}\frac{dv}{dx}\,dx.
 \]
 
-## Instructions
-
-### Author names
-
-To insert an author name, type in
-
-\begin{verbatim}
-\begin{author-name}
-Lewis Carroll
-\end{author-name}
-\end{verbatim}
-
-to get:
-
-\begin{author-name}
-
-Lewis Carroll
-
-\end{author-name}
-
-The line will automatically stretch to fill the current text container. Place the author environment somewhere before \\end{multicols} to have it only take up one column.
-
-### Preamble
-
-Some articles require some explanatory text or a disclaimer before the main content. Use the preamble environment for this.
-
-\begin{verbatim}
-\begin{preamble}
-
-Insert disclaimer text here, an intro, etc...
-
-\end{preamble}
-\end{verbatim}
-
-
-### Section Titles
-
-In most cases, \\section{Article title} should be fine. If you have a dark background image, you may want to change the text color. Use the following code:
-
-\begin{verbatim}
-\section{\color{white} Alice in Wonderland}
-\end{verbatim}

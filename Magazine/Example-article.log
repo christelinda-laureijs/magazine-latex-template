@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999996 (TeX Live 2024) (preloaded format=xelatex 2024.9.15)  16 SEP 2024 19:45
+This is XeTeX, Version 3.141592653-2.6-0.999996 (TeX Live 2024) (preloaded format=xelatex 2024.9.15)  16 SEP 2024 21:46
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -679,34 +679,34 @@ Package: xurl 2022/01/09 v 0.10 modify URL breaks
 ) (./Example-article.aux)
 \openout1 = `Example-article.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 215.
-LaTeX Font Info:    ... okay on input line 215.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 215.
-LaTeX Font Info:    ... okay on input line 215.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 215.
-LaTeX Font Info:    ... okay on input line 215.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 215.
-LaTeX Font Info:    ... okay on input line 215.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 215.
-LaTeX Font Info:    ... okay on input line 215.
-LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 215.
-LaTeX Font Info:    ... okay on input line 215.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 215.
-LaTeX Font Info:    ... okay on input line 215.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 215.
-LaTeX Font Info:    ... okay on input line 215.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 215.
-LaTeX Font Info:    ... okay on input line 215.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 215.
-LaTeX Font Info:    ... okay on input line 215.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 220.
+LaTeX Font Info:    ... okay on input line 220.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 220.
+LaTeX Font Info:    ... okay on input line 220.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 220.
+LaTeX Font Info:    ... okay on input line 220.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 220.
+LaTeX Font Info:    ... okay on input line 220.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 220.
+LaTeX Font Info:    ... okay on input line 220.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 220.
+LaTeX Font Info:    ... okay on input line 220.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 220.
+LaTeX Font Info:    ... okay on input line 220.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 220.
+LaTeX Font Info:    ... okay on input line 220.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 220.
+LaTeX Font Info:    ... okay on input line 220.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 220.
+LaTeX Font Info:    ... okay on input line 220.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
-(Font)                  OT1/lmss/m/n --> TU/lmss/m/n on input line 215.
+(Font)                  OT1/lmss/m/n --> TU/lmss/m/n on input line 220.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  OT1/lmss/bx/n --> TU/lmss/b/n on input line 215.
+(Font)                  OT1/lmss/bx/n --> TU/lmss/b/n on input line 220.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
-(Font)                  OT1/lmtt/m/n --> TU/lmtt/m/n on input line 215.
+(Font)                  OT1/lmtt/m/n --> TU/lmtt/m/n on input line 220.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  OT1/lmtt/m/n --> TU/lmtt/b/n on input line 215.
+(Font)                  OT1/lmtt/m/n --> TU/lmtt/b/n on input line 220.
 
 Package fontspec Info: 
 (fontspec)             latinmodern-math scale = 0.9512734803940369.
@@ -734,7 +734,7 @@ Package fontspec Info:
 (fontspec)             <->s*[0.9512734803940369]"[latinmodern-math.otf]/OT:script=math;language=dflt;"
 
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(0)/m/n' will be
-(Font)              scaled to size 11.41534pt on input line 215.
+(Font)              scaled to size 11.41534pt on input line 220.
 
 Package fontspec Info: 
 (fontspec)             latinmodern-math scale = 0.9512734803940369.
@@ -770,15 +770,15 @@ Package fontspec Info:
 (fontspec)             <->s*[0.9512734803940369]"[latinmodern-math.otf]/OT:script=math;language=dflt;"
 
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(1)/m/n' will be
-(Font)              scaled to size 11.41534pt on input line 215.
+(Font)              scaled to size 11.41534pt on input line 220.
 LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
-(Font)              `operators' in the math version `normal' on input line 215.
+(Font)              `operators' in the math version `normal' on input line 220.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
-(Font)                  OT1/lmr/m/n --> TU/latinmodern-math.otf(1)/m/n on input line 215.
+(Font)                  OT1/lmr/m/n --> TU/latinmodern-math.otf(1)/m/n on input line 220.
 LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
-(Font)              `operators' in the math version `bold' on input line 215.
+(Font)              `operators' in the math version `bold' on input line 220.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
-(Font)                  OT1/lmr/bx/n --> TU/latinmodern-math.otf(1)/b/n on input line 215.
+(Font)                  OT1/lmr/bx/n --> TU/latinmodern-math.otf(1)/b/n on input line 220.
 
 Package fontspec Info: 
 (fontspec)             latinmodern-math scale = 0.9512734803940369.
@@ -844,13 +844,13 @@ Package fontspec Info:
 (fontspec)             <->s*[0.9513686077420763]"[latinmodern-math.otf]/OT:script=math;language=dflt;"
 
 LaTeX Font Info:    Encoding `OMS' has changed to `TU' for symbol font
-(Font)              `symbols' in the math version `normal' on input line 215.
+(Font)              `symbols' in the math version `normal' on input line 220.
 LaTeX Font Info:    Overwriting symbol font `symbols' in version `normal'
-(Font)                  OMS/lmsy/m/n --> TU/latinmodern-math.otf(2)/m/n on input line 215.
+(Font)                  OMS/lmsy/m/n --> TU/latinmodern-math.otf(2)/m/n on input line 220.
 LaTeX Font Info:    Encoding `OMS' has changed to `TU' for symbol font
-(Font)              `symbols' in the math version `bold' on input line 215.
+(Font)              `symbols' in the math version `bold' on input line 220.
 LaTeX Font Info:    Overwriting symbol font `symbols' in version `bold'
-(Font)                  OMS/lmsy/b/n --> TU/latinmodern-math.otf(2)/b/n on input line 215.
+(Font)                  OMS/lmsy/b/n --> TU/latinmodern-math.otf(2)/b/n on input line 220.
 
 Package fontspec Info: 
 (fontspec)             latinmodern-math scale = 0.9512734803940369.
@@ -910,19 +910,19 @@ Package fontspec Info:
 (fontspec)             <->s*[0.9511783530459975]"[latinmodern-math.otf]/OT:script=math;language=dflt;"
 
 LaTeX Font Info:    Encoding `OMX' has changed to `TU' for symbol font
-(Font)              `largesymbols' in the math version `normal' on input line 215.
+(Font)              `largesymbols' in the math version `normal' on input line 220.
 LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `normal'
-(Font)                  OMX/lmex/m/n --> TU/latinmodern-math.otf(3)/m/n on input line 215.
+(Font)                  OMX/lmex/m/n --> TU/latinmodern-math.otf(3)/m/n on input line 220.
 LaTeX Font Info:    Encoding `OMX' has changed to `TU' for symbol font
-(Font)              `largesymbols' in the math version `bold' on input line 215.
+(Font)              `largesymbols' in the math version `bold' on input line 220.
 LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `bold'
-(Font)                  OMX/lmex/m/n --> TU/latinmodern-math.otf(3)/b/n on input line 215.
-LaTeX Info: Redefining \microtypecontext on input line 215.
-Package microtype Info: Applying patch `item' on input line 215.
-Package microtype Info: Applying patch `toc' on input line 215.
-Package microtype Info: Applying patch `eqnum' on input line 215.
-Package microtype Info: Applying patch `footnote' on input line 215.
-Package microtype Info: Applying patch `verbatim' on input line 215.
+(Font)                  OMX/lmex/m/n --> TU/latinmodern-math.otf(3)/b/n on input line 220.
+LaTeX Info: Redefining \microtypecontext on input line 220.
+Package microtype Info: Applying patch `item' on input line 220.
+Package microtype Info: Applying patch `toc' on input line 220.
+Package microtype Info: Applying patch `eqnum' on input line 220.
+Package microtype Info: Applying patch `footnote' on input line 220.
+Package microtype Info: Applying patch `verbatim' on input line 220.
 Package microtype Info: Character protrusion enabled (level 2).
 Package microtype Info: Using protrusion set `basicmath'.
 Package microtype Info: No adjustment of tracking.
@@ -1256,52 +1256,15 @@ Package microtype Info: Character `₡' is missing
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: hyperref package is loaded.
 Package caption Info: End \AtBeginDocument code.
-Package hyperref Info: Link coloring OFF on input line 215.
+Package hyperref Info: Link coloring OFF on input line 220.
 LaTeX Font Info:    Font shape `TU/EBGaramond(0)/m/n' will be
-(Font)              scaled to size 48.0pt on input line 218.
-LaTeX Font Info:    Calculating math sizes for size <48> on input line 218.
-LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(1)/m/n' will be
-(Font)              scaled to size 45.66138pt on input line 218.
-LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(1)/m/n' will be
-(Font)              scaled to size 31.96281pt on input line 218.
-LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(1)/m/n' will be
-(Font)              scaled to size 22.83069pt on input line 218.
-LaTeX Font Info:    Trying to load font information for OML+lmm on input line 218.
-(c:/Users/cslau/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/lm/omllmm.fd
-File: omllmm.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
-)
-LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(2)/m/n' will be
-(Font)              scaled to size 45.66577pt on input line 218.
-LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(2)/m/n' will be
-(Font)              scaled to size 31.9659pt on input line 218.
-LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(2)/m/n' will be
-(Font)              scaled to size 22.83289pt on input line 218.
-LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/m/n' will be
-(Font)              scaled to size 45.65625pt on input line 218.
-LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/m/n' will be
-(Font)              scaled to size 31.95923pt on input line 218.
-LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/m/n' will be
-(Font)              scaled to size 22.82813pt on input line 218.
-LaTeX Font Info:    Trying to load font information for U+msa on input line 218.
-(c:/Users/cslau/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/amsfonts/umsa.fd
-File: umsa.fd 2013/01/14 v3.01 AMS symbols A
-) (c:/Users/cslau/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/microtype/mt-msa.cfg
-File: mt-msa.cfg 2006/02/04 v1.1 microtype config. file: AMS symbols (a) (RS)
-)
-LaTeX Font Info:    Trying to load font information for U+msb on input line 218.
-(c:/Users/cslau/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/amsfonts/umsb.fd
-File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-) (c:/Users/cslau/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/microtype/mt-msb.cfg
-File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
-)
-LaTeX Font Info:    Font shape `TU/EBGaramond(0)/m/n' will be
-(Font)              scaled to size 33.59985pt on input line 218.
+(Font)              scaled to size 48.0pt on input line 223.
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\@ifnextchar' on input line 218.
+(hyperref)                removing `\@ifnextchar' on input line 223.
 
 LaTeX Font Info:    Font shape `TU/EBGaramond(0)/m/it' will be
-(Font)              scaled to size 12.0pt on input line 222.
+(Font)              scaled to size 12.0pt on input line 227.
 Package microtype Info: Character `156' is missing
 (microtype)             in font `\TU/EBGaramond(0)/m/it/12'.
 (microtype)             Ignoring protrusion settings for this character.
@@ -1459,25 +1422,41 @@ Package microtype Info: Character `₡' is missing
 (microtype)             in font `\TU/EBGaramond(0)/m/it/12'.
 (microtype)             Ignoring protrusion settings for this character.
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(1)/m/n' will be
-(Font)              scaled to size 7.99072pt on input line 226.
+(Font)              scaled to size 7.99072pt on input line 231.
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(1)/m/n' will be
-(Font)              scaled to size 5.70767pt on input line 226.
+(Font)              scaled to size 5.70767pt on input line 231.
+LaTeX Font Info:    Trying to load font information for OML+lmm on input line 231.
+(c:/Users/cslau/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/lm/omllmm.fd
+File: omllmm.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
+)
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(2)/m/n' will be
-(Font)              scaled to size 11.41644pt on input line 226.
+(Font)              scaled to size 11.41644pt on input line 231.
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(2)/m/n' will be
-(Font)              scaled to size 7.9915pt on input line 226.
+(Font)              scaled to size 7.9915pt on input line 231.
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(2)/m/n' will be
-(Font)              scaled to size 5.70822pt on input line 226.
+(Font)              scaled to size 5.70822pt on input line 231.
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/m/n' will be
-(Font)              scaled to size 11.41406pt on input line 226.
+(Font)              scaled to size 11.41406pt on input line 231.
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/m/n' will be
-(Font)              scaled to size 7.98984pt on input line 226.
+(Font)              scaled to size 7.98984pt on input line 231.
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/m/n' will be
-(Font)              scaled to size 5.70703pt on input line 226.
+(Font)              scaled to size 5.70703pt on input line 231.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 231.
+(c:/Users/cslau/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/amsfonts/umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+) (c:/Users/cslau/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/microtype/mt-msa.cfg
+File: mt-msa.cfg 2006/02/04 v1.1 microtype config. file: AMS symbols (a) (RS)
+)
+LaTeX Font Info:    Trying to load font information for U+msb on input line 231.
+(c:/Users/cslau/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/amsfonts/umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+) (c:/Users/cslau/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/microtype/mt-msb.cfg
+File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
+)
 LaTeX Font Info:    Font shape `TU/EBGaramond(0)/m/it' will be
-(Font)              scaled to size 8.4pt on input line 226.
+(Font)              scaled to size 8.4pt on input line 231.
 LaTeX Font Info:    Font shape `TU/EBGaramond(0)/m/sc' will be
-(Font)              scaled to size 12.0pt on input line 233.
+(Font)              scaled to size 12.0pt on input line 238.
 
 Package microtype Warning: Unknown slot number of character
 (microtype)                `/one.tosf'
@@ -1584,50 +1563,50 @@ Package microtype Info: Character `₡' is missing
 (microtype)             in font `\TU/EBGaramond(0)/m/sc/12'.
 (microtype)             Ignoring protrusion settings for this character.
 LaTeX Font Info:    Font shape `TU/CormorantGaramond(0)/m/n' will be
-(Font)              scaled to size 12.74597pt on input line 233.
+(Font)              scaled to size 12.74597pt on input line 238.
 LaTeX Font Info:    Font shape `TU/CormorantGaramond(0)/m/n' will be
-(Font)              scaled to size 36.57669pt on input line 233.
+(Font)              scaled to size 36.57669pt on input line 238.
 LaTeX Font Info:    Font shape `TU/CormorantGaramond(0)/m/n' will be
-(Font)              scaled to size 52.49414pt on input line 233.
+(Font)              scaled to size 52.49414pt on input line 238.
 Package lettrine.sty Info: Targeted height = 34.436pt
 (lettrine.sty)             (for loversize=0, accent excluded),
 (lettrine.sty)             Lettrine height = 33.49126pt (A);
-(lettrine.sty)             reported on input line 233.
+(lettrine.sty)             reported on input line 238.
 LaTeX Font Info:    Font shape `TU/EBGaramond(0)/m/n' will be
-(Font)              scaled to size 17.28pt on input line 237.
+(Font)              scaled to size 17.28pt on input line 242.
 LaTeX Font Info:    Font shape `TU/EBGaramond(0)/m/it' will be
-(Font)              scaled to size 17.28pt on input line 237.
+(Font)              scaled to size 17.28pt on input line 242.
 File: ../Images/Alice-article-background-A.png Graphic file (type bmp)
 <../Images/Alice-article-background-A.png>
 [1
 
 ]
 LaTeX Font Info:    Font shape `TU/CormorantGaramond(0)/m/n' will be
-(Font)              scaled to size 21.17531pt on input line 262.
+(Font)              scaled to size 21.17531pt on input line 267.
 LaTeX Font Info:    Font shape `TU/CormorantGaramond(0)/m/n' will be
-(Font)              scaled to size 30.39038pt on input line 262.
+(Font)              scaled to size 30.39038pt on input line 267.
 Package lettrine.sty Info: Targeted height = 19.936pt
 (lettrine.sty)             (for loversize=0, accent excluded),
 (lettrine.sty)             Lettrine height = 19.32828pt (Q);
-(lettrine.sty)             reported on input line 262.
+(lettrine.sty)             reported on input line 267.
 Package lettrine.sty Info: Targeted height = 19.936pt
 (lettrine.sty)             (for loversize=0, accent excluded),
 (lettrine.sty)             Lettrine height = 19.38907pt (A);
-(lettrine.sty)             reported on input line 264.
+(lettrine.sty)             reported on input line 269.
 Package lettrine.sty Info: Targeted height = 19.936pt
 (lettrine.sty)             (for loversize=0, accent excluded),
 (lettrine.sty)             Lettrine height = 19.32828pt (Q);
-(lettrine.sty)             reported on input line 266.
+(lettrine.sty)             reported on input line 271.
 Package lettrine.sty Info: Targeted height = 19.936pt
 (lettrine.sty)             (for loversize=0, accent excluded),
 (lettrine.sty)             Lettrine height = 19.38907pt (A);
-(lettrine.sty)             reported on input line 268.
+(lettrine.sty)             reported on input line 273.
 LaTeX Font Info:    Font shape `TU/CormorantGaramond(0)/b/n' will be
-(Font)              scaled to size 12.74597pt on input line 275.
+(Font)              scaled to size 12.74597pt on input line 280.
 LaTeX Font Info:    Font shape `TU/EBGaramond(0)/m/n' will be
-(Font)              scaled to size 8.0pt on input line 280.
+(Font)              scaled to size 8.0pt on input line 285.
 
-Package caption Warning: Unused \captionsetup[table] on input line 110.
+Package caption Warning: Unused \captionsetup[table] on input line 115.
 See the caption package documentation for explanation.
 
 
@@ -1642,14 +1621,14 @@ L3 programming layer <2024-08-30>
  )
 (\end occurred inside a group at level 1)
 
-### semi simple group (level 1) entered at line 218 (\begingroup)
+### semi simple group (level 1) entered at line 223 (\begingroup)
 ### bottom level 
 Here is how much of TeX's memory you used:
- 21221 strings out of 476191
- 401450 string characters out of 5784197
- 987407 words of memory out of 5000000
- 43434 multiletter control sequences out of 15000+600000
- 565479 words of font info for 105 fonts, out of 8000000 for 9000
+ 21172 strings out of 476191
+ 399741 string characters out of 5784197
+ 987406 words of memory out of 5000000
+ 43395 multiletter control sequences out of 15000+600000
+ 562588 words of font info for 86 fonts, out of 8000000 for 9000
  36 hyphenation exceptions out of 8191
  90i,9n,126p,1021b,596s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
