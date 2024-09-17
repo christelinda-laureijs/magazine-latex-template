@@ -36,17 +36,13 @@ The line will automatically stretch to fill the current text container. In the f
 
 \begin{multicols}{3}
 
-Lorem ipsum odor amet, consectetuer adipiscing elit. Tristique ridiculus interdum faucibus tellus maecenas accumsan mauris vulputate. Aliquam sollicitudin eros phasellus gravida cursus tortor lacus pulvinar. Penatibus dictum magnis sollicitudin dictumst malesuada fermentum porttitor.
+Lorem ipsum odor amet, consectetuer adipiscing elit. Tristique ridiculus interdum faucibus tellus maecenas accumsan mauris vulputate. Aliquam sollicitudin eros phasellus gravida cursus tortor lacus pulvinar.
 
-Proin eu sem eget aliquet; semper suspendisse potenti ridiculus et. Aptent parturient aptent rhoncus malesuada condimentum. Nisi mus nostra congue varius pretium magnis; non dictum elit. Bibendum venenatis ac at magna mauris.
+Penatibus dictum magnis sollicitudin dictumst malesuada fermentum porttitor. Proin eu sem eget aliquet; semper suspendisse potenti ridiculus et. Aptent parturient aptent rhoncus malesuada condimentum.
 
-Torquent taciti arcu ligula vehicula mus non dignissim fermentum. Sagittis mollis orci aenean molestie curae lacinia nostra ullamcorper. Suscipit odio duis gravida habitant volutpat arcu. Auctor diam maximus in egestas curae rhoncus. Efficitur lectus gravida dolor ut cursus vehicula quam parturient! Luctus eleifend lacinia; velit placerat metus arcu orci vulputate.
+Nisi mus nostra congue varius pretium magnis; non dictum elit. Bibendum venenatis ac at magna mauris. Torquent taciti arcu ligula vehicula mus non dignissim fermentum. Sagittis mollis orci aenean molestie curae lacinia nostra ullamcorper.
 
-Facilisis maximus dictumst arcu porttitor mus amet. Parturient potenti facilisis vestibulum varius metus praesent. Maximus massa sollicitudin vitae; et sed inceptos. Penatibus praesent volutpat sagittis semper hendrerit luctus finibus ante. Faucibus a magna nibh ut donec dis torquent. Massa non fermentum aliquam lobortis; conubia integer sit sollicitudin.
-
-Facilisi maximus cursus fames pellentesque eu potenti. Imperdiet morbi suscipit aliquam suscipit maecenas per eget ut finibus. Blandit lacinia felis senectus ullamcorper praesent mollis fringilla. Suspendisse nostra ipsum iaculis conubia magna leo eget blandit. Fermentum cubilia cubilia dis; vehicula mattis sollicitudin.
-
-Praesent vitae iaculis sodales sagittis sociosqu amet platea etiam. Non tellus sem neque, adipiscing nam inceptos ac? Dapibus nascetur cubilia vel nunc parturient convallis arcu ultricies. Massa tellus ridiculus mattis inceptos ad ex curabitur eleifend. Gravida euismod nostra ad habitant ullamcorper in dui.
+Suscipit odio duis gravida habitant volutpat arcu. Auctor diam maximus in egestas curae rhoncus. Efficitur lectus gravida dolor ut cursus vehicula quam parturient! Luctus eleifend lacinia; velit placerat metus arcu orci vulputate.
 
 \begin{author-name}
 
@@ -54,11 +50,9 @@ Lewis Carroll
 
 \end{author-name}
 
-
 \end{multicols}
 
 \end{redacted-text}
-
 
 ### Preamble
 
@@ -75,15 +69,71 @@ Insert disclaimer text here, an intro, etc...
 
 ### Section Titles
 
-In most cases, \\section{Article title} should be fine. If you have a dark background image, you may want to change the text color. Use the following code at the top of the document:
+Use the \\section{} argument for article titles
+
+\begin{verbatim}
+\section{Article title}
+\end{verbatim}
+
+If you have a dark background image, you may want to change the text color. Use the following code for the title:
 
 \begin{verbatim}
 \section{\color{white} Alice in Wonderland}
 \end{verbatim}
 
+For subsections, use \\subsection{} (equivalent to Heading 2 in Word) and \\subsubsection{} (i.e. Heading 3)
+
+\begin{multicols}{3}
+
+\subsection{Heading 2}
+
+\begin{redacted-text}
+Lorem ipsum odor amet, consectetuer adipiscing elit. Tristique ridiculus interdum faucibus tellus maecenas accumsan mauris vulputate. Aliquam sollicitudin eros phasellus gravida cursus tortor lacus pulvinar.
+
+Penatibus dictum magnis sollicitudin dictumst malesuada fermentum porttitor. Proin eu sem eget aliquet; semper suspendisse potenti ridiculus et. Aptent parturient aptent rhoncus malesuada condimentum.
+
+\end{redacted-text}
+
+\subsubsection{Heading 3}
+
+\begin{redacted-text}
+Nisi mus nostra congue varius pretium magnis; non dictum elit. Bibendum venenatis ac at magna mauris. Torquent taciti arcu ligula vehicula mus non dignissim fermentum. Sagittis mollis orci aenean molestie curae lacinia nostra ullamcorper.
+
+Suscipit odio duis gravida habitant volutpat arcu. Auctor diam maximus in egestas curae rhoncus. Efficitur lectus gravida dolor ut cursus vehicula quam parturient! Luctus eleifend lacinia; velit placerat metus arcu orci vulputate.
+
+\end{redacted-text}
+
+\end{multicols}
+
+
 ### Images
 
 This template uses full-bleed background images. They must be 8.5 in x 11 in, and they can be either .PDF or .PNG files (if .PNG, try to have at least 300 DPI).
+
+The command \\AddToShipoutPictureBG* from the *eso-pic* package allows you to add a background picture on a specific page.
+
+\begin{verbatim}
+\AddToShipoutPictureBG*{\BackgroundPictureAliceA}
+\end{verbatim}
+
+# TODo: Mention that names must be all letters, with no numbers, or special characters
+
+The *\\BackgroundPictureAliceA comes from a command that should be added into the preamble. There will be a different command for each background image. Here is an example for the background of page 1 of Example-article.pdf.
+
+\begin{verbatim}
+\newcommand\BackgroundPictureAliceA{%
+  \put(0,0){%
+   \parbox[b][\paperheight]{\paperwidth}{%
+     \vfill
+     \centering
+     \includegraphics[width=\paperwidth,height=\paperheight,%
+                      keepaspectratio]{../Images/Alice-article-background-A.png}%
+     \vfill
+    }
+  }
+}
+\end{verbatim}
+
 
 
 
