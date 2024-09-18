@@ -3,11 +3,9 @@ title: "About the Project"
 output:
   github_document:
     html_preview: false
-    toc: true
+    toc: false
     toc_depth: 2
 ---
-
-# Instructions
 
 This repository contains LaTeX code to create a beautifully typeset magazine. The Magazine-preamble.tex file contains custom environments for Question-and-Answer articles, author names, a preamble, and quotes.
 

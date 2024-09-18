@@ -1,11 +1,6 @@
 About the Project
 ================
 
-- [Instructions](#instructions)
-  - [How to use](#how-to-use)
-
-# Instructions
-
 This repository contains LaTeX code to create a beautifully typeset
 magazine. The Magazine-preamble.tex file contains custom environments
 for Question-and-Answer articles, author names, a preamble, and quotes.
