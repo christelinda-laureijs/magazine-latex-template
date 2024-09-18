@@ -8,7 +8,10 @@ output:
       in_header: "../Templates/Magazine-preamble.tex"
 fontsize: 12pt
 geometry:
-- margin = 0.55in
+- top=1in
+- bottom=1in
+- left=1.25in
+- right=1.25in
 - bindingoffset = 0mm # Set to 8 mm for printing
 linestretch: 1
 classoption: twoside
@@ -41,10 +44,10 @@ This document will help you get up and running with magazine creation. If you're
     \item Any special characters, superscripts, or subscripts
   \end{itemize}
   \item Read through the instructions below to identify the environment tags you'll need.
-  \item Add the tags to your document. For example, you may need to surround the author name with begin\{author-name\} and end\{author-name\}.
+  \item Add the tags to your document. For example, you may need to surround the author name with \textbackslash begin\{author-name\} and \textbackslash end\{author-name\}.
   \item If using background images, create an 8.5" x 11" image (.PNG at at least 300 DPI or a .PDF)
-  \item Copy the Blank-article.Rmd and insert your content
-  \item Knit the article to a PDF and tweak the output until you're satisfied
+  \item Copy the Blank-article.Rmd, save it as an .Rmd file with a new title, and insert your content
+  \item Through RStudio, knit the article to a PDF and tweak the output until you're satisfied
 \end{enumerate}
 
 ### Preamble
@@ -110,7 +113,7 @@ Type \\Q and then the question. Type \\A before the answer. Questions and answer
 
 This template uses full-bleed background images. They must be 8.5 in x 11 in, and they can be either .PDF or .PNG files (if .PNG, try to have at least 300 DPI).
 
-I've created a new command called \\InsertBackgroundPicture{}, which uses \\AddToShipoutPictureBG* from the *eso-pic* package. This allows you to place a full-size background picture to a specific page. The command accepts one argument, which is the filepath for the image. I'm using two dots at the beginning of the name (\textit{../}) to specify that LaTeX needs to move up one folder level (relative to this \textit{.Rmd} file) and then into the \textit{Images/} folder.
+I've created a new command called \\InsertBackgroundPicture{}, which uses \\AddToShipoutPictureBG* from the *eso-pic* package. This allows you to place a full-size background picture on a specific page. The command accepts one argument, which is the filepath for the image. I'm using two dots at the beginning of the name (\textit{../}) to specify that LaTeX needs to move up one folder level (relative to this \textit{.Rmd} file) and then into the \textit{Images/} folder.
 
 \begin{verbatim}
 \InsertBackgroundPicture{../Images/Alice-article-background-A.png}
@@ -128,7 +131,7 @@ R^2^
 
 ### Author names
 
-To insert an author name, type in the following code near the end of the article.
+To insert an author's name, type in the following code near the end of the article.
 
 \begin{verbatim}
 \begin{author-name}
@@ -171,7 +174,7 @@ Paste in references here...
 
 ## What is \LaTeX?
 
-\LaTeX\ (pronounced lay-tech) is a free program used to create beautifully typeset documents like books, theses, and newsletters. It is very different than Microsoft Word. Instead of selecting text and clicking on a button to make it \textbf{bold} or \textit{italicized}, you write code like \\textit{} for italics. It seems like more work than necessary, but there are several strong advantages for using \LaTeX.
+\LaTeX\ (pronounced lay-tech) is a free program used to create beautifully typeset documents like books, theses, and newsletters. It is very different than Microsoft Word. Instead of selecting text and clicking on a button to make it \textbf{bold} or \textit{italicized}, you write code like \\textit{} for italics. It seems like more work than necessary, but there are several advantages of using \LaTeX.
 
 ### Beautiful typography
 
@@ -190,7 +193,7 @@ Paste in references here...
 Really, only typography nerds will notice or care about these details. But professional-quality typesetting does have an overall effect on the appearance of the document.
 
 ```{r ligatures-comparison}
-#| fig.cap = "Ligatures are specialized characters that replace letter combinations like \\textit{fi}. Left: Word does not automatically include ligatures, so these letters clash. In this Word example, notice the collision between the curve of the \\textit{f} and the dot in \\textit{i}. The word \\textit{office} also has slightly misaligned \\textit{f}'s. Right: \\LaTeX{} has full support for ligatures. These words showcase the \\textit{ffi} and \\textit{fi} ligatures. \\label{ligatures}",
+#| fig.cap = "Ligatures are specialized characters that replace letter combinations like \\textit{fi}. Left: Word does not automatically include ligatures, so these letters clash. In this Word example, notice the collision between the curve of the \\textit{f} and the dot in \\textit{i}. The word \\textit{office} also has slightly misaligned \\textit{f}'s. Disclaimer: I used a Garamond typeface that doesn't have ligatures, which is why the letters look different than the ones on the right. Right: \\LaTeX{} has full support for ligatures. These words showcase the \\textit{ffi} and \\textit{fi} ligatures. \\label{ligatures}",
 #| fig.scap = "Ligature comparison.",
 #| out.width = "70%",
 #| purl = FALSE
@@ -211,7 +214,7 @@ knitr::include_graphics(here::here("Images/Dropcaps-comparison.png"))
 
 ### No manual formatting
 
-You don't need to manually adjust spacing, figure numbers, or page numbers.
+You don't need to manually adjust the spacing, figure numbers, or page numbers. Details like this are all specified in the document preamble, and \LaTeX will handle the rest.
 
 ### Uses Plaintext
 
@@ -221,7 +224,7 @@ Word documents often crash when they get too large or have too many images. Sinc
 
 \LaTeX makes it easy for you to manage large documents like a thesis or book because it allows for easy cross-referencing of figures, footnotes, quotes, and citations. To add a list of figures, just type \\listoffigures!
 
-Inserting a new page or image into a lengthy document (typically a harrowing process in Word) is not  difficult in \LaTeX\ and you have a lot of control over the layout of your sections. It's easy to move things around, and \LaTeX\ will automatically re-number all your figures and footnotes.
+Inserting a new page or image into a lengthy document (typically a harrowing process in Word) is not difficult in \LaTeX\ and you have a lot of control over the layout of your sections. It's easy to move things around, and \LaTeX\ will automatically re-number all your figures and footnotes.
 
 ### Mathematics
 

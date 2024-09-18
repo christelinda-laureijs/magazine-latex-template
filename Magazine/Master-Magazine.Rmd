@@ -9,7 +9,10 @@ output:
       in_header: "../Templates/Magazine-preamble.tex"
 fontsize: 12pt
 geometry:
-- margin = 0.55in
+- top=0.55in
+- bottom=0.75in
+- left=0.55in
+- right=0.55in
 - bindingoffset = 0mm # Set to 8 mm for printing
 linestretch: 1
 classoption: twoside
