@@ -25,39 +25,27 @@ knitr::opts_chunk$set(echo = FALSE,
 
 This document will help you get up and running with magazine creation. If you're thinking, "What is \LaTeX\?", I have a short intro section at the end of this document!
 
-### Author names
+### Overview
 
-To insert an author name, type in the following code near the end of the article.
-
-\begin{verbatim}
-\begin{author-name}
-Lewis Carroll
-\end{author-name}
-\end{verbatim}
-
-The line will automatically stretch to fill the current text container. In the following example, I placed the author environment before \\end{multicols} to have it only take up one column.
-
-\begin{redacted-text}
-
-\begin{multicols}{3}
-
-Lorem ipsum odor amet, consectetuer adipiscing elit. Tristique ridiculus interdum faucibus tellus maecenas accumsan mauris vulputate. Aliquam sollicitudin eros phasellus gravida cursus tortor lacus pulvinar.
-
-Penatibus dictum magnis sollicitudin dictumst malesuada fermentum porttitor. Proin eu sem eget aliquet; semper suspendisse potenti ridiculus et. Aptent parturient aptent rhoncus malesuada condimentum.
-
-Nisi mus nostra congue varius pretium magnis; non dictum elit. Bibendum venenatis ac at magna mauris. Torquent taciti arcu ligula vehicula mus non dignissim fermentum. Sagittis mollis orci aenean molestie curae lacinia nostra ullamcorper.
-
-Suscipit odio duis gravida habitant volutpat arcu. Auctor diam maximus in egestas curae rhoncus. Efficitur lectus gravida dolor ut cursus vehicula quam parturient! Luctus eleifend lacinia; velit placerat metus arcu orci vulputate.
-
-\begin{author-name}
-
-Lewis Carroll
-
-\end{author-name}
-
-\end{multicols}
-
-\end{redacted-text}
+\begin{enumerate}
+  \item Write your article
+  \item Decide if your article needs any subsection headers to break up the text
+  \item Identify if your article has any of the following:
+  \begin{itemize}
+    \item A disclaimer/preamble before the main content
+    \item Subsection headers
+    \item A Q\&A
+    \item An author name
+    \item References
+    \item Any background images
+    \item Any special characters, superscripts, or subscripts
+  \end{itemize}
+  \item Read through the instructions below to identify the environment tags you'll need.
+  \item Add the tags to your document. For example, you may need to surround the author name with begin{author-name} and end{author-name}.
+  \item If using background images, create an 8.5" x 11" image (.PNG at at least 300 DPI or a .PDF)
+  \item Copy the Blank-article.Rmd and insert your content
+  \item Knit the article to a PDF and tweak the output until you're satisfied
+\end{enumerate}
 
 ### Preamble
 
@@ -71,8 +59,7 @@ Insert disclaimer text here, an intro, etc...
 \end{preamble}
 \end{verbatim}
 
-
-### Section Titles
+### Section headers
 
 Use the \\section{} argument for article titles
 
@@ -110,8 +97,16 @@ Suscipit odio duis gravida habitant volutpat arcu. Auctor diam maximus in egesta
 
 \end{multicols}
 
+### Q\&A
 
-### Images
+Type \\Q and then the question. Type \\A before the answer. Questions and answers will then have a specialized drop-caps to make them stand out nicely.
+
+\begin{verbatim}
+\Q What happened to Alice?
+\A She saw a stressed rabbit.
+\end{verbatim}
+
+### Background images
 
 This template uses full-bleed background images. They must be 8.5 in x 11 in, and they can be either .PDF or .PNG files (if .PNG, try to have at least 300 DPI).
 
@@ -120,6 +115,59 @@ I've created a new command called \\InsertBackgroundPicture{}, which uses \\AddT
 \begin{verbatim}
 \InsertBackgroundPicture{../Images/Alice-article-background-A.png}
 \end{verbatim}
+
+### Superscripts/subscripts
+
+Use the caret (^) symbol on both sides of the character that will become the superscript. Use the tilde (~) symbol on both sides of the character that will become the subscript.
+
+\begin{verbatim}
+H~2~O
+
+R^2^
+\end{verbatim}
+
+### Author names
+
+To insert an author name, type in the following code near the end of the article.
+
+\begin{verbatim}
+\begin{author-name}
+Lewis Carroll
+\end{author-name}
+\end{verbatim}
+
+The line will automatically stretch to fill the current text container. In the following example, I placed the author environment before \\end{multicols} to have it only take up one column.
+
+\begin{redacted-text}
+
+\begin{multicols}{3}
+
+Lorem ipsum odor amet, consectetuer adipiscing elit. Tristique ridiculus interdum faucibus tellus maecenas accumsan mauris vulputate. Aliquam sollicitudin eros phasellus gravida cursus tortor lacus pulvinar.
+
+Penatibus dictum magnis sollicitudin dictumst malesuada fermentum porttitor. Proin eu sem eget aliquet; semper suspendisse potenti ridiculus et. Aptent parturient aptent rhoncus malesuada condimentum.
+
+Nisi mus nostra congue varius pretium magnis; non dictum elit. Bibendum venenatis ac at magna mauris. Torquent taciti arcu ligula vehicula mus non dignissim fermentum.
+
+\begin{author-name}
+
+Lewis Carroll
+
+\end{author-name}
+
+\end{multicols}
+
+\end{redacted-text}
+
+### References
+
+Use the references environment tag.
+
+\begin{verbatim}
+\begin{references}
+Paste in references here...
+\end{references}
+\end{verbatim}
+
 
 ## What is \LaTeX?
 

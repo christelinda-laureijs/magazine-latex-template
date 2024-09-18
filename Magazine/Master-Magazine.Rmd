@@ -50,6 +50,8 @@ A template for creating magazine-style layouts with R and \LaTeX
 \end{centering}
 
 
+\newpage
+\pagenumbering{arabic}
 ```{r child='Example-article.Rmd'}
 
 ```

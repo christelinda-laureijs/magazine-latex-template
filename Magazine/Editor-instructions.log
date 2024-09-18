@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999996 (TeX Live 2024) (preloaded format=xelatex 2024.9.15)  17 SEP 2024 20:45
+This is XeTeX, Version 3.141592653-2.6-0.999996 (TeX Live 2024) (preloaded format=xelatex 2024.9.15)  17 SEP 2024 21:53
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1331,31 +1331,24 @@ LaTeX Font Info:    Font shape `TU/CormorantGaramond(0)/m/n' will be
 (Font)              scaled to size 15.29515pt on input line 240.
 LaTeX Font Info:    Font shape `TU/CormorantGaramond(0)/b/n' will be
 (Font)              scaled to size 15.29515pt on input line 240.
-LaTeX Font Info:    Font shape `TU/RedactedScript(0)/m/n' will be
-(Font)              scaled to size 11.20715pt on input line 255.
-
-Underfull \hbox (badness 5403) in paragraph at lines 259--260
-\TU/RedactedScript(0)/m/n/12 sectetuer adipiscing elit.
- []
-
-LaTeX Font Info:    Font shape `TU/CormorantGaramond(0)/b/n' will be
-(Font)              scaled to size 12.74597pt on input line 267.
 
 
 [1
 
 ]
 LaTeX Font Info:    Font shape `TU/EBGaramond(0)/m/n' will be
-(Font)              scaled to size 17.28pt on input line 310.
+(Font)              scaled to size 17.28pt on input line 295.
 LaTeX Font Info:    Font shape `TU/EBGaramond(0)/m/it' will be
-(Font)              scaled to size 17.28pt on input line 310.
+(Font)              scaled to size 17.28pt on input line 295.
+LaTeX Font Info:    Font shape `TU/RedactedScript(0)/m/n' will be
+(Font)              scaled to size 11.20715pt on input line 297.
 
-Underfull \hbox (badness 5403) in paragraph at lines 313--314
+Underfull \hbox (badness 5403) in paragraph at lines 298--299
 \TU/RedactedScript(0)/m/n/12 sectetuer adipiscing elit.
  []
 
 LaTeX Font Info:    Font shape `TU/EBGaramond(0)/m/it' will be
-(Font)              scaled to size 12.0pt on input line 338.
+(Font)              scaled to size 12.0pt on input line 334.
 Package microtype Info: Character `156' is missing
 (microtype)             in font `\TU/EBGaramond(0)/m/it/12'.
 (microtype)             Ignoring protrusion settings for this character.
@@ -1512,25 +1505,31 @@ Package microtype Info: Character `ƒ' is missing
 Package microtype Info: Character `₡' is missing
 (microtype)             in font `\TU/EBGaramond(0)/m/it/12'.
 (microtype)             Ignoring protrusion settings for this character.
-LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(1)/m/n' will be
-(Font)              scaled to size 16.43808pt on input line 349.
-LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(1)/m/n' will be
-(Font)              scaled to size 9.51279pt on input line 349.
-LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(2)/m/n' will be
-(Font)              scaled to size 16.43967pt on input line 349.
-LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(2)/m/n' will be
-(Font)              scaled to size 9.5137pt on input line 349.
-LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/m/n' will be
-(Font)              scaled to size 16.43625pt on input line 349.
-LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/m/n' will be
-(Font)              scaled to size 9.51172pt on input line 349.
-
-LaTeX Font Warning: Font shape `TU/EBGaramond(0)/b/n' undefined
-(Font)              using `TU/EBGaramond(0)/m/n' instead on input line 354.
-
 
 
 [2]
+Underfull \hbox (badness 5403) in paragraph at lines 376--377
+\TU/RedactedScript(0)/m/n/12 sectetuer adipiscing elit.
+ []
+
+LaTeX Font Info:    Font shape `TU/CormorantGaramond(0)/b/n' will be
+(Font)              scaled to size 12.74597pt on input line 382.
+LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(1)/m/n' will be
+(Font)              scaled to size 16.43808pt on input line 402.
+LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(1)/m/n' will be
+(Font)              scaled to size 9.51279pt on input line 402.
+LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(2)/m/n' will be
+(Font)              scaled to size 16.43967pt on input line 402.
+LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(2)/m/n' will be
+(Font)              scaled to size 9.5137pt on input line 402.
+LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/m/n' will be
+(Font)              scaled to size 16.43625pt on input line 402.
+LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/m/n' will be
+(Font)              scaled to size 9.51172pt on input line 402.
+
+LaTeX Font Warning: Font shape `TU/EBGaramond(0)/b/n' undefined
+(Font)              using `TU/EBGaramond(0)/m/n' instead on input line 407.
+
 File: ../Images/Ligature-comparison.png Graphic file (type bmp)
 <../Images/Ligature-comparison.png>
 File: ../Images/Dropcaps-comparison.png Graphic file (type bmp)
@@ -1539,12 +1538,14 @@ File: ../Images/Dropcaps-comparison.png Graphic file (type bmp)
 
 [3]
 
+[4]
+
 Package caption Warning: Unused \captionsetup[table] on input line 126.
 See the caption package documentation for explanation.
 
 
 
-[4] (./Editor-instructions.aux)
+[5] (./Editor-instructions.aux)
  ***********
 LaTeX2e <2024-06-01> patch level 2
 L3 programming layer <2024-08-30>
@@ -1558,12 +1559,12 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 ### semi simple group (level 1) entered at line 234 (\begingroup)
 ### bottom level 
 Here is how much of TeX's memory you used:
- 21287 strings out of 476191
- 402907 string characters out of 5784197
- 968507 words of memory out of 5000000
- 43496 multiletter control sequences out of 15000+600000
+ 21299 strings out of 476191
+ 403101 string characters out of 5784197
+ 970655 words of memory out of 5000000
+ 43508 multiletter control sequences out of 15000+600000
  564535 words of font info for 101 fonts, out of 8000000 for 9000
  36 hyphenation exceptions out of 8191
- 90i,7n,126p,1016b,547s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 90i,7n,126p,1016b,553s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on Editor-instructions.pdf (4 pages).
+Output written on Editor-instructions.pdf (5 pages).
