@@ -50,6 +50,37 @@ This document will help you get up and running with magazine creation. If you're
   \item Through RStudio, knit the article to a PDF and tweak the output until you're satisfied
 \end{enumerate}
 
+Note: It may take a long time to knit the document the first time, since R will likely need to install some packages.
+
+### Title
+
+Use the \\section{} argument for article titles.
+
+\begin{verbatim}
+\section{Article title}
+\end{verbatim}
+
+If you have a dark background image, you may want to change the text color. Use the following code for the title:
+
+\begin{verbatim}
+\section{\color{white} Alice in Wonderland}
+\end{verbatim}
+
+For example, \color{white} Alice in Wonderland \color{black} (it's here, you just can't see it because it's white!)
+
+### Columns
+
+This template uses the multicols package to enable columns. Right after the article title, insert this code to begin the 3-column layout.
+
+\begin{verbatim}
+\begin{multicols}{3}
+
+Entire article content goes here (preamble, main text, author name, references)
+
+\end{multicols}
+\end{verbatim}
+
+
 ### Preamble
 
 Some articles require some explanatory text or a disclaimer before the main content. Use the preamble environment for this.
@@ -62,21 +93,21 @@ Insert disclaimer text here, an intro, etc...
 \end{preamble}
 \end{verbatim}
 
+### Drop caps
+
+\lettrine{D}{rop} caps are a fun way to emphasize the first letter of the first word of the article. Use the \\lettrine\{\}\{\} command to insert a drop cap on the first word of the article. This requires two sets of parentheses. Put the first letter in the first set of brackets, and the rest of the word in the other brackets.
+
+After you add this code, \LaTeX\ will put in a drop cap and make the rest of the word in small caps to emphasize it.
+
+\begin{verbatim}
+\lettrine{D}{rop} caps are a fun way to emphasize the first letter... 
+\end{verbatim}
+
+
 ### Section headers
 
-Use the \\section{} argument for article titles
-
-\begin{verbatim}
-\section{Article title}
-\end{verbatim}
-
-If you have a dark background image, you may want to change the text color. Use the following code for the title:
-
-\begin{verbatim}
-\section{\color{white} Alice in Wonderland}
-\end{verbatim}
-
 For subsections, use \\subsection{} (equivalent to Heading 2 in Word) and \\subsubsection{} (i.e. Heading 3)
+
 
 \begin{multicols}{3}
 
@@ -102,12 +133,14 @@ Suscipit odio duis gravida habitant volutpat arcu. Auctor diam maximus in egesta
 
 ### Q\&A
 
-Type \\Q and then the question. Type \\A before the answer. Questions and answers will then have specialized drop-caps to make them stand out nicely.
+\Q How do you make the "Q" and "A" stand out in a Questions \& Answers article?
+\A Type \\Q and then the question. Type \\A before the answer. The letters will then have specialized drop-caps to make them stand out nicely.
 
 \begin{verbatim}
 \Q What happened to Alice?
 \A She saw a stressed rabbit.
 \end{verbatim}
+
 
 ### Background images
 
@@ -141,9 +174,12 @@ Lewis Carroll
 
 The line will automatically stretch to fill the current text container. In the following example, I placed the author environment before \\end{multicols} to have it only take up one column.
 
-\begin{redacted-text}
+
+
 
 \begin{multicols}{3}
+
+\begin{redacted-text}
 
 Lorem ipsum odor amet, consectetuer adipiscing elit. Tristique ridiculus interdum faucibus tellus maecenas accumsan mauris vulputate. Aliquam sollicitudin eros phasellus gravida cursus tortor lacus pulvinar.
 
@@ -151,15 +187,16 @@ Penatibus dictum magnis sollicitudin dictumst malesuada fermentum porttitor. Pro
 
 Nisi mus nostra congue varius pretium magnis; non dictum elit. Bibendum venenatis ac at magna mauris. Torquent taciti arcu ligula vehicula mus non dignissim fermentum.
 
-\begin{author-name}
+\end{redacted-text}
+
+\rule[-1pt]{5cm}{1pt}
 
 Lewis Carroll
 
-\end{author-name}
 
 \end{multicols}
 
-\end{redacted-text}
+
 
 ### References
 
@@ -192,6 +229,8 @@ Paste in references here...
 
 Really, only typography nerds will notice or care about these details. But professional-quality typesetting does have an overall effect on the appearance of the document.
 
+
+
 ```{r ligatures-comparison}
 #| fig.cap = "Ligatures are specialized characters that replace letter combinations like \\textit{fi}. Left: Word does not automatically include ligatures, so these letters clash. In this Word example, notice the collision between the curve of the \\textit{f} and the dot in \\textit{i}. The word \\textit{office} also has slightly misaligned \\textit{f}'s. Disclaimer: I used a Garamond typeface that doesn't have ligatures, which is why the letters look different than the ones on the right. Right: \\LaTeX{} has full support for ligatures. These words showcase the \\textit{ffi} and \\textit{fi} ligatures. \\label{ligatures}",
 #| fig.scap = "Ligature comparison.",
@@ -203,7 +242,7 @@ knitr::include_graphics(here::here("Images/Ligature-comparison.png"))
 
 
 ```{r drop-caps-comparison}
-#| fig.cap = "This figure highlights some key differences between typesetting in Word (left) and \\LaTeX{} (right). Notice how Word creates a misaligned drop-cap and awkward justification, with several gaps (highlighted in red). \\LaTeX{} produces neatly aligned text, and it even uses small caps to emphasize the first word. \\label{drop-caps}",
+#| fig.cap = "This figure highlights some key differences between typesetting in Word (left) and \\LaTeX{} (right). Notice how Word creates a misaligned drop-cap and awkward justification, with several gaps (highlighted in red). \\LaTeX{} produces neatly aligned text, and it even uses small caps to emphasize the first word. \\label{drops}",
 #| fig.scap = "Ligature comparison.",
 #| out.width = "70%",
 #| purl = FALSE

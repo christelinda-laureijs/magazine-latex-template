@@ -55,9 +55,11 @@ A template for creating magazine-style layouts with R and \LaTeX
 
 \newpage
 \pagenumbering{arabic}
+
 ```{r child='Example-article.Rmd'}
 
 ```
+
 
 ```{r child='Editor-instructions.Rmd'}
 
