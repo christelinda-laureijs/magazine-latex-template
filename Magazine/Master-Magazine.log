@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999996 (TeX Live 2024) (preloaded format=xelatex 2024.9.15)  18 SEP 2024 09:34
+This is XeTeX, Version 3.141592653-2.6-0.999996 (TeX Live 2024) (preloaded format=xelatex 2024.9.15)  20 SEP 2024 22:21
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2108,47 +2108,69 @@ Underfull \hbox (badness 10000) in paragraph at lines 330--331
 
 
 
-[3]
+[1]
 
-[4]
-Underfull \hbox (badness 1389) in paragraph at lines 390--392
-[]\TU/EBGaramond(0)/m/n/14.4 For subsections, use \subsection{} (equivalent to Heading 2 in Word) and \subsubsection{}
+[2]
+Overfull \hbox (51.06624pt too wide) in paragraph at lines 396--396
+[]\TU/lmtt/m/n/14.4 Entire article content goes here (preamble, main text, author name, references)[] 
  []
 
-LaTeX Font Info:    Font shape `TU/RedactedScript(0)/m/n' will be
-(Font)              scaled to size 13.44858pt on input line 397.
+Package lettrine.sty Info: Targeted height = 42.5232pt
+(lettrine.sty)             (for loversize=0, accent excluded),
+(lettrine.sty)             Lettrine height = 40.64354pt (D);
+(lettrine.sty)             reported on input line 413.
 
-Underfull \hbox (badness 6396) in paragraph at lines 400--401
+Underfull \hbox (badness 1389) in paragraph at lines 428--430
+\TU/EBGaramond(0)/m/n/14.4 For subsections, use \subsection{} (equivalent to Heading 2 in Word) and \subsubsection{}
+ []
+
+
+Underfull \vbox (badness 2073) has occurred while \output is active []
+
+
+
+[3]
+LaTeX Font Info:    Font shape `TU/RedactedScript(0)/m/n' will be
+(Font)              scaled to size 13.44858pt on input line 435.
+
+Underfull \hbox (badness 6396) in paragraph at lines 438--439
 []\TU/RedactedScript(0)/m/n/14.4 Penatibus dictum mag-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 400--401
+Underfull \hbox (badness 10000) in paragraph at lines 438--439
 \TU/RedactedScript(0)/m/n/14.4 nis sollicitudin dic-
  []
 
+Package lettrine.sty Info: Targeted height = 24.5232pt
+(lettrine.sty)             (for loversize=0, accent excluded),
+(lettrine.sty)             Lettrine height = 23.77565pt (Q);
+(lettrine.sty)             reported on input line 455.
+Package lettrine.sty Info: Targeted height = 24.5232pt
+(lettrine.sty)             (for loversize=0, accent excluded),
+(lettrine.sty)             Lettrine height = 23.85042pt (A);
+(lettrine.sty)             reported on input line 456.
 
-Underfull \vbox (badness 2310) has occurred while \output is active []
+
+[4]
+Underfull \hbox (badness 6396) in paragraph at lines 517--518
+[]\TU/RedactedScript(0)/m/n/14.4 Penatibus dictum mag-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 517--518
+\TU/RedactedScript(0)/m/n/14.4 nis sollicitudin dic-
+ []
 
 
 
 [5]
-Underfull \hbox (badness 6396) in paragraph at lines 478--479
-[]\TU/RedactedScript(0)/m/n/14.4 Penatibus dictum mag-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 478--479
-\TU/RedactedScript(0)/m/n/14.4 nis sollicitudin dic-
- []
-
-[6]
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(2)/m/n' will be
-(Font)              scaled to size 11.41644pt on input line 502.
+(Font)              scaled to size 11.41644pt on input line 540.
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/m/n' will be
-(Font)              scaled to size 11.41406pt on input line 502.
+(Font)              scaled to size 11.41406pt on input line 540.
 LaTeX Font Info:    Font shape `TU/EBGaramond(0)/m/it' will be
-(Font)              scaled to size 12.0pt on input line 502.
+(Font)              scaled to size 12.0pt on input line 540.
 Package microtype Info: Character `156' is missing
 (microtype)             in font `\TU/EBGaramond(0)/m/it/12'.
 (microtype)             Ignoring protrusion settings for this character.
@@ -2307,38 +2329,38 @@ Package microtype Info: Character `₡' is missing
 (microtype)             Ignoring protrusion settings for this character.
 
 LaTeX Font Warning: Font shape `TU/EBGaramond(0)/b/n' undefined
-(Font)              using `TU/EBGaramond(0)/m/n' instead on input line 507.
+(Font)              using `TU/EBGaramond(0)/m/n' instead on input line 545.
 
 File: ../Images/Ligature-comparison.png Graphic file (type bmp)
 <../Images/Ligature-comparison.png>
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(1)/m/n' will be
-(Font)              scaled to size 7.99072pt on input line 536.
+(Font)              scaled to size 7.99072pt on input line 574.
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(1)/m/n' will be
-(Font)              scaled to size 5.70767pt on input line 536.
+(Font)              scaled to size 5.70767pt on input line 574.
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(2)/m/n' will be
-(Font)              scaled to size 7.9915pt on input line 536.
+(Font)              scaled to size 7.9915pt on input line 574.
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(2)/m/n' will be
-(Font)              scaled to size 5.70822pt on input line 536.
+(Font)              scaled to size 5.70822pt on input line 574.
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/m/n' will be
-(Font)              scaled to size 7.98984pt on input line 536.
+(Font)              scaled to size 7.98984pt on input line 574.
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/m/n' will be
-(Font)              scaled to size 5.70703pt on input line 536.
+(Font)              scaled to size 5.70703pt on input line 574.
 LaTeX Font Info:    Font shape `TU/EBGaramond(0)/m/n' will be
-(Font)              scaled to size 8.4pt on input line 536.
+(Font)              scaled to size 8.4pt on input line 574.
 File: ../Images/Dropcaps-comparison.png Graphic file (type bmp)
 <../Images/Dropcaps-comparison.png>
 
 
-[7]
+[6]
 
-[8]
+[7]
 
 Package caption Warning: Unused \captionsetup[table] on input line 127.
 See the caption package documentation for explanation.
 
 
 
-[9] (./Master-Magazine.aux)
+[8] (./Master-Magazine.aux)
  ***********
 LaTeX2e <2024-06-01> patch level 2
 L3 programming layer <2024-08-30>
@@ -2349,16 +2371,16 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
  )
 (\end occurred inside a group at level 2)
 
-### semi simple group (level 2) entered at line 334 (\begingroup)
+### semi simple group (level 2) entered at line 336 (\begingroup)
 ### semi simple group (level 1) entered at line 267 (\begingroup)
 ### bottom level 
 Here is how much of TeX's memory you used:
- 21429 strings out of 476191
- 408140 string characters out of 5784197
- 972933 words of memory out of 5000000
- 43612 multiletter control sequences out of 15000+600000
+ 21435 strings out of 476191
+ 408181 string characters out of 5784197
+ 973135 words of memory out of 5000000
+ 43618 multiletter control sequences out of 15000+600000
  568471 words of font info for 135 fonts, out of 8000000 for 9000
  36 hyphenation exceptions out of 8191
- 90i,9n,126p,1021b,599s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 90i,9n,126p,1021b,709s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on Master-Magazine.pdf (10 pages).
+Output written on Master-Magazine.pdf (11 pages).

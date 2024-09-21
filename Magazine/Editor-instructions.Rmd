@@ -23,6 +23,7 @@ knitr::opts_chunk$set(echo = FALSE,
                       fig.align = "center")
 ```
 
+\pagenumbering{arabic}
 
 # Editor Instructions
 
@@ -211,7 +212,7 @@ Paste in references here...
 
 ## What is \LaTeX?
 
-\LaTeX\ (pronounced lay-tech) is a free program used to create beautifully typeset documents like books, theses, and newsletters. It is very different than Microsoft Word. Instead of selecting text and clicking on a button to make it \textbf{bold} or \textit{italicized}, you write code like \\textit{} for italics. It seems like more work than necessary, but there are several advantages of using \LaTeX.
+\LaTeX\ (pronounced lay-tech) is a free program used to create beautifully typeset documents like books, theses, and newsletters. It is very different than Microsoft Word. Instead of selecting text and clicking on a button to make it \textbf{bold} or \textit{italicized}, you write code like \\textit{} for italics. There are several advantages to using \LaTeX.
 
 ### Beautiful typography
 
@@ -227,9 +228,7 @@ Paste in references here...
 
 \end{itemize}
 
-Really, only typography nerds will notice or care about these details. But professional-quality typesetting does have an overall effect on the appearance of the document.
-
-
+Really, only typography nerds will notice these details. But professional-quality typesetting does have a huge impact on the appearance of the document. Your work will look neat, elegant, and perfectly arranged with minimal work.
 
 ```{r ligatures-comparison}
 #| fig.cap = "Ligatures are specialized characters that replace letter combinations like \\textit{fi}. Left: Word does not automatically include ligatures, so these letters clash. In this Word example, notice the collision between the curve of the \\textit{f} and the dot in \\textit{i}. The word \\textit{office} also has slightly misaligned \\textit{f}'s. Disclaimer: I used a Garamond typeface that doesn't have ligatures, which is why the letters look different than the ones on the right. Right: \\LaTeX{} has full support for ligatures. These words showcase the \\textit{ffi} and \\textit{fi} ligatures. \\label{ligatures}",
@@ -253,7 +252,7 @@ knitr::include_graphics(here::here("Images/Dropcaps-comparison.png"))
 
 ### No manual formatting
 
-You don't need to manually adjust the spacing, figure numbers, or page numbers. Details like this are all specified in the document preamble, and \LaTeX will handle the rest.
+You don't need to manually adjust the spacing, figure numbers, or page numbers. Details like this are all specified in the document preamble, and \LaTeX will handle the rest. This is such an efficient system, because it allows you to focus on the content and not waste time trying to get it to look nice. You won't ever need to manually renumber your table of contents, or figure captions!
 
 ### Uses Plaintext
 
