@@ -1,11 +1,11 @@
-This is XeTeX, Version 3.141592653-2.6-0.999996 (TeX Live 2024) (preloaded format=xelatex 2024.9.15)  17 SEP 2024 20:47
+This is XeTeX, Version 3.141592653-2.6-0.999996 (TeX Live 2024) (preloaded format=xelatex 2024.9.29)  29 SEP 2024 17:35
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
 **Example-article.tex
 (./Example-article.tex
 LaTeX2e <2024-06-01> patch level 2
-L3 programming layer <2024-08-30>
+L3 programming layer <2024-09-10>
 (c:/Users/cslau/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/base/article.cls
 Document Class: article 2024/02/08 v1.4n Standard LaTeX document class
 (c:/Users/cslau/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/base/size12.clo
@@ -99,7 +99,7 @@ Package: setspace 2022/12/04 v6.7b set line spacing
 ) (c:/Users/cslau/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/iftex/iftex.sty
 Package: iftex 2022/02/03 v1.0f TeX engine tests
 ) (c:/Users/cslau/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/unicode-math/unicode-math.sty (c:/Users/cslau/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/l3kernel/expl3.sty
-Package: expl3 2024-08-30 L3 programming layer (loader) 
+Package: expl3 2024-09-10 L3 programming layer (loader) 
 (c:/Users/cslau/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/l3backend/l3backend-xetex.def
 File: l3backend-xetex.def 2024-05-08 L3 backend support: XeTeX
 \g__graphics_track_int=\count276
@@ -1608,8 +1608,8 @@ LaTeX Font Info:    Font shape `TU/EBGaramond(0)/m/n' will be
 (Font)              scaled to size 17.28pt on input line 253.
 LaTeX Font Info:    Font shape `TU/EBGaramond(0)/m/it' will be
 (Font)              scaled to size 17.28pt on input line 253.
-File: ../Images/Alice-article-background-A.png Graphic file (type bmp)
-<../Images/Alice-article-background-A.png>
+File: ../Images/Alice-in-Wonderland-page-1.png Graphic file (type bmp)
+<../Images/Alice-in-Wonderland-page-1.png>
 [1
 
 ]
@@ -1653,12 +1653,12 @@ See the caption package documentation for explanation.
 
 
 
-File: ../Images/Alice-article-background-B.png Graphic file (type bmp)
-<../Images/Alice-article-background-B.png>
+File: ../Images/Alice-in-Wonderland-page-2.png Graphic file (type bmp)
+<../Images/Alice-in-Wonderland-page-2.png>
 [2] (./Example-article.aux)
  ***********
 LaTeX2e <2024-06-01> patch level 2
-L3 programming layer <2024-08-30>
+L3 programming layer <2024-09-10>
  ***********
  )
 (\end occurred inside a group at level 1)
@@ -1668,10 +1668,10 @@ L3 programming layer <2024-08-30>
 Here is how much of TeX's memory you used:
  21201 strings out of 476191
  401029 string characters out of 5784197
- 987868 words of memory out of 5000000
+ 987975 words of memory out of 5000000
  43415 multiletter control sequences out of 15000+600000
  562628 words of font info for 91 fonts, out of 8000000 for 9000
  36 hyphenation exceptions out of 8191
- 90i,9n,126p,1021b,596s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 90i,9n,126p,1021b,588s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
 Output written on Example-article.pdf (2 pages).
