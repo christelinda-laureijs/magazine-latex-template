@@ -52,7 +52,7 @@ This document will help you get up and running with magazine creation. If you're
 
 ### Title
 
-Use the \\section{} argument for article titles.
+Use the \\section{} command for article titles.
 
 \begin{verbatim}
 \section{Article title}
@@ -249,7 +249,7 @@ Paste in references here...
 
 \end{itemize}
 
-Really, only typography nerds will notice these details. But professional-quality typesetting does have a huge impact on the appearance of the document. Your work will look neat, elegant, and perfectly arranged with minimal work.
+Really, only typography nerds will notice these details. But professional-quality typesetting does have a huge impact on the appearance of the document. Your writing will look neat, elegant, and perfectly arranged with minimal effort.
 
 ```{r ligatures-comparison}
 #| fig.cap = "Ligatures are specialized characters that replace letter combinations like \\textit{fi}. Left: Word does not automatically include ligatures, so these letters clash. In this Word example, notice the collision between the curve of the \\textit{f} and the dot in \\textit{i}. The word \\textit{office} also has slightly misaligned \\textit{f}'s. Disclaimer: I used a Garamond typeface that doesn't have ligatures, which is why the letters look different than the ones on the right. Right: \\LaTeX{} has full support for ligatures. These words showcase the \\textit{ffi} and \\textit{fi} ligatures. \\label{ligatures}",
