@@ -11,7 +11,7 @@ This repository contains LaTeX code to create a beautifully typeset magazine. Th
 
 ## How to use
 
-Step 1: Download, clone, or fork the project directory, and then open the `magazine-latex-template.Rproj` file. This will open an R project within R Studio. Ensure that you have a LaTeX distribution (for example, the TinyTeX package will be fine).
+Step 1: Click on the "Code" button and download a zip folder containing this repository. If you have a GitHub account you could also click on the "Use This Template" button to make your own repository and then clone it to your computer. Open the `magazine-latex-template.Rproj` file. This will open an R project within R Studio. Ensure that you have a LaTeX distribution (for example, the TinyTeX package will be fine).
 
 Step 2: Read [Editor-instructions.pdf](Magazine/Editor-instructions.pdf) found within the Magazine/ folder to see what commands and environments are available.
 
@@ -19,8 +19,7 @@ Step 2: Read [Editor-instructions.pdf](Magazine/Editor-instructions.pdf) found w
 
 Step 3: Within the same folder, read [Example-article.pdf](Magazine/Example-article.pdf) to see what a finished article will look like.
 
-Step 4. Create a .Rmd file modelled after the `Example-article.Rmd` file. Knit it to a PDF when you are done!
-
+Step 4. Create a .Rmd file modeled after the `Example-article.Rmd` file. Knit it to a PDF when you are done!
 
 
 ```{r cover-image, fig.align = 'center', fig.alt = "Screenshot of a magazine article produced using this template. The template features full-bleed background images, drop caps, quotes, and a drop-cap question and answer style.", echo=F}
