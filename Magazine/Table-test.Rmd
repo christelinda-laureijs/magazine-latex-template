@@ -1,0 +1,42 @@
+---
+output:
+  pdf_document:
+    toc: false
+    latex_engine: xelatex
+    fig_caption: true
+    includes:
+      in_header: "../Templates/Magazine-preamble.tex"
+fontsize: 12pt
+geometry:
+- margin = 0.55in
+- bindingoffset = 0mm # Set to 8 mm for printing
+linestretch: 1
+classoption: twoside
+indent: true
+editor_options:
+  chunk_output_type: inline
+always_allow_html: true
+---
+
+\section{Table test}
+
+\begin{preamble}
+This is a demonstration showing how a full-width table can be inserted into the magazine. I would recommend not using the table within a multicols environment.
+\end{preamble}
+
+\lettrine{I}{nstructions} Using colors or any method of your choice, match the hormones, their respective function and the gland that secretes it in one color. Repeat until everything is colored. Each gland and each function can only be associated to one hormone. 
+
+\renewcommand{\arraystretch}{2}
+\begin{table}[H]
+\begin{tabulary}{\linewidth}{LLL}
+\hline
+Hormone                           & Gland           & Function                                                                                    \\ \hline
+Growth Hormone (GH)               & Adrenal Gland   & Regulates your body’s stress response. Allows you to stay alert and regulates blood sugar.  \\
+Oestrogen                         & Testes          & Promotes development of male characteristics. Ensures bone and muscle growth.               \\
+Testosterone                      & Pituitary Gland & Needed for puberty and menstrual cycle, pregnancy, and bone strength.                       \\
+Cortisol                          & Ovaries         & Produced in response to GH and mediates its effects. Allows balance in growth among tissues \\
+Thyroxine (T4)                    & Thyroid Gland   & Regulates metabolism and stimulates GH release from the pituitary gland.                    \\
+Insulin-Like Growth Factor (IGF1) & Liver           & Modulates growth, Stimulates tissue growth, (Cell reproduction)                             \\ \hline
+\end{tabulary}
+\end{table}
+\renewcommand{\arraystretch}{1}

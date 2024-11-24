@@ -18,11 +18,6 @@ editor_options:
 always_allow_html: true
 ---
 
+\section{Title}
 
-\section{Examining the effects of insulin on neurons in the dorsomedial hypothalamus}
-
-Insert content here
-
-Insert citation here\textsuperscript{1}
-
-1.	Díaz B, Serna J, Pablo FD, Rosa EJ de la. In vivo regulation of cell death by embryonic (pro)insulin and the insulin receptor during early retinal neurogenesis. Development. 2000;127(8):1641-1649. doi:10.1242/dev.127.8.1641
+Insert text here...

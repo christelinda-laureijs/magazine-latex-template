@@ -1,9 +1,9 @@
-This is XeTeX, Version 3.141592653-2.6-0.999996 (TeX Live 2024) (preloaded format=xelatex 2024.11.22)  24 NOV 2024 14:01
+This is XeTeX, Version 3.141592653-2.6-0.999996 (TeX Live 2024) (preloaded format=xelatex 2024.11.22)  24 NOV 2024 14:08
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**Blank-article.tex
-(./Blank-article.tex
+**Table-test.tex
+(./Table-test.tex
 LaTeX2e <2024-11-01>
 L3 programming layer <2024-11-02>
 (c:/Users/cslau/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/base/article.cls
@@ -721,8 +721,8 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 28
 ) (c:/Users/cslau/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/bookmark/bkm-dvipdfm.def
 File: bkm-dvipdfm.def 2023-12-10 v1.31 bookmark driver for dvipdfm (HO)
 \BKM@id=\count336
-)) (./Blank-article.aux)
-\openout1 = `Blank-article.aux'.
+)) (./Table-test.aux)
+\openout1 = `Table-test.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 233.
 LaTeX Font Info:    ... okay on input line 233.
@@ -1002,15 +1002,52 @@ Package caption Info: End \AtBeginDocument code.
 Package hyperref Info: Link coloring OFF on input line 233.
 LaTeX Font Info:    Font shape `TU/EBGaramond(0)/m/n' will be
 (Font)              scaled to size 48.0pt on input line 236.
-
-Package caption Warning: Unused \captionsetup[table] on input line 128.
-See the caption package documentation for explanation.
-
-
+LaTeX Font Info:    Font shape `TU/EBGaramond(0)/m/it' will be
+(Font)              scaled to size 12.0pt on input line 238.
+LaTeX Font Info:    Font shape `TU/EBGaramond(0)/m/sc' will be
+(Font)              scaled to size 12.0pt on input line 242.
+LaTeX Font Info:    Font shape `TU/CormorantGaramond(0)/m/n' will be
+(Font)              scaled to size 12.74597pt on input line 242.
+LaTeX Font Info:    Font shape `TU/CormorantGaramond(0)/m/n' will be
+(Font)              scaled to size 36.57669pt on input line 242.
+LaTeX Font Info:    Font shape `TU/CormorantGaramond(0)/m/n' will be
+(Font)              scaled to size 52.49414pt on input line 242.
+Package lettrine.sty Info: Targeted height = 34.436pt
+(lettrine.sty)             (for loversize=0, accent excluded),
+(lettrine.sty)             Lettrine height = 32.80884pt (I);
+(lettrine.sty)             reported on input line 242.
+LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(1)/m/n' will be
+(Font)              scaled to size 7.99072pt on input line 258.
+LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(1)/m/n' will be
+(Font)              scaled to size 5.70767pt on input line 258.
+LaTeX Font Info:    Trying to load font information for OML+lmm on input line 258.
+(c:/Users/cslau/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/lm/omllmm.fd
+File: omllmm.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
+)
+LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(2)/m/n' will be
+(Font)              scaled to size 11.41644pt on input line 258.
+LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(2)/m/n' will be
+(Font)              scaled to size 7.9915pt on input line 258.
+LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(2)/m/n' will be
+(Font)              scaled to size 5.70822pt on input line 258.
+LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/m/n' will be
+(Font)              scaled to size 11.41406pt on input line 258.
+LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/m/n' will be
+(Font)              scaled to size 7.98984pt on input line 258.
+LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/m/n' will be
+(Font)              scaled to size 5.70703pt on input line 258.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 258.
+(c:/Users/cslau/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/amsfonts/umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Trying to load font information for U+msb on input line 258.
+(c:/Users/cslau/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/amsfonts/umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+)
 
 [1
 
-] (./Blank-article.aux)
+] (./Table-test.aux)
  ***********
 LaTeX2e <2024-11-01>
 L3 programming layer <2024-11-02>
@@ -1021,12 +1058,12 @@ L3 programming layer <2024-11-02>
 ### semi simple group (level 1) entered at line 236 (\begingroup)
 ### bottom level 
 Here is how much of TeX's memory you used:
- 19456 strings out of 475994
- 362502 string characters out of 5777284
- 889280 words of memory out of 5000000
- 42016 multiletter control sequences out of 15000+600000
- 558833 words of font info for 59 fonts, out of 8000000 for 9000
+ 19548 strings out of 475994
+ 365254 string characters out of 5777284
+ 900271 words of memory out of 5000000
+ 42076 multiletter control sequences out of 15000+600000
+ 561698 words of font info for 81 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 90i,5n,126p,506b,360s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 90i,10n,126p,503b,441s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on Blank-article.pdf (1 page).
+Output written on Table-test.pdf (1 page).
