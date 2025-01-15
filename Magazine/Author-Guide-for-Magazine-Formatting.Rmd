@@ -45,13 +45,17 @@ This document will help you get up and running with magazine creation. If you're
   \end{itemize}
   \item Read through the instructions below to identify the environment tags you'll need.
   \item Add the tags to your document. For example, you may need to surround the author name with \textbackslash begin\{author-name\} and \textbackslash end\{author-name\}.
-  \item If using background images, create an 8.5" x 11" image (.PNG at at least 300 DPI). Please see the Background images section below and the files on Moodle to get an idea of what to submit.
+  \item If using background images, create an 8.5" x 11" image (.PNG at at least 300 DPI). Please see the Background images section below and the files in the `Sample-article-submission/` folder to get an idea of what to submit.
+  \item Save the final version of your article as a plain-text file (`.txt`) to strip out any strange formatting from Word.
+  \item Tip for Editors: Use Notepad++ (a free open-source text editor) and its Search -> Find in Files function to find and replace text in all `.txt` files at once. This is a HUGE timesaver!
+  \item Tip for Editors: After you have received all images from the authors, you may want to look into using ImageMagick to convert all images in the final `Images/` folder into .jpgs. This will reduce space and render time.
+
 \end{enumerate}
 
 
 ### Title
 
-Use the \\section{} command for article titles.
+Use the \\section{} command for article titles and \\sectionsubtitle{} for subtitles.
 
 \begin{verbatim}
 \section{Article title}
@@ -64,6 +68,12 @@ If you have a dark background image, you may want to change the text color. Use 
 \end{verbatim}
 
 For example, \color{white} Alice in Wonderland \color{black} (it's here, you just can't see it because it's white!)
+
+WARNING: If you change the section color in the magazine, you must manually specify the title in square brackets before. If you don't do this, the article title will be white and invisible in the table of contents!
+
+\begin{verbatim}
+\section[Title]{\color{white}Title}
+\end{verbatim}
 
 ### Columns
 
@@ -139,7 +149,7 @@ Suscipit odio duis gravida habitant volutpat arcu. Auctor diam maximus in egesta
 \end{verbatim}
 
 
-### Background images (updated for BIOL 4211 magazine)
+### Background images
 
 This template uses full-bleed background images to add a heading strip behind the article title (see the forest header in the Alice in Wonderland sample article). I've created a new command called \\InsertBackgroundPicture{}, which uses \\AddToShipoutPictureBG* from the *eso-pic* package. This allows you to place a full-size background picture on a specific page. The command accepts one argument, which is the filepath for the image. Please include the following files in your submission. There are sample images on Moodle as well.
 
@@ -175,15 +185,31 @@ Place the following code right after the title. Replace "Aldosterone-mechanism-p
 \InsertBackgroundPicture{../Images/Aldosterone-mechanism-page-1.png}
 \end{verbatim}
 
+WARNING! \\InsertBackgroundPicture{} must come after \textbackslash section{} or the image will be inserted into the closest available space, which may not match with the article
+
+WARNING! You must use hyphens only to separate words in your file names - NO spaces allowed!
+
 ### Superscripts/subscripts
 
-Use the caret (^) symbol on both sides of the character that will become the superscript. Use the tilde (~) symbol on both sides of the character that will become the subscript.
+Superscripts must be written as \textsuperscript{1}. Examples include:
 
-\begin{verbatim}
-H~2~O
+\begin{itemize}
+\item Smith\textbackslash textsuperscript\{1\} -> Smith\textsuperscript{1}
+\item The 2\textbackslash textsuperscript\{nd\} item -> The 2\textsuperscript{nd} item
+\item H\textbackslash textsubscript\{2\}O -> H\textsubscript{2}O
+\end{itemize}
 
-R^2^
-\end{verbatim}
+### Special characters
+
+You must watch out for special characters, since they will cause errors during rendering. To reduce the risk of errors, please add a backward slash directly before any special character. This will "escape" the character, allowing \LaTeX\ to ignore it.
+
+\begin{itemize}
+\item Replace \& with \textbackslash\&
+\item Replace \% with \textbackslash\%
+\item Replace \_ with \textbackslash\_
+\item Replace \# with \textbackslash\#
+\end{itemize}
+
 
 ### Author names
 
@@ -230,7 +256,7 @@ Paste in references here...
 \end{verbatim}
 
 
-## What is \LaTeX?
+\section[What is LaTeX]{What is \LaTeX?}
 
 \LaTeX\ (pronounced lay-tech) is a free program used to create beautifully typeset documents like books, theses, and newsletters. It is very different than Microsoft Word. Instead of selecting text and clicking on a button to make it \textbf{bold} or \textit{italicized}, you write code like \\textit{} for italics. There are several advantages to using \LaTeX.
 
@@ -256,7 +282,7 @@ Really, only typography nerds will notice these details. But professional-qualit
 #| out.width = "70%",
 #| purl = FALSE
 
-knitr::include_graphics(here::here("Images/Ligature-comparison.png"))
+knitr::include_graphics(here::here("Images/Ligature-comparison.jpg"))
 ```
 
 
@@ -266,7 +292,7 @@ knitr::include_graphics(here::here("Images/Ligature-comparison.png"))
 #| out.width = "70%",
 #| purl = FALSE
 
-knitr::include_graphics(here::here("Images/Dropcaps-comparison.png"))
+knitr::include_graphics(here::here("Images/Dropcaps-comparison.jpg"))
 ```
 
 

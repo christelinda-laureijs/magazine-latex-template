@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999996 (TeX Live 2024) (preloaded format=xelatex 2025.1.14)  14 JAN 2025 23:37
+This is XeTeX, Version 3.141592653-2.6-0.999996 (TeX Live 2024) (preloaded format=xelatex 2025.1.14)  15 JAN 2025 01:13
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1019,131 +1019,131 @@ LaTeX Font Info:    Font shape `TU/EBGaramond(0)/m/it' will be
 
 
 ]
-Overfull \hbox (54.5999pt too wide) in paragraph at lines 336--336
+Overfull \hbox (54.5999pt too wide) in paragraph at lines 350--350
 []\TU/lmtt/m/n/12 Entire article content goes here (preamble, main text, author name, references)[] 
  []
 
-LaTeX Font Info:    Font shape `TU/EBGaramond(0)/m/sc' will be
-(Font)              scaled to size 12.0pt on input line 353.
-LaTeX Font Info:    Font shape `TU/CormorantGaramond(0)/m/n' will be
-(Font)              scaled to size 12.74597pt on input line 353.
-LaTeX Font Info:    Font shape `TU/CormorantGaramond(0)/m/n' will be
-(Font)              scaled to size 36.57669pt on input line 353.
-LaTeX Font Info:    Font shape `TU/CormorantGaramond(0)/m/n' will be
-(Font)              scaled to size 52.49414pt on input line 353.
-Package lettrine.sty Info: Targeted height = 34.436pt
-(lettrine.sty)             (for loversize=0, accent excluded),
-(lettrine.sty)             Lettrine height = 32.91383pt (D);
-(lettrine.sty)             reported on input line 353.
 
 
 [2]
+LaTeX Font Info:    Font shape `TU/EBGaramond(0)/m/sc' will be
+(Font)              scaled to size 12.0pt on input line 367.
+LaTeX Font Info:    Font shape `TU/CormorantGaramond(0)/m/n' will be
+(Font)              scaled to size 12.74597pt on input line 367.
+LaTeX Font Info:    Font shape `TU/CormorantGaramond(0)/m/n' will be
+(Font)              scaled to size 36.57669pt on input line 367.
+LaTeX Font Info:    Font shape `TU/CormorantGaramond(0)/m/n' will be
+(Font)              scaled to size 52.49414pt on input line 367.
+Package lettrine.sty Info: Targeted height = 34.436pt
+(lettrine.sty)             (for loversize=0, accent excluded),
+(lettrine.sty)             Lettrine height = 32.91383pt (D);
+(lettrine.sty)             reported on input line 367.
 LaTeX Font Info:    Font shape `TU/RedactedScript(0)/m/n' will be
-(Font)              scaled to size 11.20715pt on input line 375.
+(Font)              scaled to size 11.20715pt on input line 389.
 
-Underfull \hbox (badness 10000) in paragraph at lines 378--379
+Underfull \hbox (badness 10000) in paragraph at lines 392--393
 \TU/RedactedScript(0)/m/n/12 malesuada fermentum
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 378--379
+Underfull \hbox (badness 10000) in paragraph at lines 392--393
 \TU/RedactedScript(0)/m/n/12 suspendisse potenti
  []
 
 LaTeX Font Info:    Font shape `TU/CormorantGaramond(0)/m/n' will be
-(Font)              scaled to size 15.29515pt on input line 382.
+(Font)              scaled to size 15.29515pt on input line 396.
 LaTeX Font Info:    Font shape `TU/CormorantGaramond(0)/b/n' will be
-(Font)              scaled to size 15.29515pt on input line 382.
+(Font)              scaled to size 15.29515pt on input line 396.
 
-Underfull \hbox (badness 10000) in paragraph at lines 387--388
+Underfull \hbox (badness 10000) in paragraph at lines 401--402
 []\TU/RedactedScript(0)/m/n/12 Suscipit odio duis
  []
 
 
-Underfull \hbox (badness 5475) in paragraph at lines 387--388
+Underfull \hbox (badness 5475) in paragraph at lines 401--402
 \TU/RedactedScript(0)/m/n/12 cursus vehicula quam
  []
 
+[3]
 LaTeX Font Info:    Font shape `TU/CormorantGaramond(0)/m/n' will be
-(Font)              scaled to size 21.17531pt on input line 395.
+(Font)              scaled to size 21.17531pt on input line 409.
 LaTeX Font Info:    Font shape `TU/CormorantGaramond(0)/m/n' will be
-(Font)              scaled to size 30.39038pt on input line 395.
+(Font)              scaled to size 30.39038pt on input line 409.
 Package lettrine.sty Info: Targeted height = 19.936pt
 (lettrine.sty)             (for loversize=0, accent excluded),
 (lettrine.sty)             Lettrine height = 19.32828pt (Q);
-(lettrine.sty)             reported on input line 395.
+(lettrine.sty)             reported on input line 409.
 Package lettrine.sty Info: Targeted height = 19.936pt
 (lettrine.sty)             (for loversize=0, accent excluded),
 (lettrine.sty)             Lettrine height = 19.38907pt (A);
-(lettrine.sty)             reported on input line 396.
+(lettrine.sty)             reported on input line 410.
 LaTeX Font Info:    Font shape `TU/EBGaramond(0)/m/it' will be
-(Font)              scaled to size 12.0pt on input line 412.
-
-Underfull \vbox (badness 2165) has occurred while \output is active []
-
-
-
-[3]
+(Font)              scaled to size 12.0pt on input line 425.
 
 LaTeX Font Warning: Font shape `TU/EBGaramond(0)/b/n' undefined
-(Font)              using `TU/EBGaramond(0)/m/n' instead on input line 421.
+(Font)              using `TU/EBGaramond(0)/m/n' instead on input line 434.
 
 LaTeX Font Info:    Font shape `TU/EBGaramond(0)/b/n' will be
-(Font)              scaled to size 12.0pt on input line 422.
+(Font)              scaled to size 12.0pt on input line 435.
 
 
 [4]
-Underfull \hbox (badness 10000) in paragraph at lines 492--493
+
+[5]
+Underfull \hbox (badness 10000) in paragraph at lines 524--525
 \TU/RedactedScript(0)/m/n/12 malesuada fermentum
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 492--493
+Underfull \hbox (badness 10000) in paragraph at lines 524--525
 \TU/RedactedScript(0)/m/n/12 suspendisse potenti
  []
 
 
-Overfull \hbox (17.72379pt too wide) in paragraph at lines 498--499
+Overfull \hbox (17.72379pt too wide) in paragraph at lines 530--531
 [][] 
  []
 
 
+Underfull \vbox (badness 1838) has occurred while \output is active []
 
-[5]
+
 
 [6]
-LaTeX Font Info:    Calculating math sizes for size <48> on input line 515.
-LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(1)/m/n' will be
-(Font)              scaled to size 45.66138pt on input line 515.
-LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(1)/m/n' will be
-(Font)              scaled to size 31.96281pt on input line 515.
-LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(1)/m/n' will be
-(Font)              scaled to size 22.83069pt on input line 515.
-LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(2)/m/n' will be
-(Font)              scaled to size 45.66577pt on input line 515.
-LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(2)/m/n' will be
-(Font)              scaled to size 31.9659pt on input line 515.
-LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(2)/m/n' will be
-(Font)              scaled to size 22.83289pt on input line 515.
-LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/m/n' will be
-(Font)              scaled to size 45.65625pt on input line 515.
-LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/m/n' will be
-(Font)              scaled to size 31.95923pt on input line 515.
-LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/m/n' will be
-(Font)              scaled to size 22.82813pt on input line 515.
-LaTeX Font Info:    Font shape `TU/EBGaramond(0)/m/n' will be
-(Font)              scaled to size 33.59985pt on input line 515.
-File: ../Images/Ligature-comparison.png Graphic file (type bmp)
-<../Images/Ligature-comparison.png>
-File: ../Images/Dropcaps-comparison.png Graphic file (type bmp)
-<../Images/Dropcaps-comparison.png>
-
 
 [7]
+LaTeX Font Info:    Calculating math sizes for size <48> on input line 547.
+LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(1)/m/n' will be
+(Font)              scaled to size 45.66138pt on input line 547.
+LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(1)/m/n' will be
+(Font)              scaled to size 31.96281pt on input line 547.
+LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(1)/m/n' will be
+(Font)              scaled to size 22.83069pt on input line 547.
+LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(2)/m/n' will be
+(Font)              scaled to size 45.66577pt on input line 547.
+LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(2)/m/n' will be
+(Font)              scaled to size 31.9659pt on input line 547.
+LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(2)/m/n' will be
+(Font)              scaled to size 22.83289pt on input line 547.
+LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/m/n' will be
+(Font)              scaled to size 45.65625pt on input line 547.
+LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/m/n' will be
+(Font)              scaled to size 31.95923pt on input line 547.
+LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/m/n' will be
+(Font)              scaled to size 22.82813pt on input line 547.
+LaTeX Font Info:    Font shape `TU/EBGaramond(0)/m/n' will be
+(Font)              scaled to size 33.59985pt on input line 547.
+File: ../Images/Ligature-comparison.jpg Graphic file (type bmp)
+<../Images/Ligature-comparison.jpg>
+File: ../Images/Dropcaps-comparison.jpg Graphic file (type bmp)
+<../Images/Dropcaps-comparison.jpg>
+
 
 [8]
 
-[9] (./Author-Guide-for-Magazine-Formatting.aux)
+[9]
+
+[10] (./Author-Guide-for-Magazine-Formatting.aux)
  ***********
 LaTeX2e <2024-11-01> patch level 1
 L3 programming layer <2024-12-25>
@@ -1154,16 +1154,16 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
  )
 (\end occurred inside a group at level 2)
 
-### semi simple group (level 2) entered at line 515 (\begingroup)
+### semi simple group (level 2) entered at line 547 (\begingroup)
 ### semi simple group (level 1) entered at line 281 (\begingroup)
 ### bottom level 
 Here is how much of TeX's memory you used:
- 18058 strings out of 475852
- 338206 string characters out of 5773373
- 874942 words of memory out of 5000000
- 40708 multiletter control sequences out of 15000+600000
+ 18067 strings out of 475852
+ 338504 string characters out of 5773373
+ 874906 words of memory out of 5000000
+ 40717 multiletter control sequences out of 15000+600000
  565429 words of font info for 109 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 90i,5n,126p,755b,556s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 90i,5n,126p,755b,648s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on Author-Guide-for-Magazine-Formatting.pdf (9 pages).
+Output written on Author-Guide-for-Magazine-Formatting.pdf (10 pages).
