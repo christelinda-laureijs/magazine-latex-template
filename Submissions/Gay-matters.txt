@@ -1,0 +1,38 @@
+\section[Gay Matters: Celebrating Transgender Research!]{Gay Matters}
+\sectionsubtitle{Celebrating Transgender Research!}
+\InsertBackgroundPicture{../Images/Gay-matters-page-1.jpg}
+\begin{multicols}{3}
+\begin{preamble}
+Gay Matters highlights LGBTQ+ scientists whose work has made a positive impact on the LGBTQ+ community. In the previous magazine issue, we highlighted the work of LGBTQ+ neuroscientists. This time, we'll showcase the progression of transgender research starting with the first transgender clinic and ending with exciting new research on gender-affirming hormone therapy with mouse models.
+\end{preamble}
+\subsection{\large Dr. Magnus Hirschfeld}
+\lettrine{T}{ransgender} healthcare has been around for longer than you might think. Did you know that the first transgender clinic was active in the early 1920s and that some of the first gender affirming surgeries occurred there? The Institute für Sexualwissenschaft (Institute for Sexual Research) was the work of Dr. Magnus Hirschfeld, a physician and sexologist based in Berlin, Germany.\textsuperscript{1}
+Frustrated by the lack of research and supports available for LGBTQ+ people, Dr. Hirschfeld founded the institute in 1919.\textsuperscript{2} The Institute für Sexualwissenschaft specialized in research on LGBTQ+ topics and offered support and resources for transgender people\textsuperscript{3}. It was an incredibly valuable resource for LGBTQ+ people at a time when homosexuality was considered illegal and people could not discuss their sexuality safely.\textsuperscript{1}
+LGBTQ+ people went to the institute to learn about contraception and other sex education, explore the extensive library on sexual research and transgender healthcare, or simply enjoy being in a safe and welcoming environment.\textsuperscript{2} The institute also had gynecologists who performed gender-affirming surgeries.\textsuperscript{1}
+The institute was unfortunately targeted and destroyed by the Nazis in 1933,\textsuperscript{3} but they were not able to destroy Dr. Hirschfeld’s legacy. Dr. Hirschfeld increased awareness of the concept of nonbinary and genderfluid gender identities by moving psychologists and healthcare professionals away from pathologizing homosexuality,\textsuperscript{2} and his institute paved the way towards understanding and acceptance of transgender people.
+\subsection{Dr. Troy Roepke}
+Gender affirming hormone therapy is a vital, life-saving resource for many transgender people. One new and exciting area of research is the use of animal models to determine the metabolic effects of gender affirming hormone therapy.\textsuperscript{4} Dr. Troy Roepke and their team in the Pink Lab use mice to explore hormone therapies commonly used by transgender women.\textsuperscript{5} In a recent study, they gave mice a hormone therapy consisting of an estrogen supplement and an androgen blocker.\textsuperscript{6} Since estrogen is involved in developing female secondary sex characteristics and androgen blockers reduce testosterone signalling, this represents a hormone therapy for transgender women.\textsuperscript{6}
+Dr. Roepke’s team then compared the behaviour, body weight, and energy metabolism of the mice who received hormone therapy relative to mice who received hormone therapy and had their testicles surgically removed.\textsuperscript{5} Mice who received just the hormone therapy had higher metabolic rates and modified glucose metabolism compared to mice who received both the hormone therapy and surgery.\textsuperscript{5} This is a useful model that demonstrates the changes that may be experienced by women who use similar hormone therapies but do not have gender affirming surgeries. Dr. Roepke hopes to expand their research to include hormone therapies used by trans men. They also are a strong role model for queer students and an advocate for LGBTQ+ scientists.
+Transgender healthcare is an important area of research with lots of potential for new discoveries. Ongoing work in this area focuses on exploring the physiological effects of hormone therapies and discovering safe and effective gender affirming practices. In the future, we may even see new reproductive technologies such as uterine transplantation,\textsuperscript{7} and hormone therapies tailored for the specific needs of populations such as older transgender people. Transgender healthcare research has come a long way from its origins at Dr. Hirschfeld’s institute, with many exciting possibilities for the future.
+
+\begin{author-name}
+Christelinda Laureijs
+\end{author-name}
+
+\begin{references}
+1. Schillace B. The Forgotten History of the World’s First Trans Clinic. Scientific American. August 1, 2021. Accessed October 21, 2024. https://www.scientificamerican.com/article/the-forgotten-history-of-the-worlds-first-trans-clinic/
+2. Bryan-Quamina G. Magnus Hirschfeld and the Institute for Sexual Science. Science Museum Blog. February 29, 2024. Accessed October 21, 2024. https://blog.sciencemuseum.org.uk/magnus-hirschfeld-and-the-institute-for-sexual-science/
+3. Magnus-Hirschfeld-Gesellschaft. The first Institute for Sexual Science (1919-1933). Accessed October 21, 2024. https://magnus-hirschfeld.de/ausstellungen/institute/
+4. Aghi K, Goetz T, Pfau D, Sun S, Guthman E, Roepke T. Using Animal Models for Gender-Affirming Hormone Therapy. J Endocr Soc. 2023;8. doi:10.1210/jendso/bvad144
+5. Yasrebi A, Otersen K, Groh O, et al. 7288 A Preclinical Mouse Model of Gender-Affirming Hormone Therapy: Metabolic and Behavioral Outcomes. J Endocr Soc. 2024;8. doi:10.1210/jendso/bvae163.1787
+6. Hamilton KJ, Arao Y, Korach KS. Estrogen hormone physiology: Reproductive findings from estrogen receptor mutant mice. Reprod Biol. 2014;14(1):3-8. doi:10.1016/j.repbio.2013.12.002
+7. Jones BP, Williams NJ, Saso S, et al. Uterine transplantation in transgender women. Bjog. 2018;126(2):152. doi:10.1111/1471-0528.15438
+
+\end{references}
+\end{multicols}
+\InsertBackgroundPicture{../Images/Gay-matters-page-2.jpg}
+
+
+
+
+

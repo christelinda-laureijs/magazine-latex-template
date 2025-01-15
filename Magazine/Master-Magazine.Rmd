@@ -1,67 +1,41 @@
 ---
-title: \LaTeX\ Magazine Template
+title: \LaTeX Template
 output:
   pdf_document:
     toc: false
     latex_engine: xelatex
     fig_caption: true
     includes:
-      in_header: "../Templates/Magazine-preamble.tex"
+      in_header:
+      - "../Templates/Magazine-preamble.tex"
 fontsize: 12pt
-geometry:
-- top=0.55in
-- bottom=0.75in
-- left=0.55in
-- right=0.55in
-- bindingoffset = 0mm # Set to 8 mm for printing
 linestretch: 1
-classoption: twoside
+documentclass: book
+pagestyle: plain
+classoption:
+- twoside
+- openany
 indent: true
 editor_options:
   chunk_output_type: inline
 always_allow_html: true
 ---
 ```{r, include=FALSE}
-knitr::opts_chunk$set(echo = FALSE,
-                      fig.align = "center")
-```
+knitr::opts_chunk$set(
+  echo = FALSE,
+  results = 'asis'
+)
 
-\begin{centering}
-\begin{spacing}{1}
-\Large
-
-by
-
-\LARGE
-
-Christelinda Laureijs
-
-\end{spacing}
-\end{centering}
-
-\large
-\vspace*{\fill}
-
-\begin{centering}
-\begin{spacing}{1}
-
-A template for creating magazine-style layouts with R and \LaTeX
-
-`r format(Sys.Date(), "%B %d, %Y")`
-
-\end{spacing}
-\end{centering}
-
-
-\newpage
-\pagenumbering{arabic}
-
-```{r child='Example-article.Rmd'}
-
+include_text <- function(textfile) {
+  cat(readLines(here::here(textfile)))
+}
 ```
 
 
-```{r child='Editor-instructions.Rmd'}
+```{r}
+include_text("Submissions/Gay-matters.txt")
 
+include_text("Submissions/Alice-in-Wonderland.txt")
 ```
+
 
