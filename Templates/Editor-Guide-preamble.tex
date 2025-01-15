@@ -1,0 +1,213 @@
+\pagenumbering{gobble} % Suppress page numbers on page 1
+
+\usepackage[
+  papersize={8.5in,11in},
+  margin = 1.25in,
+  bindingoffset = 0in, % Set this for printing
+  footskip=.5cm,
+  nohead
+]{geometry}
+
+\usepackage[
+  noinfo,
+  width=8.625in, % please change \custompaperwidth to slightly exceed this value
+  height=11.25in, % please change \custompaperheight to match this value
+  off,
+  center
+]{crop}
+
+\usepackage{setspace}
+\usepackage[skip=15pt plus1pt, indent=0pt]{parskip} % No indentation at start of paragraphs
+
+% Use George Duffner version of EBGaramond with contextual alternates (+calt ensures long-tailed Q - Q.long)
+\setmainfont{EBGaramond}[
+  Path=../Templates/EB-Garamond/otf/,
+  Extension=.otf,
+  UprightFont=*12-Regular,
+  ItalicFont=*12-Italic,
+  RawFeature=+calt,
+]
+
+% EB Garamond is too heavy for the drop caps 
+% Lighter version of Garamond for dropcaps
+\newfontfamily\cormorant{CormorantGaramond}[
+  Path=../Templates/Cormorant-Garamond/,
+  Extension=.ttf,
+  UprightFont=*-Light,
+  ItalicFont=*-Italic,
+  BoldFont=*-Bold,
+]
+
+% This font looks like scribbles. Used for examples in instructions document
+\newfontfamily\redacted{RedactedScript}[
+  Path=../Templates/Redacted-Script/,
+  Extension=.ttf,
+  UprightFont=*-Regular,
+  ItalicFont=*-Light,
+  BoldFont=*-Bold,
+]
+
+
+\usepackage{float}
+\usepackage{tabulary}
+\usepackage{booktabs} % required for booktabs tables
+\clubpenalty = 10000 
+\widowpenalty = 10000
+\displaywidowpenalty = 10000
+
+\newcommand{\HUGE}{\fontsize{36}{36}\selectfont}
+\newcommand{\HUGEST}{\fontsize{42}{42}\selectfont}
+\newcommand{\BIG}{\fontsize{48}{48}\selectfont}
+\newcommand{\BIGPARTFONT}{\fontsize{72}{72}\selectfont}
+
+% Subtitle style
+\newcommand{\sectionsubtitle}[1]{\begin{center}%
+\vspace*{-0.6in}\fontsize{26}{26}\itshape{#1}\vspace*{0.3in}%
+\end{center}}
+
+% Package to style the section headers
+% https://tex.stackexchange.com/questions/381256/how-to-adjust-the-title-spacing-using-sectsty-package
+\usepackage{sectsty}
+\makeatletter
+\renewcommand\section{\@startsection {section}{1}{\z@}%
+      {-7ex \@plus -1ex \@minus -.2ex}%
+      {12ex \@plus.2ex}%
+      {\newpage\vspace*{-0.6in}\begin{center}\normalfont\BIG\SS@sectfont}}
+\renewcommand\subsection{\@startsection{subsection}{2}{\z@}%
+      {-2.5ex\@plus -1ex \@minus -.2ex}%
+      {2.5ex \@plus .2ex}%
+      {\normalfont\Large\raggedright\itshape\SS@subsectfont}}
+\renewcommand\subsubsection{\@startsection{subsubsection}{3}{\z@}%
+      {-2.5ex\@plus -1ex \@minus -.2ex}%
+      {2.5ex \@plus .2ex}%
+      {\cormorant\large\raggedright\bfseries\SS@subsectfont}}
+\makeatother
+
+% Center title
+\usepackage{titling}
+\pretitle{\linespread{1}\begin{center}\vspace{2cm}\Huge}
+
+
+% Enable multiple columns
+\usepackage{multicol}
+\setlength{\columnsep}{30pt}
+
+
+% Enable drop caps
+\usepackage[lines=3,findent=0.42em,nindent=0em]{lettrine}
+\renewcommand{\LettrineFontHook}{\cormorant}
+
+% Custom Q & A style drop caps
+\newcommand{\Q}{\lettrine[lines=2,findent=0.42em,nindent=0em,lraise=.15]{Q}}
+\newcommand{\A}{\lettrine[lines=2,findent=0.42em,nindent=0em,lraise=0.05,depth=0]{A}}
+\newcommand{\Marie}{\lettrine[lines=2,findent=0.42em,nindent=0em,lraise=.15]{A}{\textcolor[HTML]{83C1CC}{Marie}}\color{black}\ }
+\newcommand{\Ellen}{\par\textcolor[HTML]{F06948}{\textsc{Ellen}}\color{black}\ }
+
+
+\definecolor{quotegray}{RGB}{107, 107, 107}
+\definecolor{preamble-gray}{RGB}{54, 54, 54}
+
+
+
+\renewenvironment{quote}{%
+  \list{}{%
+    \leftmargin0.2cm
+    \rightmargin\leftmargin
+  }
+  \item\relax\color{preamble-gray}\itshape
+}
+{\endlist}
+
+% Define horizontal line, used for author name
+%https://tex.stackexchange.com/questions/24132/overline-outside-of-math-mode
+\makeatletter
+\newcommand*{\textoverline}[1]{$\overline{\hbox{\textbf{\cormorant{#1}}}}\m@th$}
+\makeatother
+
+\newenvironment{preamble}
+{\itshape\color{preamble-gray}}
+{}
+
+\newenvironment{magazine-subtitle}
+{\begin{center}\BIG\itshape\cormorant}
+{\end{center}}
+
+\newenvironment{author-name}
+{\rule{\columnwidth}{1pt}\cormorant\bfseries}
+{}
+
+
+\newenvironment{references}
+{\begin{singlespace}\scriptsize\setlength\sloppy}
+{\end{singlespace}\fussy}
+
+\newenvironment{redacted-text}
+{\begin{singlespace}\redacted}
+{\end{singlespace}}
+
+
+% Enables one to place in background picture behind content
+\usepackage{eso-pic}
+\usepackage{graphicx}
+
+
+\newcommand{\InsertBackgroundPicture}[1]{\AddToShipoutPictureBG*{%
+  \put(-8, -8){% The image is just a bit bigger than 8.5 x 11 to account for bleeds
+  % Use negative coordinates to force the image to be centred below crop marks
+   \parbox[b][\custompaperheight]{\custompaperwidth}{%
+     \vfill
+     \centering
+     \includegraphics[width=\custompaperwidth,height=\custompaperheight,%
+                      keepaspectratio]{#1}%
+     \vfill
+    }
+  }
+}
+}
+
+% InsertBackgroundPicture requires at least some text on the page to shipout
+% Using \shipout\null leads to incorrect crop marks (it is not recognized as a full page)
+% To reduce this issue, insert invisible text using \phantom
+\newcommand{\InsertFullPicture}[1]{\clearpage\InsertBackgroundPicture{#1}\phantom{.}}
+
+
+% Enables background images on part pages in book class
+% https://tex.stackexchange.com/questions/172249/how-to-place-a-different-background-image-on-each-part-of-a-book
+\usepackage{etoolbox}
+
+\providecommand{\parthook}{}
+\patchcmd{\part}{\thispagestyle}{\parthook\thispagestyle}{}{}
+\newcommand{\partimage}[2][]{% \parthook[<options>]{<image>}
+  \renewcommand{\parthook}{% Update \parthook
+    \AddToShipoutPictureBG*{%
+  \put(-8, -8){%
+   \parbox[b][\custompaperheight]{\custompaperwidth}{%
+     \vfill
+     \centering
+     \includegraphics[width=\custompaperwidth,height=\custompaperheight,%
+                      keepaspectratio, #1]{#2}%
+     \vfill
+    }
+  }
+}% Insert image
+    \renewcommand{\parthook}{}}}% Restore \parthook
+
+% Make part font large (requires sectsty package)
+\partfont{\BIGPARTFONT}
+
+
+\makeatletter
+\pretocmd{\@endpart}{\vspace{5em}{\large\@quote}\def\@quote{}}{}{}
+\newcommand{\quoteline}[1]{\def\@quote{#1}}
+\makeatother
+
+% Make spacing between list items smaller
+% Used partopsep = -1ex to make the distance between body text and lists smaller
+%\usepackage{enumitem}
+%\setlist{topsep = -5pt,itemsep = -1ex, partopsep = -1ex, parsep = 1ex}
+
+% Insert ornaments
+%\usepackage{adforn}
+
+% Add optional text as a quote after the part
+%https://tex.stackexchange.com/questions/202235/is-it-possible-to-add-text-underneath-a-parts-title

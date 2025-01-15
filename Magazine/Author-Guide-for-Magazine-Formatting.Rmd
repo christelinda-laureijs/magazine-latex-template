@@ -5,17 +5,18 @@ output:
     latex_engine: xelatex
     fig_caption: true
     includes:
-      in_header: "../Templates/Magazine-preamble.tex"
+      in_header: "../Templates/Editor-Guide-preamble.tex"
 fontsize: 12pt
-geometry:
-- top=1in
-- bottom=1in
-- left=1.25in
-- right=1.25in
-- bindingoffset = 0mm # Set to 8 mm for printing
 linestretch: 1
-classoption: twoside
+documentclass: book
+pagestyle: plain
+classoption:
+- twoside
+- openany
 indent: true
+editor_options:
+  chunk_output_type: inline
+always_allow_html: true
 ---
 
 ```{r, include=FALSE}
@@ -23,9 +24,7 @@ knitr::opts_chunk$set(echo = FALSE,
                       fig.align = "center")
 ```
 
-\pagenumbering{arabic}
-
-# Editor Instructions
+## Editor Instructions
 
 This document will help you get up and running with magazine creation. If you're thinking, "What is \LaTeX\?", I have a short intro section at the end of this document!
 
@@ -142,7 +141,7 @@ Suscipit odio duis gravida habitant volutpat arcu. Auctor diam maximus in egesta
 
 ### Background images (updated for BIOL 4211 magazine)
 
-This template uses full-bleed background images to add a heading strip behind the article title (see the forest header in the Alice in Wonderland sample article). Please include the following files in your submission. There are sample images on Moodle as well.
+This template uses full-bleed background images to add a heading strip behind the article title (see the forest header in the Alice in Wonderland sample article). I've created a new command called \\InsertBackgroundPicture{}, which uses \\AddToShipoutPictureBG* from the *eso-pic* package. This allows you to place a full-size background picture on a specific page. The command accepts one argument, which is the filepath for the image. Please include the following files in your submission. There are sample images on Moodle as well.
 
 \begin{itemize}
   \item A full-page background image for the first page of the article
@@ -170,7 +169,7 @@ All image files from the class will go into the same images folder, so please ch
   \item ``Aldosterone-mechanism-license-proof.png"
 \end{itemize}
 
-Place the following code right after the title. Replace "Aldosterone-mechanism-page-1.png" with your filename. If you're using more than one image, please add some sort of page indicator like "page-1", "page-2", etc. to the filenames so I know where to put them.
+Place the following code right after the title. Replace "Aldosterone-mechanism-page-1.png" with your filename. If you're using more than one image, please add some sort of page indicator like "page-1", "page-2", etc. to the filenames so I know where to put them. I'm using two dots at the beginning of the name (\textit{../}) to specify that LaTeX needs to move up one folder level (relative to this \textit{.Rmd} file) and then into the \textit{Images/} folder.
 
 \begin{verbatim}
 \InsertBackgroundPicture{../Images/Aldosterone-mechanism-page-1.png}

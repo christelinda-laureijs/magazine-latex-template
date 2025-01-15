@@ -1,11 +1,11 @@
-This is XeTeX, Version 3.141592653-2.6-0.999996 (TeX Live 2024) (preloaded format=xelatex 2024.12.1)  14 JAN 2025 22:59
+This is XeTeX, Version 3.141592653-2.6-0.999996 (TeX Live 2024) (preloaded format=xelatex 2025.1.14)  14 JAN 2025 23:29
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
 **Blank-article.tex
 (./Blank-article.tex
 LaTeX2e <2024-11-01> patch level 1
-L3 programming layer <2024-11-02>
+L3 programming layer <2024-12-25>
 (c:/Users/cslau/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/base/book.cls
 Document Class: book 2024/06/29 v1.4n Standard LaTeX document class
 (c:/Users/cslau/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/base/bk12.clo
@@ -100,7 +100,7 @@ Package: setspace 2022/12/04 v6.7b set line spacing
 ) (c:/Users/cslau/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/iftex/iftex.sty
 Package: iftex 2024/12/12 v1.0g TeX engine tests
 ) (c:/Users/cslau/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/unicode-math/unicode-math.sty (c:/Users/cslau/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/l3kernel/expl3.sty
-Package: expl3 2024-11-02 L3 programming layer (loader) 
+Package: expl3 2024-12-25 L3 programming layer (loader) 
 (c:/Users/cslau/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/l3backend/l3backend-xetex.def
 File: l3backend-xetex.def 2024-05-08 L3 backend support: XeTeX
 \g__graphics_track_int=\count279
@@ -988,7 +988,7 @@ LaTeX Font Info:    Font shape `TU/EBGaramond(0)/m/n' will be
 ] (./Blank-article.aux)
  ***********
 LaTeX2e <2024-11-01> patch level 1
-L3 programming layer <2024-11-02>
+L3 programming layer <2024-12-25>
  ***********
  )
 (\end occurred inside a group at level 1)
@@ -996,12 +996,12 @@ L3 programming layer <2024-11-02>
 ### semi simple group (level 1) entered at line 289 (\begingroup)
 ### bottom level 
 Here is how much of TeX's memory you used:
- 17832 strings out of 475964
- 330791 string characters out of 5776122
- 861537 words of memory out of 5000000
- 40426 multiletter control sequences out of 15000+600000
- 558833 words of font info for 59 fonts, out of 8000000 for 9000
+ 17832 strings out of 475852
+ 330791 string characters out of 5773373
+ 862015 words of memory out of 5000000
+ 40538 multiletter control sequences out of 15000+600000
+ 559601 words of font info for 59 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 90i,5n,126p,506b,348s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 90i,5n,126p,506b,350s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
 Output written on Blank-article.pdf (1 page).
