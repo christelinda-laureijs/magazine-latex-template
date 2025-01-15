@@ -1,0 +1,80 @@
+---
+title: \LaTeX Template
+output:
+  pdf_document:
+    toc: false
+    latex_engine: xelatex
+    fig_caption: true
+    includes:
+      in_header:
+      - "../Templates/Magazine-preamble.tex"
+fontsize: 12pt
+linestretch: 1
+documentclass: book
+pagestyle: plain
+classoption:
+- twoside
+- openany
+indent: true
+editor_options:
+  chunk_output_type: inline
+always_allow_html: true
+---
+```{r, include=FALSE}
+knitr::opts_chunk$set(
+  echo = FALSE,
+  results = 'asis'
+)
+
+include_text <- function(textfile) {
+  cat(readLines(here::here(textfile)))
+}
+```
+
+\pagenumbering{gobble}
+\InsertFullPicture{../Images/Magazine-cover.jpg}
+
+\clearpage
+\InsertFullPicture{../Images/Alice-in-Wonderland-page-2.png}
+\clearpage
+\pagenumbering{roman}
+
+\vspace*{2in}
+\HUGEST
+\begin{center}
+MaD HaTTeR Magazine
+\end{center}
+\vspace*{\fill}
+
+\newpage 
+
+\phantom{page}
+
+\newpage
+
+
+\vspace*{\fill}
+\BIG{Dear readers,}\large
+This is a demonstration of what the magazine template can look like.
+
+\begin{spacing}{1.5}
+Sincerely, \newline
+Endocrinology ‘24 \newline
+Mount Allison University
+\end{spacing}
+\normalsize
+\vspace*{\fill}
+\small
+This magazine was typeset in RMarkdown and \LaTeX\ using a template developed by Christelinda Laureijs. Unless otherwise stated, all images were licensed for reuse and adaptation or released under a public domain license.
+\normalsize
+
+
+\clearpage
+
+
+
+```{r}
+include_text("Submissions/Alice-in-Wonderland.txt")
+```
+
+
