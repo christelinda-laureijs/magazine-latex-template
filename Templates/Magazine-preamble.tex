@@ -1,10 +1,33 @@
-% Suppress page numbers on page 1
-\pagenumbering{gobble}
+\title{Insert Title Here}
+
+\pagenumbering{gobble} % Suppress page numbers on page 1
+
+\usepackage[
+  papersize={8.5in,11in},
+  margin = 0.55in,
+  bindingoffset = 0.7in, % Set this for printing
+  footskip=.5cm,
+  nohead
+]{geometry}
+
+% Set true page size (a bit larger than the original) to allow for bleeds
+\usepackage[
+  noinfo,
+  width=8.625in, % please change \custompaperwidth to slightly exceed this value
+  height=11.25in, % please change \custompaperheight to match this value
+  off,
+  center
+]{crop}
+
+% Set width for full-page images
+% Must match (or slightly exceed) the page dimensions set for the crop package
+\newcommand{\custompaperwidth}{8.75in}
+\newcommand{\custompaperheight}{11.25in}
 
 \usepackage{setspace}
-\usepackage[skip=15pt plus1pt, indent=0pt]{parskip}
+\usepackage[skip=15pt plus1pt, indent=0pt]{parskip} % No indentation at start of paragraphs
 
-% Use George Duffner version of EBGaramond with contextual alternates (+calt ensures Q.long)
+% Use George Duffner version of EBGaramond with contextual alternates (+calt ensures long-tailed Q - Q.long)
 \setmainfont{EBGaramond}[
   Path=../Templates/EB-Garamond/otf/,
   Extension=.otf,
@@ -13,6 +36,7 @@
   RawFeature=+calt,
 ]
 
+% EB Garamond is too heavy for the drop caps 
 % Lighter version of Garamond for dropcaps
 \newfontfamily\cormorant{CormorantGaramond}[
   Path=../Templates/Cormorant-Garamond/,
@@ -22,7 +46,7 @@
   BoldFont=*-Bold,
 ]
 
-% Used for examples in instructions document
+% This font looks like scribbles. Used for examples in instructions document
 \newfontfamily\redacted{RedactedScript}[
   Path=../Templates/Redacted-Script/,
   Extension=.ttf,
@@ -32,17 +56,22 @@
 ]
 
 
-%https://tex.stackexchange.com/questions/162584/preventing-floats-of-being-before-section
-% Prevent floats from going 'backward'
-%\usepackage{flafter}
 \usepackage{float}
 \usepackage{tabulary}
 \usepackage{booktabs} % required for booktabs tables
-\clubpenalty = 10000
+\clubpenalty = 10000 
 \widowpenalty = 10000
 \displaywidowpenalty = 10000
 
+\newcommand{\HUGE}{\fontsize{36}{36}\selectfont}
+\newcommand{\HUGEST}{\fontsize{42}{42}\selectfont}
 \newcommand{\BIG}{\fontsize{48}{48}\selectfont}
+\newcommand{\BIGPARTFONT}{\fontsize{72}{72}\selectfont}
+
+% Subtitle style
+\newcommand{\sectionsubtitle}[1]{\begin{center}%
+\vspace*{-0.6in}\fontsize{26}{26}\itshape{#1}\vspace*{0.3in}%
+\end{center}}
 
 % Package to style the section headers
 % https://tex.stackexchange.com/questions/381256/how-to-adjust-the-title-spacing-using-sectsty-package
@@ -51,40 +80,23 @@
 \renewcommand\section{\@startsection {section}{1}{\z@}%
       {-7ex \@plus -1ex \@minus -.2ex}%
       {12ex \@plus.2ex}%
-      {\newpage\vspace*{-0.5in}\begin{center}\normalfont\BIG\SS@sectfont}}
+      {\newpage\vspace*{-0.6in}\begin{center}\normalfont\BIG\SS@sectfont}}
 \renewcommand\subsection{\@startsection{subsection}{2}{\z@}%
       {-2.5ex\@plus -1ex \@minus -.2ex}%
       {2.5ex \@plus .2ex}%
-      {\normalfont\Large\itshape\SS@subsectfont}}
+      {\normalfont\Large\raggedright\itshape\SS@subsectfont}}
 \renewcommand\subsubsection{\@startsection{subsubsection}{3}{\z@}%
       {-2.5ex\@plus -1ex \@minus -.2ex}%
       {2.5ex \@plus .2ex}%
-      {\cormorant\large\bfseries\SS@subsectfont}}
+      {\cormorant\large\raggedright\bfseries\SS@subsectfont}}
 \makeatother
-
 
 % Center title
 \usepackage{titling}
 \pretitle{\linespread{1}\begin{center}\vspace{2cm}\Huge}
 
-% Make spacing between list items smaller
-% Used partopsep = -1ex to make the distance between body text and lists smaller
-\usepackage{enumitem}
-\setlist{topsep = -5pt,itemsep = -1ex, partopsep = -1ex, parsep = 1ex}
 
-% Insert ornaments
-\usepackage{adforn}
-
-% Adjust spacing between table caption and table content
-\usepackage{caption} 
-\captionsetup[table]{skip=10pt}
-
-% Enable tabbing to fixed level from start of line
-% https://tex.stackexchange.com/questions/263765/tabbing-from-the-beginning-of-a-line
-\usepackage{tabto}
-\TabPositions{5em}
-
-
+% Enable multiple columns
 \usepackage{multicol}
 \setlength{\columnsep}{30pt}
 
@@ -96,12 +108,15 @@
 % Custom Q & A style drop caps
 \newcommand{\Q}{\lettrine[lines=2,findent=0.42em,nindent=0em,lraise=.15]{Q}}
 \newcommand{\A}{\lettrine[lines=2,findent=0.42em,nindent=0em,lraise=0.05,depth=0]{A}}
+\newcommand{\Marie}{\lettrine[lines=2,findent=0.42em,nindent=0em,lraise=.15]{A}{\textcolor[HTML]{83C1CC}{Marie}}\color{black}\ }
+\newcommand{\Ellen}{\par\textcolor[HTML]{F06948}{\textsc{Ellen}}\color{black}\ }
+
 
 \definecolor{quotegray}{RGB}{107, 107, 107}
 \definecolor{preamble-gray}{RGB}{54, 54, 54}
 
 
-% Environment styling (e.g. quote, author name, preamble)
+
 \renewenvironment{quote}{%
   \list{}{%
     \leftmargin0.2cm
@@ -111,6 +126,7 @@
 }
 {\endlist}
 
+% Define horizontal line, used for author name
 %https://tex.stackexchange.com/questions/24132/overline-outside-of-math-mode
 \makeatletter
 \newcommand*{\textoverline}[1]{$\overline{\hbox{\textbf{\cormorant{#1}}}}\m@th$}
@@ -130,25 +146,26 @@
 
 
 \newenvironment{references}
-{\begin{singlespace}\scriptsize\setlength}
-{\end{singlespace}}
+{\begin{singlespace}\scriptsize\setlength\sloppy}
+{\end{singlespace}\fussy}
 
 \newenvironment{redacted-text}
 {\begin{singlespace}\redacted}
 {\end{singlespace}}
 
 
- 
+% Enables one to place in background picture behind content
 \usepackage{eso-pic}
 \usepackage{graphicx}
 
 
 \newcommand{\InsertBackgroundPicture}[1]{\AddToShipoutPictureBG*{%
-  \put(0,0){%
-   \parbox[b][\paperheight]{\paperwidth}{%
+  \put(-8, -8){% The image is just a bit bigger than 8.5 x 11 to account for bleeds
+  % Use negative coordinates to force the image to be centred below crop marks
+   \parbox[b][\custompaperheight]{\custompaperwidth}{%
      \vfill
      \centering
-     \includegraphics[width=\paperwidth,height=\paperheight,%
+     \includegraphics[width=\custompaperwidth,height=\custompaperheight,%
                       keepaspectratio]{#1}%
      \vfill
     }
@@ -156,16 +173,49 @@
 }
 }
 
+% InsertBackgroundPicture requires at least some text on the page to shipout
+% Using \shipout\null leads to incorrect crop marks (it is not recognized as a full page)
+% To reduce this issue, insert invisible text using \phantom
+\newcommand{\InsertFullPicture}[1]{\clearpage\InsertBackgroundPicture{#1}\phantom{.}}
 
 
-% TODO: Make author consistent distance from line
+% Enables background images on part pages in book class
+% https://tex.stackexchange.com/questions/172249/how-to-place-a-different-background-image-on-each-part-of-a-book
+\usepackage{etoolbox}
 
-% Break long URLs in bibliography
-%https://tex.stackexchange.com/questions/115690/urls-in-bibliography-latex-not-breaking-line-as-expected
-% Did not work for Statistics Canada reference
-%\usepackage{url}
-%\def\UrlBreaks{\do\/\do-\do.}
-%\usepackage{hyperref}
-%usepackage{breakurl}
-%\usepackage[breaklinks]{hyperref}
+\providecommand{\parthook}{}
+\patchcmd{\part}{\thispagestyle}{\parthook\thispagestyle}{}{}
+\newcommand{\partimage}[2][]{% \parthook[<options>]{<image>}
+  \renewcommand{\parthook}{% Update \parthook
+    \AddToShipoutPictureBG*{%
+  \put(-8, -8){%
+   \parbox[b][\custompaperheight]{\custompaperwidth}{%
+     \vfill
+     \centering
+     \includegraphics[width=\custompaperwidth,height=\custompaperheight,%
+                      keepaspectratio, #1]{#2}%
+     \vfill
+    }
+  }
+}% Insert image
+    \renewcommand{\parthook}{}}}% Restore \parthook
 
+% Make part font large (requires sectsty package)
+\partfont{\BIGPARTFONT}
+
+
+\makeatletter
+\pretocmd{\@endpart}{\vspace{5em}{\large\@quote}\def\@quote{}}{}{}
+\newcommand{\quoteline}[1]{\def\@quote{#1}}
+\makeatother
+
+% Make spacing between list items smaller
+% Used partopsep = -1ex to make the distance between body text and lists smaller
+%\usepackage{enumitem}
+%\setlist{topsep = -5pt,itemsep = -1ex, partopsep = -1ex, parsep = 1ex}
+
+% Insert ornaments
+%\usepackage{adforn}
+
+% Add optional text as a quote after the part
+%https://tex.stackexchange.com/questions/202235/is-it-possible-to-add-text-underneath-a-parts-title
