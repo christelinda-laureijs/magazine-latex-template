@@ -1,5 +1,4 @@
 ---
-title: \LaTeX Template
 output:
   pdf_document:
     toc: false
@@ -35,7 +34,7 @@ include_text <- function(textfile) {
 \InsertFullPicture{../Images/Magazine-cover.jpg}
 
 \clearpage
-\InsertFullPicture{../Images/Alice-in-Wonderland-page-2.jpg}
+\InsertFullPicture{../Images/Filler.jpg}
 \clearpage
 \pagenumbering{roman}
 
@@ -55,12 +54,19 @@ MaD HaTTeR Magazine
 
 \vspace*{\fill}
 \BIG{Dear readers,}\large
-This is a demonstration of what the magazine template can look like.
+This is a demonstration of what the magazine template can look like. Please read the Author Guide on the [magazine template GitHub page](https://github.com/christelinda-laureijs/magazine-latex-template) for examples of the available \LaTeX\ commands. This magazine shows an example of a full-page background image (useful for advertisements or photos) and a fully-styled article.
+
+Please see the original `.Rmd` file (`Example-Full-Magazine.Rmd`) to see how you can put together the magazine. You may also want to explore the `Magazine-preamble.tex` preamble in the `Templates/` folder.
+
+All text should be stored as plaintext (`.txt`) files in the `Submissions/` folder, and all images should go in `Images/`. To save space and reduce the rendering time, you may want to consider keeping high-resolution pngs in early drafts, but use .jpgs in the final document.
+
+Good luck, and enjoy!
 
 \begin{spacing}{1.5}
-Sincerely, \newline
-Endocrinology ‘24 \newline
-Mount Allison University
+
+`r format(Sys.time(),'%B %d, %Y')`
+
+
 \end{spacing}
 \normalsize
 \vspace*{\fill}
@@ -70,7 +76,6 @@ This magazine was typeset in RMarkdown and \LaTeX\ using a template developed by
 
 
 \clearpage
-
 
 
 ```{r}
