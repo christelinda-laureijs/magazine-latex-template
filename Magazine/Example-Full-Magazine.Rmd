@@ -35,7 +35,7 @@ include_text <- function(textfile) {
 \InsertFullPicture{../Images/Magazine-cover.jpg}
 
 \clearpage
-\InsertFullPicture{../Images/Alice-in-Wonderland-page-2.png}
+\InsertFullPicture{../Images/Alice-in-Wonderland-page-2.jpg}
 \clearpage
 \pagenumbering{roman}
 
